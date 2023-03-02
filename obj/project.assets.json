@@ -3493,11 +3493,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\C-sharp-project-Bike-rental-\\bikeRental\\bikeRental.csproj",
+      "projectUniqueName": "C:\\C--UI\\bikeRental.csproj",
       "projectName": "bikeRental",
-      "projectPath": "C:\\C-sharp-project-Bike-rental-\\bikeRental\\bikeRental.csproj",
+      "projectPath": "C:\\C--UI\\bikeRental.csproj",
       "packagesPath": "C:\\Users\\HP\\.nuget\\packages\\",
-      "outputPath": "C:\\C-sharp-project-Bike-rental-\\bikeRental\\obj\\",
+      "outputPath": "C:\\C--UI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

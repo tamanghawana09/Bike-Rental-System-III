@@ -288,7 +288,7 @@
             bunifuTileButton5.ImageZoom = 100;
             bunifuTileButton5.LabelPosition = 51;
             bunifuTileButton5.LabelText = "Tracker 250";
-            bunifuTileButton5.Location = new Point(233, 343);
+            bunifuTileButton5.Location = new Point(528, 182);
             bunifuTileButton5.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton5.Name = "bunifuTileButton5";
             bunifuTileButton5.Size = new Size(159, 194);
@@ -307,7 +307,7 @@
             bunifuTileButton4.ImageZoom = 100;
             bunifuTileButton4.LabelPosition = 51;
             bunifuTileButton4.LabelText = "RE Himalayan";
-            bunifuTileButton4.Location = new Point(482, 349);
+            bunifuTileButton4.Location = new Point(357, 184);
             bunifuTileButton4.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton4.Name = "bunifuTileButton4";
             bunifuTileButton4.Size = new Size(159, 194);
@@ -326,7 +326,7 @@
             bunifuTileButton3.ImageZoom = 100;
             bunifuTileButton3.LabelPosition = 51;
             bunifuTileButton3.LabelText = "Cross X";
-            bunifuTileButton3.Location = new Point(579, 133);
+            bunifuTileButton3.Location = new Point(186, 184);
             bunifuTileButton3.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton3.Name = "bunifuTileButton3";
             bunifuTileButton3.Size = new Size(159, 194);
@@ -345,7 +345,7 @@
             bunifuTileButton2.ImageZoom = 100;
             bunifuTileButton2.LabelPosition = 51;
             bunifuTileButton2.LabelText = "Honda CRF";
-            bunifuTileButton2.Location = new Point(292, 133);
+            bunifuTileButton2.Location = new Point(699, 182);
             bunifuTileButton2.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(159, 194);
@@ -385,7 +385,7 @@
             bunifuTileButton1.ImageZoom = 100;
             bunifuTileButton1.LabelPosition = 51;
             bunifuTileButton1.LabelText = "HJ-250";
-            bunifuTileButton1.Location = new Point(15, 142);
+            bunifuTileButton1.Location = new Point(15, 184);
             bunifuTileButton1.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(159, 194);
