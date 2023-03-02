@@ -16,5 +16,10 @@ namespace bikeRental
         {
             InitializeComponent();
         }
+
+        private void rulesAndRegulation_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

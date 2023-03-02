@@ -28,241 +28,212 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.gradientPanel1 = new bikeRental.gradientPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.logoutBtn = new FontAwesome.Sharp.IconButton();
-            this.helpBtn = new FontAwesome.Sharp.IconButton();
-            this.motorcyceBtn = new FontAwesome.Sharp.IconButton();
-            this.homeBtn = new FontAwesome.Sharp.IconButton();
-            this.userButton = new FontAwesome.Sharp.IconButton();
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse7 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.bunifuElipse8 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.label1 = new System.Windows.Forms.Label();
-            this.bunifuElipse9 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.bunifuElipse10 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.gradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel2.SuspendLayout();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(customerHome));
+            gradientPanel1 = new gradientPanel();
+            pictureBox1 = new PictureBox();
+            logoutBtn = new FontAwesome.Sharp.IconButton();
+            helpBtn = new FontAwesome.Sharp.IconButton();
+            motorcyceBtn = new FontAwesome.Sharp.IconButton();
+            homeBtn = new FontAwesome.Sharp.IconButton();
+            userButton = new FontAwesome.Sharp.IconButton();
+            panel1 = new Panel();
+            panelContainer = new Panel();
+            bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
+            bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(components);
+            bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(components);
+            bunifuElipse4 = new Bunifu.Framework.UI.BunifuElipse(components);
+            bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(components);
+            bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(components);
+            gradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            SuspendLayout();
             // 
             // gradientPanel1
             // 
-            this.gradientPanel1.Angle = 40F;
-            this.gradientPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.gradientPanel1.BottomColor = System.Drawing.Color.Empty;
-            this.gradientPanel1.Controls.Add(this.pictureBox1);
-            this.gradientPanel1.Controls.Add(this.logoutBtn);
-            this.gradientPanel1.Controls.Add(this.helpBtn);
-            this.gradientPanel1.Controls.Add(this.motorcyceBtn);
-            this.gradientPanel1.Controls.Add(this.homeBtn);
-            this.gradientPanel1.Controls.Add(this.userButton);
-            this.gradientPanel1.Controls.Add(this.panel1);
-            this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Left;
-            this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(86, 536);
-            this.gradientPanel1.TabIndex = 1;
-            this.gradientPanel1.TopColor = System.Drawing.Color.MediumBlue;
+            gradientPanel1.Angle = 40F;
+            gradientPanel1.BackColor = Color.FromArgb(128, 255, 255);
+            gradientPanel1.BottomColor = Color.Empty;
+            gradientPanel1.Controls.Add(pictureBox1);
+            gradientPanel1.Controls.Add(logoutBtn);
+            gradientPanel1.Controls.Add(helpBtn);
+            gradientPanel1.Controls.Add(motorcyceBtn);
+            gradientPanel1.Controls.Add(homeBtn);
+            gradientPanel1.Controls.Add(userButton);
+            gradientPanel1.Controls.Add(panel1);
+            gradientPanel1.Dock = DockStyle.Left;
+            gradientPanel1.Location = new Point(0, 0);
+            gradientPanel1.Name = "gradientPanel1";
+            gradientPanel1.Size = new Size(67, 580);
+            gradientPanel1.TabIndex = 1;
+            gradientPanel1.TopColor = Color.MediumBlue;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::bikeRental.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(67, 69);
-            this.pictureBox1.TabIndex = 3;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.Logo;
+            pictureBox1.Location = new Point(0, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(67, 69);
+            pictureBox1.TabIndex = 3;
+            pictureBox1.TabStop = false;
             // 
             // logoutBtn
             // 
-            this.logoutBtn.BackColor = System.Drawing.Color.Transparent;
-            this.logoutBtn.FlatAppearance.BorderSize = 0;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
-            this.logoutBtn.IconColor = System.Drawing.Color.White;
-            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.logoutBtn.IconSize = 27;
-            this.logoutBtn.Location = new System.Drawing.Point(3, 530);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Padding = new System.Windows.Forms.Padding(10);
-            this.logoutBtn.Size = new System.Drawing.Size(60, 45);
-            this.logoutBtn.TabIndex = 2;
-            this.logoutBtn.UseVisualStyleBackColor = false;
+            logoutBtn.BackColor = Color.Transparent;
+            logoutBtn.FlatAppearance.BorderSize = 0;
+            logoutBtn.FlatStyle = FlatStyle.Flat;
+            logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
+            logoutBtn.IconColor = Color.White;
+            logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            logoutBtn.IconSize = 27;
+            logoutBtn.Location = new Point(3, 530);
+            logoutBtn.Name = "logoutBtn";
+            logoutBtn.Padding = new Padding(10);
+            logoutBtn.Size = new Size(60, 45);
+            logoutBtn.TabIndex = 2;
+            logoutBtn.UseVisualStyleBackColor = false;
+            logoutBtn.Click += logoutBtn_Click;
             // 
             // helpBtn
             // 
-            this.helpBtn.BackColor = System.Drawing.Color.Transparent;
-            this.helpBtn.FlatAppearance.BorderSize = 0;
-            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
-            this.helpBtn.IconColor = System.Drawing.Color.Navy;
-            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.helpBtn.IconSize = 27;
-            this.helpBtn.Location = new System.Drawing.Point(3, 333);
-            this.helpBtn.Name = "helpBtn";
-            this.helpBtn.Padding = new System.Windows.Forms.Padding(10);
-            this.helpBtn.Size = new System.Drawing.Size(60, 45);
-            this.helpBtn.TabIndex = 2;
-            this.helpBtn.UseVisualStyleBackColor = false;
-            this.helpBtn.Click += new System.EventHandler(this.helpBtn_Click);
+            helpBtn.BackColor = Color.Transparent;
+            helpBtn.FlatAppearance.BorderSize = 0;
+            helpBtn.FlatStyle = FlatStyle.Flat;
+            helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
+            helpBtn.IconColor = Color.Navy;
+            helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            helpBtn.IconSize = 27;
+            helpBtn.Location = new Point(3, 333);
+            helpBtn.Name = "helpBtn";
+            helpBtn.Padding = new Padding(10);
+            helpBtn.Size = new Size(60, 45);
+            helpBtn.TabIndex = 2;
+            helpBtn.UseVisualStyleBackColor = false;
+            helpBtn.Click += helpBtn_Click;
+            helpBtn.Enter += helpBtn_Enter;
+            helpBtn.Leave += helpBtn_Leave;
             // 
             // motorcyceBtn
             // 
-            this.motorcyceBtn.BackColor = System.Drawing.Color.Transparent;
-            this.motorcyceBtn.FlatAppearance.BorderSize = 0;
-            this.motorcyceBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motorcyceBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
-            this.motorcyceBtn.IconColor = System.Drawing.Color.Navy;
-            this.motorcyceBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.motorcyceBtn.IconSize = 27;
-            this.motorcyceBtn.Location = new System.Drawing.Point(3, 282);
-            this.motorcyceBtn.Name = "motorcyceBtn";
-            this.motorcyceBtn.Padding = new System.Windows.Forms.Padding(10);
-            this.motorcyceBtn.Size = new System.Drawing.Size(60, 45);
-            this.motorcyceBtn.TabIndex = 2;
-            this.motorcyceBtn.UseVisualStyleBackColor = false;
-            this.motorcyceBtn.Click += new System.EventHandler(this.motorcyceBtn_Click);
+            motorcyceBtn.BackColor = Color.Transparent;
+            motorcyceBtn.FlatAppearance.BorderSize = 0;
+            motorcyceBtn.FlatStyle = FlatStyle.Flat;
+            motorcyceBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            motorcyceBtn.IconColor = Color.Navy;
+            motorcyceBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            motorcyceBtn.IconSize = 27;
+            motorcyceBtn.Location = new Point(3, 282);
+            motorcyceBtn.Name = "motorcyceBtn";
+            motorcyceBtn.Padding = new Padding(10);
+            motorcyceBtn.Size = new Size(60, 45);
+            motorcyceBtn.TabIndex = 2;
+            motorcyceBtn.UseVisualStyleBackColor = false;
+            motorcyceBtn.Click += motorcyceBtn_Click;
+            motorcyceBtn.Enter += motorcyceBtn_Enter;
+            motorcyceBtn.Leave += motorcyceBtn_Leave;
             // 
             // homeBtn
             // 
-            this.homeBtn.BackColor = System.Drawing.Color.White;
-            this.homeBtn.FlatAppearance.BorderSize = 0;
-            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.Home;
-            this.homeBtn.IconColor = System.Drawing.Color.Navy;
-            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.homeBtn.IconSize = 27;
-            this.homeBtn.Location = new System.Drawing.Point(28, 233);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Padding = new System.Windows.Forms.Padding(10);
-            this.homeBtn.Size = new System.Drawing.Size(60, 45);
-            this.homeBtn.TabIndex = 2;
-            this.homeBtn.UseVisualStyleBackColor = false;
-            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
+            homeBtn.BackColor = Color.Transparent;
+            homeBtn.FlatAppearance.BorderSize = 0;
+            homeBtn.FlatStyle = FlatStyle.Flat;
+            homeBtn.IconChar = FontAwesome.Sharp.IconChar.Home;
+            homeBtn.IconColor = Color.Navy;
+            homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            homeBtn.IconSize = 27;
+            homeBtn.Location = new Point(3, 233);
+            homeBtn.Name = "homeBtn";
+            homeBtn.Padding = new Padding(10);
+            homeBtn.Size = new Size(60, 45);
+            homeBtn.TabIndex = 2;
+            homeBtn.UseVisualStyleBackColor = false;
+            homeBtn.Click += homeBtn_Click;
+            homeBtn.Enter += homeBtn_Enter;
+            homeBtn.Leave += homeBtn_Leave;
             // 
             // userButton
             // 
-            this.userButton.BackColor = System.Drawing.Color.Transparent;
-            this.userButton.FlatAppearance.BorderSize = 0;
-            this.userButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.userButton.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.userButton.IconColor = System.Drawing.Color.Navy;
-            this.userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.userButton.IconSize = 27;
-            this.userButton.Location = new System.Drawing.Point(3, 182);
-            this.userButton.Name = "userButton";
-            this.userButton.Padding = new System.Windows.Forms.Padding(20);
-            this.userButton.Size = new System.Drawing.Size(60, 45);
-            this.userButton.TabIndex = 2;
-            this.userButton.UseVisualStyleBackColor = false;
-            this.userButton.Click += new System.EventHandler(this.userButton_Click);
+            userButton.BackColor = Color.Transparent;
+            userButton.FlatAppearance.BorderSize = 0;
+            userButton.FlatStyle = FlatStyle.Flat;
+            userButton.IconChar = FontAwesome.Sharp.IconChar.User;
+            userButton.IconColor = Color.Navy;
+            userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            userButton.IconSize = 27;
+            userButton.Location = new Point(3, 182);
+            userButton.Name = "userButton";
+            userButton.Padding = new Padding(20);
+            userButton.Size = new Size(60, 45);
+            userButton.TabIndex = 2;
+            userButton.UseVisualStyleBackColor = false;
+            userButton.Click += userButton_Click;
+            userButton.Enter += userButton_Enter;
+            userButton.Leave += userButton_Leave;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
-            this.panel1.Location = new System.Drawing.Point(68, 0);
-            this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(861, 575);
-            this.panel1.TabIndex = 1;
+            panel1.BackColor = Color.FromArgb(245, 246, 248);
+            panel1.Location = new Point(68, 0);
+            panel1.Name = "panel1";
+            panel1.Size = new Size(861, 575);
+            panel1.TabIndex = 1;
+            // 
+            // panelContainer
+            // 
+            panelContainer.Dock = DockStyle.Fill;
+            panelContainer.Location = new Point(67, 0);
+            panelContainer.Name = "panelContainer";
+            panelContainer.Size = new Size(933, 580);
+            panelContainer.TabIndex = 2;
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 15;
-            this.bunifuElipse1.TargetControl = this.userButton;
+            bunifuElipse1.ElipseRadius = 42;
+            bunifuElipse1.TargetControl = this;
             // 
             // bunifuElipse2
             // 
-            this.bunifuElipse2.ElipseRadius = 15;
-            this.bunifuElipse2.TargetControl = this.homeBtn;
+            bunifuElipse2.ElipseRadius = 20;
+            bunifuElipse2.TargetControl = helpBtn;
             // 
             // bunifuElipse3
             // 
-            this.bunifuElipse3.ElipseRadius = 15;
-            this.bunifuElipse3.TargetControl = this.motorcyceBtn;
+            bunifuElipse3.ElipseRadius = 20;
+            bunifuElipse3.TargetControl = homeBtn;
             // 
             // bunifuElipse4
             // 
-            this.bunifuElipse4.ElipseRadius = 15;
-            this.bunifuElipse4.TargetControl = this.helpBtn;
+            bunifuElipse4.ElipseRadius = 20;
+            bunifuElipse4.TargetControl = logoutBtn;
             // 
             // bunifuElipse5
             // 
-            this.bunifuElipse5.ElipseRadius = 15;
-            this.bunifuElipse5.TargetControl = this.logoutBtn;
+            bunifuElipse5.ElipseRadius = 20;
+            bunifuElipse5.TargetControl = motorcyceBtn;
             // 
             // bunifuElipse6
             // 
-            this.bunifuElipse6.ElipseRadius = 42;
-            this.bunifuElipse6.TargetControl = this;
-            // 
-            // bunifuElipse7
-            // 
-            this.bunifuElipse7.ElipseRadius = 42;
-            this.bunifuElipse7.TargetControl = this.panel1;
-            // 
-            // panel2
-            // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Location = new System.Drawing.Point(68, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(845, 57);
-            this.panel2.TabIndex = 2;
-            // 
-            // bunifuElipse8
-            // 
-            this.bunifuElipse8.ElipseRadius = 42;
-            this.bunifuElipse8.TargetControl = this.panel2;
-            // 
-            // label1
-            // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.label1.Location = new System.Drawing.Point(272, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(267, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bike Rental System";
-            // 
-            // bunifuElipse9
-            // 
-            this.bunifuElipse9.ElipseRadius = 15;
-            this.bunifuElipse9.TargetControl = this.helpBtn;
-            // 
-            // bunifuElipse10
-            // 
-            this.bunifuElipse10.ElipseRadius = 15;
-            this.bunifuElipse10.TargetControl = this.helpBtn;
+            bunifuElipse6.ElipseRadius = 20;
+            bunifuElipse6.TargetControl = userButton;
             // 
             // customerHome
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(912, 536);
-            this.Controls.Add(this.panel2);
-            this.Controls.Add(this.gradientPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "customerHome";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "customerHome";
-            this.gradientPanel1.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(245, 246, 248);
+            ClientSize = new Size(1000, 580);
+            Controls.Add(panelContainer);
+            Controls.Add(gradientPanel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Icon = (Icon)resources.GetObject("$this.Icon");
+            Name = "customerHome";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "customerHome";
+            Load += customerHome_Load;
+            gradientPanel1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -275,17 +246,12 @@
         private FontAwesome.Sharp.IconButton homeBtn;
         private FontAwesome.Sharp.IconButton userButton;
         private Panel panel1;
+        private Panel panelContainer;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse3;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse4;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse5;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse6;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse7;
-        private Panel panel2;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse8;
-        private Label label1;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse9;
-        private Bunifu.Framework.UI.BunifuElipse bunifuElipse10;
     }
 }

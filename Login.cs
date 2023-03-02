@@ -16,5 +16,51 @@ namespace bikeRental
         {
             InitializeComponent();
         }
+
+        private void iconPictureBox1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void textBox1_Enter(object sender, EventArgs e)
+        {
+            if (textBox1.Text == "Username")
+            {
+                textBox1.Text = " ";
+                textBox1.ForeColor = Color.White;
+            }
+        }
+
+        private void textBox1_Leave(object sender, EventArgs e)
+        {
+            if (textBox1.Text == " ")
+            {
+                textBox1.Text = "Username";
+                textBox1.ForeColor = Color.White;
+            }
+        }
+
+        private void textBox2_Enter(object sender, EventArgs e)
+        {
+            if (textBox2.Text == "Password")
+            {
+                textBox2.Text = " ";
+                textBox2.ForeColor = Color.White;
+            }
+        }
+
+        private void textBox2_Leave(object sender, EventArgs e)
+        {
+            if(textBox2.Text == " ")
+            {
+                textBox2.Text = "Password";
+                textBox2.ForeColor = Color.White;
+            }
+        }
     }
 }
