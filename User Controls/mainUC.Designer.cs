@@ -165,6 +165,7 @@ namespace bikeRental.User_Controls
             chart6.Size = new Size(313, 300);
             chart6.TabIndex = 15;
             chart6.Text = "chart6";
+            chart6.Click += chart6_Click;
             // 
             // label3
             // 
@@ -453,12 +454,12 @@ namespace bikeRental.User_Controls
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
         private System.Windows.Forms.Timer timer1;
-        private System.CodeDom.CodeTypeReference chart1;
-        private System.CodeDom.CodeTypeReference chart2;
-        private System.CodeDom.CodeTypeReference chart3;
-        private System.CodeDom.CodeTypeReference chartDetails;
-        private System.CodeDom.CodeTypeReference chart4;
-        private System.CodeDom.CodeTypeReference chart5;
+        //private System.CodeDom.CodeTypeReference chart1;
+        //private System.CodeDom.CodeTypeReference chart2;
+        // private System.CodeDom.CodeTypeReference chart3;
+        //private System.CodeDom.CodeTypeReference chartDetails;
+        //private System.CodeDom.CodeTypeReference chart4;
+        //private System.CodeDom.CodeTypeReference chart5;
         private Chart chart6;
         //private System.CodeDom.CodeTypeReference chart4;
     }

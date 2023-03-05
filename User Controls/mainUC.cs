@@ -20,8 +20,8 @@ namespace bikeRental.User_Controls
             InitializeComponent();
 
 
-            chart6.Series["Series1"].Points.AddX("75");
-            chart6.Series["Series1"].Points.AddX("25");
+            chart6.Series["Series1"].Points.AddY("75");
+            chart6.Series["Series1"].Points.AddY("25");
         }
 
         private void gradientPanel2_Paint(object sender, PaintEventArgs e)
@@ -40,6 +40,11 @@ namespace bikeRental.User_Controls
         }
 
         private void mainUC_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void chart6_Click(object sender, EventArgs e)
         {
 
         }

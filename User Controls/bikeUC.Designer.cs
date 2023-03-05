@@ -55,7 +55,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(883, 57);
+            panel2.Size = new Size(993, 57);
             panel2.TabIndex = 5;
             // 
             // label1
@@ -93,7 +93,7 @@
             gradientPanel1.Controls.Add(pictureBox2);
             gradientPanel1.Controls.Add(label4);
             gradientPanel1.Controls.Add(label3);
-            gradientPanel1.Location = new Point(25, 132);
+            gradientPanel1.Location = new Point(82, 133);
             gradientPanel1.Name = "gradientPanel1";
             gradientPanel1.Size = new Size(836, 387);
             gradientPanel1.TabIndex = 9;
@@ -201,7 +201,7 @@
             gradientPanel2.Dock = DockStyle.Bottom;
             gradientPanel2.Location = new Point(0, 541);
             gradientPanel2.Name = "gradientPanel2";
-            gradientPanel2.Size = new Size(883, 39);
+            gradientPanel2.Size = new Size(993, 39);
             gradientPanel2.TabIndex = 11;
             gradientPanel2.TopColor = Color.White;
             // 
@@ -228,7 +228,7 @@
             Controls.Add(label2);
             Controls.Add(panel2);
             Name = "bikeUC";
-            Size = new Size(883, 580);
+            Size = new Size(993, 580);
             Load += bikeUC_Load;
             panel2.ResumeLayout(false);
             panel2.PerformLayout();

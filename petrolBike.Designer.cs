@@ -44,6 +44,8 @@
             bunifuElipse5 = new Bunifu.Framework.UI.BunifuElipse(components);
             bunifuElipse6 = new Bunifu.Framework.UI.BunifuElipse(components);
             panelContainer = new Panel();
+            gradientPanel2 = new gradientPanel();
+            label11 = new Label();
             gradientPanel3 = new gradientPanel();
             bunifuTileButton5 = new Bunifu.Framework.UI.BunifuTileButton();
             bunifuTileButton4 = new Bunifu.Framework.UI.BunifuTileButton();
@@ -58,13 +60,11 @@
             label1 = new Label();
             bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             label2 = new Label();
-            gradientPanel2 = new gradientPanel();
-            label11 = new Label();
             gradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panelContainer.SuspendLayout();
-            panel2.SuspendLayout();
             gradientPanel2.SuspendLayout();
+            panel2.SuspendLayout();
             SuspendLayout();
             // 
             // gradientPanel1
@@ -249,6 +249,30 @@
             panelContainer.Size = new Size(883, 580);
             panelContainer.TabIndex = 22;
             // 
+            // gradientPanel2
+            // 
+            gradientPanel2.Angle = 0F;
+            gradientPanel2.BottomColor = Color.White;
+            gradientPanel2.Controls.Add(label11);
+            gradientPanel2.Dock = DockStyle.Bottom;
+            gradientPanel2.Location = new Point(0, 541);
+            gradientPanel2.Name = "gradientPanel2";
+            gradientPanel2.Size = new Size(883, 39);
+            gradientPanel2.TabIndex = 51;
+            gradientPanel2.TopColor = Color.White;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Yu Gothic UI Semilight", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.DarkTurquoise;
+            label11.Location = new Point(618, 10);
+            label11.Name = "label11";
+            label11.Size = new Size(262, 20);
+            label11.TabIndex = 0;
+            label11.Text = "All Rights Reserved. Bike Rental System";
+            // 
             // gradientPanel3
             // 
             gradientPanel3.Angle = 0F;
@@ -279,6 +303,7 @@
             bunifuTileButton5.Name = "bunifuTileButton5";
             bunifuTileButton5.Size = new Size(159, 194);
             bunifuTileButton5.TabIndex = 38;
+            bunifuTileButton5.Click += bunifuTileButton5_Click;
             // 
             // bunifuTileButton4
             // 
@@ -298,6 +323,7 @@
             bunifuTileButton4.Name = "bunifuTileButton4";
             bunifuTileButton4.Size = new Size(159, 194);
             bunifuTileButton4.TabIndex = 39;
+            bunifuTileButton4.Click += bunifuTileButton4_Click;
             // 
             // bunifuTileButton3
             // 
@@ -317,6 +343,7 @@
             bunifuTileButton3.Name = "bunifuTileButton3";
             bunifuTileButton3.Size = new Size(159, 194);
             bunifuTileButton3.TabIndex = 40;
+            bunifuTileButton3.Click += bunifuTileButton3_Click;
             // 
             // bunifuTileButton2
             // 
@@ -336,6 +363,7 @@
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(159, 194);
             bunifuTileButton2.TabIndex = 41;
+            bunifuTileButton2.Click += bunifuTileButton2_Click;
             // 
             // bunifuTileButton10
             // 
@@ -355,6 +383,7 @@
             bunifuTileButton10.Name = "bunifuTileButton10";
             bunifuTileButton10.Size = new Size(159, 194);
             bunifuTileButton10.TabIndex = 42;
+            bunifuTileButton10.Click += bunifuTileButton10_Click;
             // 
             // bunifuTileButton9
             // 
@@ -374,6 +403,7 @@
             bunifuTileButton9.Name = "bunifuTileButton9";
             bunifuTileButton9.Size = new Size(159, 194);
             bunifuTileButton9.TabIndex = 43;
+            bunifuTileButton9.Click += bunifuTileButton9_Click;
             // 
             // bunifuTileButton8
             // 
@@ -393,6 +423,7 @@
             bunifuTileButton8.Name = "bunifuTileButton8";
             bunifuTileButton8.Size = new Size(159, 194);
             bunifuTileButton8.TabIndex = 44;
+            bunifuTileButton8.Click += bunifuTileButton8_Click;
             // 
             // bunifuTileButton7
             // 
@@ -412,6 +443,7 @@
             bunifuTileButton7.Name = "bunifuTileButton7";
             bunifuTileButton7.Size = new Size(159, 194);
             bunifuTileButton7.TabIndex = 45;
+            bunifuTileButton7.Click += bunifuTileButton7_Click;
             // 
             // bunifuTileButton6
             // 
@@ -431,6 +463,7 @@
             bunifuTileButton6.Name = "bunifuTileButton6";
             bunifuTileButton6.Size = new Size(159, 194);
             bunifuTileButton6.TabIndex = 46;
+            bunifuTileButton6.Click += bunifuTileButton6_Click;
             // 
             // panel2
             // 
@@ -471,6 +504,7 @@
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(159, 194);
             bunifuTileButton1.TabIndex = 47;
+            bunifuTileButton1.Click += bunifuTileButton1_Click;
             // 
             // label2
             // 
@@ -484,30 +518,6 @@
             label2.Size = new Size(171, 40);
             label2.TabIndex = 37;
             label2.Text = "Petrol Bikes";
-            // 
-            // gradientPanel2
-            // 
-            gradientPanel2.Angle = 0F;
-            gradientPanel2.BottomColor = Color.White;
-            gradientPanel2.Controls.Add(label11);
-            gradientPanel2.Dock = DockStyle.Bottom;
-            gradientPanel2.Location = new Point(0, 541);
-            gradientPanel2.Name = "gradientPanel2";
-            gradientPanel2.Size = new Size(883, 39);
-            gradientPanel2.TabIndex = 51;
-            gradientPanel2.TopColor = Color.White;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.BackColor = Color.Transparent;
-            label11.Font = new Font("Yu Gothic UI Semilight", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label11.ForeColor = Color.DarkTurquoise;
-            label11.Location = new Point(618, 10);
-            label11.Name = "label11";
-            label11.Size = new Size(262, 20);
-            label11.TabIndex = 0;
-            label11.Text = "All Rights Reserved. Bike Rental System";
             // 
             // petrolBike
             // 
@@ -525,10 +535,10 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panelContainer.ResumeLayout(false);
             panelContainer.PerformLayout();
-            panel2.ResumeLayout(false);
-            panel2.PerformLayout();
             gradientPanel2.ResumeLayout(false);
             gradientPanel2.PerformLayout();
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
             ResumeLayout(false);
         }
 

@@ -13,6 +13,9 @@
     <Compile Update="Login.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Petrol Bike\pBike1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="petrolBike.cs">
       <SubType>Form</SubType>
     </Compile>

@@ -203,6 +203,16 @@ namespace bikeRental.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap CX {
+            get {
+                object obj = ResourceManager.GetObject("CX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap HJ250 {
             get {
                 object obj = ResourceManager.GetObject("HJ250", resourceCulture);

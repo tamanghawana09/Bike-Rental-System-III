@@ -28,74 +28,73 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.gradientPanel2 = new bikeRental.gradientPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.panel2.SuspendLayout();
-            this.gradientPanel2.SuspendLayout();
-            this.SuspendLayout();
+            panel2 = new Panel();
+            label1 = new Label();
+            gradientPanel2 = new gradientPanel();
+            label11 = new Label();
+            panel2.SuspendLayout();
+            gradientPanel2.SuspendLayout();
+            SuspendLayout();
             // 
             // panel2
             // 
-            this.panel2.BackColor = System.Drawing.Color.White;
-            this.panel2.Controls.Add(this.label1);
-            this.panel2.Dock = System.Windows.Forms.DockStyle.Top;
-            this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(883, 57);
-            this.panel2.TabIndex = 7;
+            panel2.BackColor = Color.White;
+            panel2.Controls.Add(label1);
+            panel2.Dock = DockStyle.Top;
+            panel2.Location = new Point(0, 0);
+            panel2.Name = "panel2";
+            panel2.Size = new Size(933, 57);
+            panel2.TabIndex = 7;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.label1.Location = new System.Drawing.Point(272, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(267, 40);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bike Rental System";
+            label1.AutoSize = true;
+            label1.Font = new Font("Yu Gothic UI Semibold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.DarkTurquoise;
+            label1.Location = new Point(272, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(267, 40);
+            label1.TabIndex = 0;
+            label1.Text = "Bike Rental System";
             // 
             // gradientPanel2
             // 
-            this.gradientPanel2.Angle = 0F;
-            this.gradientPanel2.BottomColor = System.Drawing.Color.White;
-            this.gradientPanel2.Controls.Add(this.label11);
-            this.gradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gradientPanel2.Location = new System.Drawing.Point(0, 541);
-            this.gradientPanel2.Name = "gradientPanel2";
-            this.gradientPanel2.Size = new System.Drawing.Size(883, 39);
-            this.gradientPanel2.TabIndex = 12;
-            this.gradientPanel2.TopColor = System.Drawing.Color.White;
+            gradientPanel2.Angle = 0F;
+            gradientPanel2.BottomColor = Color.White;
+            gradientPanel2.Controls.Add(label11);
+            gradientPanel2.Dock = DockStyle.Bottom;
+            gradientPanel2.Location = new Point(0, 541);
+            gradientPanel2.Name = "gradientPanel2";
+            gradientPanel2.Size = new Size(933, 39);
+            gradientPanel2.TabIndex = 12;
+            gradientPanel2.TopColor = Color.White;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.DarkTurquoise;
-            this.label11.Location = new System.Drawing.Point(590, 10);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(262, 20);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "All Rights Reserved. Bike Rental System";
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Yu Gothic UI Semilight", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.DarkTurquoise;
+            label11.Location = new Point(590, 10);
+            label11.Name = "label11";
+            label11.Size = new Size(262, 20);
+            label11.TabIndex = 0;
+            label11.Text = "All Rights Reserved. Bike Rental System";
             // 
             // logoutUC
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(246)))), ((int)(((byte)(248)))));
-            this.Controls.Add(this.gradientPanel2);
-            this.Controls.Add(this.panel2);
-            this.Name = "logoutUC";
-            this.Size = new System.Drawing.Size(883, 580);
-            this.panel2.ResumeLayout(false);
-            this.panel2.PerformLayout();
-            this.gradientPanel2.ResumeLayout(false);
-            this.gradientPanel2.PerformLayout();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(245, 246, 248);
+            Controls.Add(gradientPanel2);
+            Controls.Add(panel2);
+            Name = "logoutUC";
+            Size = new Size(933, 580);
+            panel2.ResumeLayout(false);
+            panel2.PerformLayout();
+            gradientPanel2.ResumeLayout(false);
+            gradientPanel2.PerformLayout();
+            ResumeLayout(false);
         }
 
         #endregion

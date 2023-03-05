@@ -25,7 +25,7 @@ namespace bikeRental.User_Controls
                 OpenFileDialog dialog = new OpenFileDialog();
                 dialog.Filter = "jpg files(*.jpg)|*.jpg| PNG files(*.png)|*.png| All files(*.*)|*.*";
 
-                if(dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
                 {
                     imageLocation = dialog.FileName;
 
