@@ -31,5 +31,12 @@ namespace bikeRental.Electric_Bike
         {
             this.Close();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            Option O = new Option();
+            O.ShowDialog();
+            this.Show();
+        }
     }
 }

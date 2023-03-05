@@ -184,6 +184,7 @@
             iconButton1.Text = "Proceed";
             iconButton1.TextImageRelation = TextImageRelation.TextBeforeImage;
             iconButton1.UseVisualStyleBackColor = false;
+            iconButton1.Click += iconButton1_Click;
             // 
             // label14
             // 
