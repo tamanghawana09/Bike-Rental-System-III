@@ -33,6 +33,7 @@
             pictureBox1 = new PictureBox();
             label1 = new Label();
             gradientPanel1 = new gradientPanel();
+            iconButton3 = new FontAwesome.Sharp.IconButton();
             pictureBox2 = new PictureBox();
             bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(components);
             panel1 = new Panel();
@@ -51,7 +52,6 @@
             label5 = new Label();
             label3 = new Label();
             bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(components);
-            iconButton3 = new FontAwesome.Sharp.IconButton();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             gradientPanel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -100,6 +100,22 @@
             gradientPanel1.Size = new Size(700, 60);
             gradientPanel1.TabIndex = 26;
             gradientPanel1.TopColor = Color.FromArgb(0, 0, 192);
+            // 
+            // iconButton3
+            // 
+            iconButton3.BackColor = Color.Transparent;
+            iconButton3.FlatAppearance.BorderSize = 0;
+            iconButton3.FlatStyle = FlatStyle.Flat;
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            iconButton3.IconColor = Color.Red;
+            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton3.IconSize = 25;
+            iconButton3.Location = new Point(680, -2);
+            iconButton3.Name = "iconButton3";
+            iconButton3.Size = new Size(20, 25);
+            iconButton3.TabIndex = 6;
+            iconButton3.UseVisualStyleBackColor = false;
+            iconButton3.Click += iconButton3_Click;
             // 
             // pictureBox2
             // 
@@ -157,6 +173,7 @@
             iconButton2.Text = "Close";
             iconButton2.TextImageRelation = TextImageRelation.TextBeforeImage;
             iconButton2.UseVisualStyleBackColor = false;
+            iconButton2.Click += iconButton2_Click;
             // 
             // iconButton1
             // 
@@ -316,21 +333,6 @@
             // 
             bunifuElipse3.ElipseRadius = 10;
             bunifuElipse3.TargetControl = panel1;
-            // 
-            // iconButton3
-            // 
-            iconButton3.BackColor = Color.Transparent;
-            iconButton3.FlatAppearance.BorderSize = 0;
-            iconButton3.FlatStyle = FlatStyle.Flat;
-            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
-            iconButton3.IconColor = Color.Red;
-            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            iconButton3.IconSize = 25;
-            iconButton3.Location = new Point(680, -2);
-            iconButton3.Name = "iconButton3";
-            iconButton3.Size = new Size(20, 25);
-            iconButton3.TabIndex = 6;
-            iconButton3.UseVisualStyleBackColor = false;
             // 
             // pBike1
             // 

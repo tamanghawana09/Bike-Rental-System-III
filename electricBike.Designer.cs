@@ -236,7 +236,7 @@
             panelContainer.Dock = DockStyle.Fill;
             panelContainer.Location = new Point(67, 0);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(883, 580);
+            panelContainer.Size = new Size(933, 580);
             panelContainer.TabIndex = 51;
             // 
             // gradientPanel3
@@ -247,7 +247,7 @@
             gradientPanel3.Dock = DockStyle.Bottom;
             gradientPanel3.Location = new Point(0, 541);
             gradientPanel3.Name = "gradientPanel3";
-            gradientPanel3.Size = new Size(883, 39);
+            gradientPanel3.Size = new Size(933, 39);
             gradientPanel3.TabIndex = 51;
             gradientPanel3.TopColor = Color.White;
             // 
@@ -288,7 +288,7 @@
             bunifuTileButton5.ImageZoom = 85;
             bunifuTileButton5.LabelPosition = 51;
             bunifuTileButton5.LabelText = "Bella";
-            bunifuTileButton5.Location = new Point(528, 182);
+            bunifuTileButton5.Location = new Point(560, 182);
             bunifuTileButton5.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton5.Name = "bunifuTileButton5";
             bunifuTileButton5.Size = new Size(159, 194);
@@ -308,7 +308,7 @@
             bunifuTileButton4.ImageZoom = 100;
             bunifuTileButton4.LabelPosition = 51;
             bunifuTileButton4.LabelText = "NIU";
-            bunifuTileButton4.Location = new Point(357, 184);
+            bunifuTileButton4.Location = new Point(389, 184);
             bunifuTileButton4.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton4.Name = "bunifuTileButton4";
             bunifuTileButton4.Size = new Size(159, 194);
@@ -328,7 +328,7 @@
             bunifuTileButton3.ImageZoom = 95;
             bunifuTileButton3.LabelPosition = 51;
             bunifuTileButton3.LabelText = "Super Soco";
-            bunifuTileButton3.Location = new Point(186, 184);
+            bunifuTileButton3.Location = new Point(218, 184);
             bunifuTileButton3.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton3.Name = "bunifuTileButton3";
             bunifuTileButton3.Size = new Size(159, 194);
@@ -348,7 +348,7 @@
             bunifuTileButton2.ImageZoom = 85;
             bunifuTileButton2.LabelPosition = 51;
             bunifuTileButton2.LabelText = "Yadea G5";
-            bunifuTileButton2.Location = new Point(699, 182);
+            bunifuTileButton2.Location = new Point(731, 182);
             bunifuTileButton2.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(159, 194);
@@ -362,7 +362,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(883, 57);
+            panel2.Size = new Size(933, 57);
             panel2.TabIndex = 48;
             // 
             // label2
@@ -389,7 +389,7 @@
             bunifuTileButton1.ImageZoom = 150;
             bunifuTileButton1.LabelPosition = 51;
             bunifuTileButton1.LabelText = "Yatri P1";
-            bunifuTileButton1.Location = new Point(15, 184);
+            bunifuTileButton1.Location = new Point(47, 184);
             bunifuTileButton1.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(159, 194);
@@ -413,7 +413,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(950, 580);
+            ClientSize = new Size(1000, 580);
             Controls.Add(panelContainer);
             Controls.Add(gradientPanel1);
             FormBorderStyle = FormBorderStyle.None;

@@ -81,7 +81,7 @@ namespace bikeRental.User_Controls
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic UI Semibold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.DarkTurquoise;
-            label1.Location = new Point(272, 9);
+            label1.Location = new Point(330, 9);
             label1.Name = "label1";
             label1.Size = new Size(267, 40);
             label1.TabIndex = 0;
@@ -205,6 +205,7 @@ namespace bikeRental.User_Controls
             linkLabel1.TabIndex = 15;
             linkLabel1.TabStop = true;
             linkLabel1.Text = "MT-15";
+            linkLabel1.LinkClicked += linkLabel1_LinkClicked;
             // 
             // gradientPanel1
             // 
@@ -245,6 +246,7 @@ namespace bikeRental.User_Controls
             linkLabel4.TabIndex = 15;
             linkLabel4.TabStop = true;
             linkLabel4.Text = "KTM Duke 390";
+            linkLabel4.LinkClicked += linkLabel4_LinkClicked;
             // 
             // linkLabel3
             // 
@@ -260,6 +262,7 @@ namespace bikeRental.User_Controls
             linkLabel3.TabIndex = 15;
             linkLabel3.TabStop = true;
             linkLabel3.Text = "RE Classic 350";
+            linkLabel3.LinkClicked += linkLabel3_LinkClicked;
             // 
             // linkLabel2
             // 
@@ -275,6 +278,7 @@ namespace bikeRental.User_Controls
             linkLabel2.TabIndex = 15;
             linkLabel2.TabStop = true;
             linkLabel2.Text = "Honda CRF";
+            linkLabel2.LinkClicked += linkLabel2_LinkClicked;
             // 
             // label5
             // 
@@ -306,6 +310,7 @@ namespace bikeRental.User_Controls
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(145, 185);
             bunifuTileButton1.TabIndex = 17;
+            bunifuTileButton1.Click += bunifuTileButton1_Click;
             // 
             // bunifuTileButton2
             // 
@@ -325,6 +330,7 @@ namespace bikeRental.User_Controls
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(145, 185);
             bunifuTileButton2.TabIndex = 17;
+            bunifuTileButton2.Click += bunifuTileButton2_Click;
             // 
             // pbar
             // 

@@ -41,5 +41,13 @@ namespace bikeRental.User_Controls
         {
 
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            electricBike eB = new electricBike();
+            eB.ShowDialog();
+            this.Show();
+        }
     }
 }

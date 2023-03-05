@@ -246,7 +246,7 @@
             panelContainer.Dock = DockStyle.Fill;
             panelContainer.Location = new Point(67, 0);
             panelContainer.Name = "panelContainer";
-            panelContainer.Size = new Size(883, 580);
+            panelContainer.Size = new Size(933, 580);
             panelContainer.TabIndex = 22;
             // 
             // gradientPanel2
@@ -257,7 +257,7 @@
             gradientPanel2.Dock = DockStyle.Bottom;
             gradientPanel2.Location = new Point(0, 541);
             gradientPanel2.Name = "gradientPanel2";
-            gradientPanel2.Size = new Size(883, 39);
+            gradientPanel2.Size = new Size(933, 39);
             gradientPanel2.TabIndex = 51;
             gradientPanel2.TopColor = Color.White;
             // 
@@ -298,7 +298,7 @@
             bunifuTileButton5.ImageZoom = 100;
             bunifuTileButton5.LabelPosition = 51;
             bunifuTileButton5.LabelText = "Tracker 250";
-            bunifuTileButton5.Location = new Point(702, 123);
+            bunifuTileButton5.Location = new Point(729, 123);
             bunifuTileButton5.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton5.Name = "bunifuTileButton5";
             bunifuTileButton5.Size = new Size(159, 194);
@@ -318,7 +318,7 @@
             bunifuTileButton4.ImageZoom = 100;
             bunifuTileButton4.LabelPosition = 51;
             bunifuTileButton4.LabelText = "RE Himalayan";
-            bunifuTileButton4.Location = new Point(531, 123);
+            bunifuTileButton4.Location = new Point(558, 123);
             bunifuTileButton4.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton4.Name = "bunifuTileButton4";
             bunifuTileButton4.Size = new Size(159, 194);
@@ -338,7 +338,7 @@
             bunifuTileButton3.ImageZoom = 100;
             bunifuTileButton3.LabelPosition = 51;
             bunifuTileButton3.LabelText = "Cross X";
-            bunifuTileButton3.Location = new Point(360, 123);
+            bunifuTileButton3.Location = new Point(387, 123);
             bunifuTileButton3.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton3.Name = "bunifuTileButton3";
             bunifuTileButton3.Size = new Size(159, 194);
@@ -358,7 +358,7 @@
             bunifuTileButton2.ImageZoom = 100;
             bunifuTileButton2.LabelPosition = 51;
             bunifuTileButton2.LabelText = "Honda CRF";
-            bunifuTileButton2.Location = new Point(189, 123);
+            bunifuTileButton2.Location = new Point(216, 123);
             bunifuTileButton2.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(159, 194);
@@ -378,7 +378,7 @@
             bunifuTileButton10.ImageZoom = 100;
             bunifuTileButton10.LabelPosition = 51;
             bunifuTileButton10.LabelText = "MT-15";
-            bunifuTileButton10.Location = new Point(702, 333);
+            bunifuTileButton10.Location = new Point(729, 333);
             bunifuTileButton10.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton10.Name = "bunifuTileButton10";
             bunifuTileButton10.Size = new Size(159, 194);
@@ -398,7 +398,7 @@
             bunifuTileButton9.ImageZoom = 100;
             bunifuTileButton9.LabelPosition = 51;
             bunifuTileButton9.LabelText = "Jawa 42";
-            bunifuTileButton9.Location = new Point(531, 333);
+            bunifuTileButton9.Location = new Point(558, 333);
             bunifuTileButton9.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton9.Name = "bunifuTileButton9";
             bunifuTileButton9.Size = new Size(159, 194);
@@ -418,7 +418,7 @@
             bunifuTileButton8.ImageZoom = 100;
             bunifuTileButton8.LabelPosition = 51;
             bunifuTileButton8.LabelText = "Pulsar NS 200";
-            bunifuTileButton8.Location = new Point(360, 333);
+            bunifuTileButton8.Location = new Point(387, 333);
             bunifuTileButton8.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton8.Name = "bunifuTileButton8";
             bunifuTileButton8.Size = new Size(159, 194);
@@ -438,7 +438,7 @@
             bunifuTileButton7.ImageZoom = 100;
             bunifuTileButton7.LabelPosition = 51;
             bunifuTileButton7.LabelText = "RE Classic 350";
-            bunifuTileButton7.Location = new Point(189, 333);
+            bunifuTileButton7.Location = new Point(216, 333);
             bunifuTileButton7.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton7.Name = "bunifuTileButton7";
             bunifuTileButton7.Size = new Size(159, 194);
@@ -458,7 +458,7 @@
             bunifuTileButton6.ImageZoom = 100;
             bunifuTileButton6.LabelPosition = 51;
             bunifuTileButton6.LabelText = "KTM Duke 390";
-            bunifuTileButton6.Location = new Point(18, 333);
+            bunifuTileButton6.Location = new Point(45, 333);
             bunifuTileButton6.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton6.Name = "bunifuTileButton6";
             bunifuTileButton6.Size = new Size(159, 194);
@@ -472,7 +472,7 @@
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
-            panel2.Size = new Size(883, 57);
+            panel2.Size = new Size(933, 57);
             panel2.TabIndex = 48;
             // 
             // label1
@@ -480,7 +480,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic UI Semibold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.DarkTurquoise;
-            label1.Location = new Point(272, 9);
+            label1.Location = new Point(318, 9);
             label1.Name = "label1";
             label1.Size = new Size(267, 40);
             label1.TabIndex = 0;
@@ -499,7 +499,7 @@
             bunifuTileButton1.ImageZoom = 100;
             bunifuTileButton1.LabelPosition = 51;
             bunifuTileButton1.LabelText = "HJ-250";
-            bunifuTileButton1.Location = new Point(18, 123);
+            bunifuTileButton1.Location = new Point(45, 123);
             bunifuTileButton1.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(159, 194);
@@ -524,7 +524,7 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.FromArgb(245, 246, 248);
-            ClientSize = new Size(950, 580);
+            ClientSize = new Size(1000, 580);
             Controls.Add(panelContainer);
             Controls.Add(gradientPanel1);
             FormBorderStyle = FormBorderStyle.None;

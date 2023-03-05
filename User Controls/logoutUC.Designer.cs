@@ -51,7 +51,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic UI Semibold", 21.75F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.DarkTurquoise;
-            label1.Location = new Point(272, 9);
+            label1.Location = new Point(330, 9);
             label1.Name = "label1";
             label1.Size = new Size(267, 40);
             label1.TabIndex = 0;

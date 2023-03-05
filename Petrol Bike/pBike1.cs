@@ -16,5 +16,15 @@ namespace bikeRental.Petrol_Bike
         {
             InitializeComponent();
         }
+
+        private void iconButton2_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

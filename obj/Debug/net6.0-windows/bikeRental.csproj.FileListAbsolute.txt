@@ -241,3 +241,17 @@ C:\C--UI\bin\Debug\net6.0-windows\runtimes\win\lib\net6.0\System.Speech.dll
 C:\C--UI\obj\Debug\net6.0-windows\bikeRental.csproj.CopyComplete
 C:\C--UI\obj\Debug\net6.0-windows\bikeRental.genruntimeconfig.cache
 C:\C--UI\obj\Debug\net6.0-windows\ref\bikeRental.dll
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Electric_Bike.eBike1.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Electric_Bike.eBike2.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Electric_Bike.eBike3.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Electric_Bike.eBike4.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Electric_Bike.eBike5.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike10.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike2.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike3.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike4.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike5.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike6.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike7.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike8.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike9.resources
