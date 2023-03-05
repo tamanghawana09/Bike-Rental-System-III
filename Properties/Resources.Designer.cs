@@ -163,6 +163,16 @@ namespace bikeRental.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bella {
+            get {
+                object obj = ResourceManager.GetObject("Bella", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Cobra_CX {
             get {
                 object obj = ResourceManager.GetObject("Cobra CX", resourceCulture);
@@ -206,6 +216,16 @@ namespace bikeRental.Properties {
         internal static System.Drawing.Bitmap CX {
             get {
                 object obj = ResourceManager.GetObject("CX", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Doohan {
+            get {
+                object obj = ResourceManager.GetObject("Doohan", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -276,6 +296,16 @@ namespace bikeRental.Properties {
         internal static System.Drawing.Bitmap MT_15 {
             get {
                 object obj = ResourceManager.GetObject("MT-15", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap niu {
+            get {
+                object obj = ResourceManager.GetObject("niu", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -363,9 +393,49 @@ namespace bikeRental.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Super_Soco1 {
+            get {
+                object obj = ResourceManager.GetObject("Super Soco1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Tracker250 {
             get {
                 object obj = ResourceManager.GetObject("Tracker250", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Y {
+            get {
+                object obj = ResourceManager.GetObject("Y", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yadea {
+            get {
+                object obj = ResourceManager.GetObject("Yadea", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Yatri {
+            get {
+                object obj = ResourceManager.GetObject("Yatri", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

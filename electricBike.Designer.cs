@@ -283,16 +283,17 @@
             bunifuTileButton5.Cursor = Cursors.Hand;
             bunifuTileButton5.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             bunifuTileButton5.ForeColor = SystemColors.MenuHighlight;
-            bunifuTileButton5.Image = Properties.Resources.Tracker250;
+            bunifuTileButton5.Image = Properties.Resources.Bella;
             bunifuTileButton5.ImagePosition = 0;
-            bunifuTileButton5.ImageZoom = 100;
+            bunifuTileButton5.ImageZoom = 85;
             bunifuTileButton5.LabelPosition = 51;
-            bunifuTileButton5.LabelText = "Tracker 250";
+            bunifuTileButton5.LabelText = "Bella";
             bunifuTileButton5.Location = new Point(528, 182);
             bunifuTileButton5.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton5.Name = "bunifuTileButton5";
             bunifuTileButton5.Size = new Size(159, 194);
             bunifuTileButton5.TabIndex = 38;
+            bunifuTileButton5.Click += bunifuTileButton5_Click;
             // 
             // bunifuTileButton4
             // 
@@ -302,16 +303,17 @@
             bunifuTileButton4.Cursor = Cursors.Hand;
             bunifuTileButton4.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             bunifuTileButton4.ForeColor = SystemColors.MenuHighlight;
-            bunifuTileButton4.Image = Properties.Resources.REH;
+            bunifuTileButton4.Image = Properties.Resources.niu;
             bunifuTileButton4.ImagePosition = 0;
             bunifuTileButton4.ImageZoom = 100;
             bunifuTileButton4.LabelPosition = 51;
-            bunifuTileButton4.LabelText = "RE Himalayan";
+            bunifuTileButton4.LabelText = "NIU";
             bunifuTileButton4.Location = new Point(357, 184);
             bunifuTileButton4.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton4.Name = "bunifuTileButton4";
             bunifuTileButton4.Size = new Size(159, 194);
             bunifuTileButton4.TabIndex = 39;
+            bunifuTileButton4.Click += bunifuTileButton4_Click;
             // 
             // bunifuTileButton3
             // 
@@ -321,16 +323,17 @@
             bunifuTileButton3.Cursor = Cursors.Hand;
             bunifuTileButton3.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             bunifuTileButton3.ForeColor = SystemColors.MenuHighlight;
-            bunifuTileButton3.Image = Properties.Resources.Cobra_CX;
+            bunifuTileButton3.Image = Properties.Resources.Super_Soco;
             bunifuTileButton3.ImagePosition = 0;
-            bunifuTileButton3.ImageZoom = 100;
+            bunifuTileButton3.ImageZoom = 95;
             bunifuTileButton3.LabelPosition = 51;
-            bunifuTileButton3.LabelText = "Cross X";
+            bunifuTileButton3.LabelText = "Super Soco";
             bunifuTileButton3.Location = new Point(186, 184);
             bunifuTileButton3.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton3.Name = "bunifuTileButton3";
             bunifuTileButton3.Size = new Size(159, 194);
             bunifuTileButton3.TabIndex = 40;
+            bunifuTileButton3.Click += bunifuTileButton3_Click;
             // 
             // bunifuTileButton2
             // 
@@ -340,16 +343,17 @@
             bunifuTileButton2.Cursor = Cursors.Hand;
             bunifuTileButton2.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             bunifuTileButton2.ForeColor = SystemColors.MenuHighlight;
-            bunifuTileButton2.Image = Properties.Resources.CRF1;
+            bunifuTileButton2.Image = Properties.Resources.Yadea;
             bunifuTileButton2.ImagePosition = 0;
-            bunifuTileButton2.ImageZoom = 100;
+            bunifuTileButton2.ImageZoom = 85;
             bunifuTileButton2.LabelPosition = 51;
-            bunifuTileButton2.LabelText = "Honda CRF";
+            bunifuTileButton2.LabelText = "Yadea G5";
             bunifuTileButton2.Location = new Point(699, 182);
             bunifuTileButton2.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton2.Name = "bunifuTileButton2";
             bunifuTileButton2.Size = new Size(159, 194);
             bunifuTileButton2.TabIndex = 41;
+            bunifuTileButton2.Click += bunifuTileButton2_Click;
             // 
             // panel2
             // 
@@ -380,16 +384,17 @@
             bunifuTileButton1.Cursor = Cursors.Hand;
             bunifuTileButton1.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             bunifuTileButton1.ForeColor = SystemColors.MenuHighlight;
-            bunifuTileButton1.Image = Properties.Resources.HJ250;
-            bunifuTileButton1.ImagePosition = 0;
-            bunifuTileButton1.ImageZoom = 100;
+            bunifuTileButton1.Image = Properties.Resources.Y;
+            bunifuTileButton1.ImagePosition = -55;
+            bunifuTileButton1.ImageZoom = 150;
             bunifuTileButton1.LabelPosition = 51;
-            bunifuTileButton1.LabelText = "HJ-250";
+            bunifuTileButton1.LabelText = "Yatri P1";
             bunifuTileButton1.Location = new Point(15, 184);
             bunifuTileButton1.Margin = new Padding(6, 8, 6, 8);
             bunifuTileButton1.Name = "bunifuTileButton1";
             bunifuTileButton1.Size = new Size(159, 194);
             bunifuTileButton1.TabIndex = 47;
+            bunifuTileButton1.Click += bunifuTileButton1_Click;
             // 
             // label3
             // 

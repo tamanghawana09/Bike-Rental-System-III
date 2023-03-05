@@ -98,92 +98,92 @@ namespace bikeRental
 
         private void bunifuTileButton1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike1 b = new pBike1();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike2 b = new pBike2();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike3 b = new pBike3();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike4 b = new pBike4();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton5_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             pBike5 b = new pBike5();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton6_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike6 b = new pBike6();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton7_Click(object sender, EventArgs e)
         {
-            this.Hide();
+           
             pBike7 b = new pBike7();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton8_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike8 b = new pBike8();
             b.ShowDialog();
             this.Show();
-            this.Close();
+           
         }
 
         private void bunifuTileButton9_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike9 b = new pBike9();
             b.ShowDialog();
             this.Show();
-            this.Close();
+            
         }
 
         private void bunifuTileButton10_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             pBike10 b = new pBike10();
             b.ShowDialog();
             this.Show();
-            this.Close();
+           
         }
     }
 

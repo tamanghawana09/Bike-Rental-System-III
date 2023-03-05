@@ -16,6 +16,33 @@
     <Compile Update="Petrol Bike\pBike1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="Petrol Bike\pBike10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike6.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Petrol Bike\pBike9.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="petrolBike.cs">
       <SubType>Form</SubType>
     </Compile>

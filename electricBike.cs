@@ -1,4 +1,5 @@
-﻿using bikeRental.User_Controls;
+﻿using bikeRental.Electric_Bike;
+using bikeRental.User_Controls;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -97,6 +98,41 @@ namespace bikeRental
         private void helpBtn_Leave(object sender, EventArgs e)
         {
             helpBtn.BackColor = Color.Transparent;
+        }
+
+        private void bunifuTileButton1_Click(object sender, EventArgs e)
+        {
+            eBike1 eB = new eBike1();
+            eB.ShowDialog();
+            this.Show();
+        }
+
+        private void bunifuTileButton3_Click(object sender, EventArgs e)
+        {
+            eBike2 eB = new eBike2();
+            eB.ShowDialog();
+            this.Show();
+        }
+
+        private void bunifuTileButton4_Click(object sender, EventArgs e)
+        {
+            eBike3 eB = new eBike3();
+            eB.ShowDialog();
+            this.Show();
+        }
+
+        private void bunifuTileButton5_Click(object sender, EventArgs e)
+        {
+            eBike4 eB = new eBike4();
+            eB.ShowDialog();
+            this.Show();
+        }
+
+        private void bunifuTileButton2_Click(object sender, EventArgs e)
+        {
+            eBike5 eB = new eBike5();
+            eB.ShowDialog();
+            this.Show();
         }
     }
 }
