@@ -256,3 +256,5 @@ C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike7.resources
 C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike8.resources
 C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Petrol_Bike.pBike9.resources
 C:\C--UI\obj\Debug\net6.0-windows\bikeRental.Option.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.perDayPayment.resources
+C:\C--UI\obj\Debug\net6.0-windows\bikeRental.perHourPayment.resources
