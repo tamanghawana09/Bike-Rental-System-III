@@ -52,7 +52,7 @@ namespace bikeRental.User_Controls
             label5 = new Label();
             bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
-            pbar = new CircularProgressBar.CircularProgressBar();
+            pbar1 = new CircularProgressBar.CircularProgressBar();
             gradientPanel4 = new gradientPanel();
             panel4 = new Panel();
             bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
@@ -156,11 +156,16 @@ namespace bikeRental.User_Controls
             chart6.Location = new Point(13, 111);
             chart6.Name = "chart6";
             series1.ChartArea = "ChartArea1";
-            series1.ChartType = SeriesChartType.Pie;
-            series1.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            series1.ChartType = SeriesChartType.Doughnut;
+            series1.Font = new Font("Yu Gothic UI", 8.25F, FontStyle.Regular, GraphicsUnit.Point);
+            series1.LabelBackColor = Color.Transparent;
+            series1.LabelBorderWidth = 10;
             series1.LabelForeColor = Color.White;
             series1.Legend = "Legend1";
+            series1.MarkerBorderWidth = 5;
+            series1.MarkerSize = 10;
             series1.Name = "Series1";
+            series1.YValuesPerPoint = 5;
             chart6.Series.Add(series1);
             chart6.Size = new Size(313, 300);
             chart6.TabIndex = 15;
@@ -332,36 +337,37 @@ namespace bikeRental.User_Controls
             bunifuTileButton2.TabIndex = 17;
             bunifuTileButton2.Click += bunifuTileButton2_Click;
             // 
-            // pbar
+            // pbar1
             // 
-            pbar.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
-            pbar.AnimationSpeed = 500;
-            pbar.BackColor = Color.White;
-            pbar.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            pbar.ForeColor = Color.FromArgb(64, 64, 64);
-            pbar.InnerColor = Color.White;
-            pbar.InnerMargin = 2;
-            pbar.InnerWidth = -1;
-            pbar.Location = new Point(23, 306);
-            pbar.MarqueeAnimationSpeed = 2000;
-            pbar.Name = "pbar";
-            pbar.OuterColor = Color.Silver;
-            pbar.OuterMargin = -25;
-            pbar.OuterWidth = 26;
-            pbar.ProgressColor = Color.FromArgb(0, 192, 192);
-            pbar.ProgressWidth = 25;
-            pbar.SecondaryFont = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            pbar.Size = new Size(185, 185);
-            pbar.StartAngle = 270;
-            pbar.SubscriptColor = Color.Empty;
-            pbar.SubscriptMargin = new Padding(10, -35, 0, 0);
-            pbar.SubscriptText = "";
-            pbar.SuperscriptColor = Color.Empty;
-            pbar.SuperscriptMargin = new Padding(10, 35, 0, 0);
-            pbar.SuperscriptText = "";
-            pbar.TabIndex = 18;
-            pbar.TextMargin = new Padding(0);
-            pbar.Value = 68;
+            pbar1.AnimationFunction = WinFormAnimation.KnownAnimationFunctions.Liner;
+            pbar1.AnimationSpeed = 500;
+            pbar1.BackColor = Color.White;
+            pbar1.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            pbar1.ForeColor = Color.FromArgb(64, 64, 64);
+            pbar1.InnerColor = Color.White;
+            pbar1.InnerMargin = 2;
+            pbar1.InnerWidth = -1;
+            pbar1.Location = new Point(23, 306);
+            pbar1.MarqueeAnimationSpeed = 2000;
+            pbar1.Name = "pbar1";
+            pbar1.OuterColor = Color.Silver;
+            pbar1.OuterMargin = -25;
+            pbar1.OuterWidth = 26;
+            pbar1.ProgressColor = Color.FromArgb(0, 192, 192);
+            pbar1.ProgressWidth = 25;
+            pbar1.SecondaryFont = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            pbar1.Size = new Size(185, 185);
+            pbar1.StartAngle = 270;
+            pbar1.SubscriptColor = Color.Empty;
+            pbar1.SubscriptMargin = new Padding(10, -35, 0, 0);
+            pbar1.SubscriptText = "";
+            pbar1.SuperscriptColor = Color.Empty;
+            pbar1.SuperscriptMargin = new Padding(10, 35, 0, 0);
+            pbar1.SuperscriptText = "";
+            pbar1.TabIndex = 18;
+            pbar1.TextMargin = new Padding(0);
+            pbar1.Value = 68;
+            pbar1.Click += pbar_Click;
             // 
             // gradientPanel4
             // 
@@ -410,7 +416,7 @@ namespace bikeRental.User_Controls
             BackColor = Color.FromArgb(245, 246, 248);
             Controls.Add(gradientPanel4);
             Controls.Add(bunifuTileButton2);
-            Controls.Add(pbar);
+            Controls.Add(pbar1);
             Controls.Add(bunifuTileButton1);
             Controls.Add(panel4);
             Controls.Add(panel1);
@@ -454,7 +460,7 @@ namespace bikeRental.User_Controls
         private Label label5;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton2;
-        private CircularProgressBar.CircularProgressBar pbar;
+        private CircularProgressBar.CircularProgressBar pbar1;
         private gradientPanel gradientPanel4;
         private Panel panel4;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;

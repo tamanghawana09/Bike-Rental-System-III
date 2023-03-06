@@ -153,8 +153,6 @@ C:\C--UI\bin\Debug\net6.0-windows\Bunifu.UI.WinForms.dll
 C:\C--UI\bin\Debug\net6.0-windows\Bunifu.UI.WinForms.1.5.3.dll
 C:\C--UI\bin\Debug\net6.0-windows\CircularProgressBar.dll
 C:\C--UI\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
-C:\C--UI\bin\Debug\net6.0-windows\Guna.Charts.WinForms.dll
-C:\C--UI\bin\Debug\net6.0-windows\MaterialSkin.dll
 C:\C--UI\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
 C:\C--UI\bin\Debug\net6.0-windows\Microsoft.Extensions.ObjectPool.dll
 C:\C--UI\bin\Debug\net6.0-windows\Newtonsoft.Json.dll

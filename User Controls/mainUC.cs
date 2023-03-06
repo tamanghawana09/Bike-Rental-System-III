@@ -21,8 +21,9 @@ namespace bikeRental.User_Controls
             InitializeComponent();
 
 
-            chart6.Series["Series1"].Points.AddXY("Petrol Bike", "75");
-            chart6.Series["Series1"].Points.AddXY("Electric Bike", "25");
+            chart6.Series["Series1"].Points.AddXY("Petrol Bike", "30");
+            chart6.Series["Series1"].Points.AddXY("Active Bike", "40");
+            chart6.Series["Series1"].Points.AddXY("Electric Bike", "30");
         }
 
         private void gradientPanel2_Paint(object sender, PaintEventArgs e)
@@ -32,9 +33,10 @@ namespace bikeRental.User_Controls
 
         private void timer1_Tick(object sender, EventArgs e)
         {
-            pbar.Value += 1;
-            pbar.Text = pbar.Value.ToString() + "%";
-            if (pbar.Value == 70)
+
+            pbar1.Value += 1;
+            pbar1.Text = pbar1.Value.ToString() + "%";
+            if (pbar1.Value == 70)
             {
                 timer1.Enabled = false;
             }
@@ -93,6 +95,11 @@ namespace bikeRental.User_Controls
             electricBike eB = new electricBike();
             eB.ShowDialog();
             this.Show();
+
+        }
+
+        private void pbar_Click(object sender, EventArgs e)
+        {
 
         }
     }
