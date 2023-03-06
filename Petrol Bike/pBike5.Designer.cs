@@ -34,13 +34,11 @@
             panel1 = new Panel();
             iconButton2 = new FontAwesome.Sharp.IconButton();
             iconButton1 = new FontAwesome.Sharp.IconButton();
-            label14 = new Label();
             label13 = new Label();
             label10 = new Label();
             label9 = new Label();
             label6 = new Label();
             label4 = new Label();
-            label12 = new Label();
             label11 = new Label();
             label8 = new Label();
             label7 = new Label();
@@ -52,6 +50,10 @@
             label1 = new Label();
             bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
             gradientPanel1 = new gradientPanel();
+            label15 = new Label();
+            label14 = new Label();
+            label2 = new Label();
+            label12 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -82,15 +84,17 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(label15);
+            panel1.Controls.Add(label14);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label12);
             panel1.Controls.Add(iconButton2);
             panel1.Controls.Add(iconButton1);
-            panel1.Controls.Add(label14);
             panel1.Controls.Add(label13);
             panel1.Controls.Add(label10);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(label12);
             panel1.Controls.Add(label11);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label7);
@@ -100,6 +104,7 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(378, 328);
             panel1.TabIndex = 30;
+            panel1.Paint += panel1_Paint;
             // 
             // iconButton2
             // 
@@ -141,18 +146,6 @@
             iconButton1.UseVisualStyleBackColor = false;
             iconButton1.Click += iconButton1_Click;
             // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.ForeColor = Color.Red;
-            label14.Location = new Point(201, 215);
-            label14.Name = "label14";
-            label14.RightToLeft = RightToLeft.No;
-            label14.Size = new Size(67, 25);
-            label14.TabIndex = 0;
-            label14.Text = "20000";
-            // 
             // label13
             // 
             label13.AutoSize = true;
@@ -163,6 +156,7 @@
             label13.Size = new Size(82, 25);
             label13.TabIndex = 0;
             label13.Text = "7.5 liters";
+            label13.Click += label13_Click;
             // 
             // label10
             // 
@@ -174,6 +168,7 @@
             label10.Size = new Size(174, 25);
             label10.TabIndex = 0;
             label10.Text = "17 Nm @ 5500 rpm";
+            label10.Click += label10_Click;
             // 
             // label9
             // 
@@ -185,6 +180,7 @@
             label9.Size = new Size(193, 25);
             label9.TabIndex = 0;
             label9.Text = "19.4 BHP @ 7000 rpm";
+            label9.Click += label9_Click;
             // 
             // label6
             // 
@@ -196,6 +192,7 @@
             label6.Size = new Size(65, 25);
             label6.TabIndex = 0;
             label6.Text = "223 cc";
+            label6.Click += label6_Click;
             // 
             // label4
             // 
@@ -207,18 +204,7 @@
             label4.Size = new Size(107, 25);
             label4.TabIndex = 0;
             label4.Text = "Tracker 250";
-            // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.ForeColor = Color.FromArgb(0, 0, 192);
-            label12.Location = new Point(13, 210);
-            label12.Name = "label12";
-            label12.RightToLeft = RightToLeft.No;
-            label12.Size = new Size(182, 30);
-            label12.TabIndex = 0;
-            label12.Text = "Deposit Amount :";
+            label4.Click += label4_Click;
             // 
             // label11
             // 
@@ -230,6 +216,7 @@
             label11.Size = new Size(200, 30);
             label11.TabIndex = 0;
             label11.Text = "Fuel Tank Capacity :";
+            label11.Click += label11_Click;
             // 
             // label8
             // 
@@ -241,6 +228,7 @@
             label8.Size = new Size(144, 30);
             label8.TabIndex = 0;
             label8.Text = "Max Torque : ";
+            label8.Click += label8_Click;
             // 
             // label7
             // 
@@ -252,6 +240,7 @@
             label7.Size = new Size(137, 30);
             label7.TabIndex = 0;
             label7.Text = "Max Power : ";
+            label7.Click += label7_Click;
             // 
             // label5
             // 
@@ -263,6 +252,7 @@
             label5.Size = new Size(159, 30);
             label5.TabIndex = 0;
             label5.Text = "Displacement : ";
+            label5.Click += label5_Click;
             // 
             // label3
             // 
@@ -275,6 +265,7 @@
             label3.Size = new Size(87, 30);
             label3.TabIndex = 0;
             label3.Text = "Name : ";
+            label3.Click += label3_Click;
             // 
             // bunifuElipse2
             // 
@@ -291,6 +282,7 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox1.TabIndex = 28;
             pictureBox1.TabStop = false;
+            pictureBox1.Click += pictureBox1_Click;
             // 
             // pictureBox2
             // 
@@ -302,6 +294,7 @@
             pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 4;
             pictureBox2.TabStop = false;
+            pictureBox2.Click += pictureBox2_Click;
             // 
             // label1
             // 
@@ -314,6 +307,7 @@
             label1.Size = new Size(267, 40);
             label1.TabIndex = 1;
             label1.Text = "Bike Rental System";
+            label1.Click += label1_Click;
             // 
             // bunifuElipse1
             // 
@@ -334,6 +328,59 @@
             gradientPanel1.Size = new Size(700, 60);
             gradientPanel1.TabIndex = 29;
             gradientPanel1.TopColor = Color.FromArgb(0, 0, 192);
+            gradientPanel1.Paint += gradientPanel1_Paint;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.Red;
+            label15.Location = new Point(165, 214);
+            label15.Name = "label15";
+            label15.RightToLeft = RightToLeft.No;
+            label15.Size = new Size(86, 25);
+            label15.TabIndex = 2;
+            label15.Text = "Rs. 2500";
+            label15.Click += label15_Click;
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.Red;
+            label14.Location = new Point(201, 245);
+            label14.Name = "label14";
+            label14.RightToLeft = RightToLeft.No;
+            label14.Size = new Size(97, 25);
+            label14.TabIndex = 3;
+            label14.Text = "Rs. 20000";
+            label14.Click += label14_Click;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 192);
+            label2.Location = new Point(13, 210);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(167, 30);
+            label2.TabIndex = 4;
+            label2.Text = "Rent (per day) : ";
+            label2.Click += label2_Click;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.ForeColor = Color.FromArgb(0, 0, 192);
+            label12.Location = new Point(13, 240);
+            label12.Name = "label12";
+            label12.RightToLeft = RightToLeft.No;
+            label12.Size = new Size(182, 30);
+            label12.TabIndex = 5;
+            label12.Text = "Deposit Amount :";
+            label12.Click += label12_Click;
             // 
             // pBike5
             // 
@@ -363,13 +410,11 @@
         private Panel panel1;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private Label label14;
         private Label label13;
         private Label label10;
         private Label label9;
         private Label label6;
         private Label label4;
-        private Label label12;
         private Label label11;
         private Label label8;
         private Label label7;
@@ -381,5 +426,9 @@
         private Label label1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private gradientPanel gradientPanel1;
+        private Label label15;
+        private Label label14;
+        private Label label2;
+        private Label label12;
     }
 }

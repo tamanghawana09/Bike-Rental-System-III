@@ -34,13 +34,11 @@
             panel1 = new Panel();
             iconButton2 = new FontAwesome.Sharp.IconButton();
             iconButton1 = new FontAwesome.Sharp.IconButton();
-            label14 = new Label();
             label13 = new Label();
             label10 = new Label();
             label9 = new Label();
             label6 = new Label();
             label4 = new Label();
-            label12 = new Label();
             label11 = new Label();
             label8 = new Label();
             label7 = new Label();
@@ -52,6 +50,10 @@
             label1 = new Label();
             bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
             gradientPanel1 = new gradientPanel();
+            label15 = new Label();
+            label14 = new Label();
+            label2 = new Label();
+            label12 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
@@ -82,15 +84,17 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(label15);
+            panel1.Controls.Add(label14);
+            panel1.Controls.Add(label2);
+            panel1.Controls.Add(label12);
             panel1.Controls.Add(iconButton2);
             panel1.Controls.Add(iconButton1);
-            panel1.Controls.Add(label14);
             panel1.Controls.Add(label13);
             panel1.Controls.Add(label10);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(label6);
             panel1.Controls.Add(label4);
-            panel1.Controls.Add(label12);
             panel1.Controls.Add(label11);
             panel1.Controls.Add(label8);
             panel1.Controls.Add(label7);
@@ -141,23 +145,11 @@
             iconButton1.UseVisualStyleBackColor = false;
             iconButton1.Click += iconButton1_Click;
             // 
-            // label14
-            // 
-            label14.AutoSize = true;
-            label14.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            label14.ForeColor = Color.Red;
-            label14.Location = new Point(201, 215);
-            label14.Name = "label14";
-            label14.RightToLeft = RightToLeft.No;
-            label14.Size = new Size(67, 25);
-            label14.TabIndex = 0;
-            label14.Text = "20000";
-            // 
             // label13
             // 
             label13.AutoSize = true;
             label13.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
-            label13.Location = new Point(209, 173);
+            label13.Location = new Point(209, 172);
             label13.Name = "label13";
             label13.RightToLeft = RightToLeft.No;
             label13.Size = new Size(78, 25);
@@ -208,23 +200,11 @@
             label4.TabIndex = 0;
             label4.Text = "Pulsar NS 200";
             // 
-            // label12
-            // 
-            label12.AutoSize = true;
-            label12.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label12.ForeColor = Color.FromArgb(0, 0, 192);
-            label12.Location = new Point(13, 210);
-            label12.Name = "label12";
-            label12.RightToLeft = RightToLeft.No;
-            label12.Size = new Size(182, 30);
-            label12.TabIndex = 0;
-            label12.Text = "Deposit Amount :";
-            // 
             // label11
             // 
             label11.AutoSize = true;
             label11.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            label11.Location = new Point(13, 168);
+            label11.Location = new Point(13, 167);
             label11.Name = "label11";
             label11.RightToLeft = RightToLeft.No;
             label11.Size = new Size(200, 30);
@@ -335,6 +315,54 @@
             gradientPanel1.TabIndex = 29;
             gradientPanel1.TopColor = Color.FromArgb(0, 0, 192);
             // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.Red;
+            label15.Location = new Point(176, 212);
+            label15.Name = "label15";
+            label15.RightToLeft = RightToLeft.No;
+            label15.Size = new Size(86, 25);
+            label15.TabIndex = 6;
+            label15.Text = "Rs. 2500";
+            // 
+            // label14
+            // 
+            label14.AutoSize = true;
+            label14.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label14.ForeColor = Color.Red;
+            label14.Location = new Point(201, 243);
+            label14.Name = "label14";
+            label14.RightToLeft = RightToLeft.No;
+            label14.Size = new Size(97, 25);
+            label14.TabIndex = 7;
+            label14.Text = "Rs. 20000";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 192);
+            label2.Location = new Point(13, 208);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(167, 30);
+            label2.TabIndex = 8;
+            label2.Text = "Rent (per day) : ";
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label12.ForeColor = Color.FromArgb(0, 0, 192);
+            label12.Location = new Point(13, 238);
+            label12.Name = "label12";
+            label12.RightToLeft = RightToLeft.No;
+            label12.Size = new Size(182, 30);
+            label12.TabIndex = 9;
+            label12.Text = "Deposit Amount :";
+            // 
             // pBike8
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
@@ -363,13 +391,11 @@
         private Panel panel1;
         private FontAwesome.Sharp.IconButton iconButton2;
         private FontAwesome.Sharp.IconButton iconButton1;
-        private Label label14;
         private Label label13;
         private Label label10;
         private Label label9;
         private Label label6;
         private Label label4;
-        private Label label12;
         private Label label11;
         private Label label8;
         private Label label7;
@@ -381,5 +407,9 @@
         private Label label1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private gradientPanel gradientPanel1;
+        private Label label15;
+        private Label label14;
+        private Label label2;
+        private Label label12;
     }
 }

@@ -32,6 +32,8 @@
             iconButton3 = new FontAwesome.Sharp.IconButton();
             bunifuElipse3 = new Bunifu.Framework.UI.BunifuElipse(components);
             panel1 = new Panel();
+            label15 = new Label();
+            label2 = new Label();
             iconButton2 = new FontAwesome.Sharp.IconButton();
             iconButton1 = new FontAwesome.Sharp.IconButton();
             label14 = new Label();
@@ -82,6 +84,8 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(label15);
+            panel1.Controls.Add(label2);
             panel1.Controls.Add(iconButton2);
             panel1.Controls.Add(iconButton1);
             panel1.Controls.Add(label14);
@@ -100,6 +104,30 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(378, 328);
             panel1.TabIndex = 30;
+            // 
+            // label15
+            // 
+            label15.AutoSize = true;
+            label15.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label15.ForeColor = Color.Red;
+            label15.Location = new Point(165, 204);
+            label15.Name = "label15";
+            label15.RightToLeft = RightToLeft.No;
+            label15.Size = new Size(86, 25);
+            label15.TabIndex = 2;
+            label15.Text = "Rs. 2500";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(0, 0, 192);
+            label2.Location = new Point(13, 200);
+            label2.Name = "label2";
+            label2.RightToLeft = RightToLeft.No;
+            label2.Size = new Size(167, 30);
+            label2.TabIndex = 3;
+            label2.Text = "Rent (per day) : ";
             // 
             // iconButton2
             // 
@@ -146,12 +174,12 @@
             label14.AutoSize = true;
             label14.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label14.ForeColor = Color.Red;
-            label14.Location = new Point(201, 215);
+            label14.Location = new Point(201, 234);
             label14.Name = "label14";
             label14.RightToLeft = RightToLeft.No;
-            label14.Size = new Size(67, 25);
+            label14.Size = new Size(102, 25);
             label14.TabIndex = 0;
-            label14.Text = "20000";
+            label14.Text = "Rs . 20000";
             // 
             // label13
             // 
@@ -213,7 +241,7 @@
             label12.AutoSize = true;
             label12.Font = new Font("Yu Gothic UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             label12.ForeColor = Color.FromArgb(0, 0, 192);
-            label12.Location = new Point(13, 210);
+            label12.Location = new Point(13, 229);
             label12.Name = "label12";
             label12.RightToLeft = RightToLeft.No;
             label12.Size = new Size(182, 30);
@@ -381,5 +409,7 @@
         private Label label1;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse1;
         private gradientPanel gradientPanel1;
+        private Label label15;
+        private Label label2;
     }
 }

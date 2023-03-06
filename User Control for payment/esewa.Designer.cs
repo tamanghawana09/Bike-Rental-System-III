@@ -86,9 +86,11 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = Properties.Resources.esewa_QR;
             pictureBox2.Location = new Point(29, 184);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(160, 157);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 2;
             pictureBox2.TabStop = false;
             // 

@@ -56,9 +56,11 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.Image = Properties.Resources.khalti_QR;
             pictureBox2.Location = new Point(28, 184);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(160, 157);
+            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
             pictureBox2.TabIndex = 9;
             pictureBox2.TabStop = false;
             // 

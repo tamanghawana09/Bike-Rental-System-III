@@ -64,14 +64,6 @@
               "target": "Package",
               "version": "[6.2.1, )"
             },
-            "Guna.Charts.WinForms": {
-              "target": "Package",
-              "version": "[1.0.4, )"
-            },
-            "MaterialSkin": {
-              "target": "Package",
-              "version": "[0.2.1, )"
-            },
             "WinForms.DataVisualization": {
               "target": "Package",
               "version": "[1.7.0, )"

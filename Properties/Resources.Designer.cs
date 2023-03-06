@@ -263,6 +263,16 @@ namespace bikeRental.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap esewa_QR {
+            get {
+                object obj = ResourceManager.GetObject("esewa QR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap esewa1 {
             get {
                 object obj = ResourceManager.GetObject("esewa1", resourceCulture);
@@ -336,6 +346,16 @@ namespace bikeRental.Properties {
         internal static System.Drawing.Bitmap khalti {
             get {
                 object obj = ResourceManager.GetObject("khalti", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap khalti_QR {
+            get {
+                object obj = ResourceManager.GetObject("khalti QR", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
