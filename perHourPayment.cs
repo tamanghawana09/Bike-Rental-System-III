@@ -16,5 +16,10 @@ namespace bikeRental
         {
             InitializeComponent();
         }
+
+        private void gradientPanel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
