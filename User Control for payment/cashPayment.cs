@@ -16,5 +16,12 @@ namespace bikeRental.User_Control_for_payment
         {
             InitializeComponent();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            rulesAndRegulation rr = new rulesAndRegulation();
+            rr.ShowDialog();
+            this.Show();
+        }
     }
 }

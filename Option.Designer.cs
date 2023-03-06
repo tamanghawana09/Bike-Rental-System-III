@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             gradientPanel1 = new gradientPanel();
+            label2 = new Label();
             iconButton1 = new FontAwesome.Sharp.IconButton();
             button2 = new Button();
             button1 = new Button();
+            panel3 = new Panel();
             panel2 = new Panel();
             panel1 = new Panel();
             label1 = new Label();
-            panel3 = new Panel();
-            label2 = new Label();
             gradientPanel1.SuspendLayout();
             SuspendLayout();
             // 
@@ -59,6 +59,18 @@
             gradientPanel1.Size = new Size(300, 400);
             gradientPanel1.TabIndex = 1;
             gradientPanel1.TopColor = Color.MediumBlue;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.BackColor = Color.Transparent;
+            label2.Font = new Font("Yu Gothic UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
+            label2.ForeColor = Color.White;
+            label2.Location = new Point(35, 115);
+            label2.Name = "label2";
+            label2.Size = new Size(228, 21);
+            label2.TabIndex = 12;
+            label2.Text = "( choose your renting option )";
             // 
             // iconButton1
             // 
@@ -90,6 +102,7 @@
             button2.TabIndex = 9;
             button2.Text = "Per Day";
             button2.UseVisualStyleBackColor = false;
+            button2.Click += button2_Click;
             // 
             // button1
             // 
@@ -105,6 +118,15 @@
             button1.TabIndex = 9;
             button1.Text = "Per Hour";
             button1.UseVisualStyleBackColor = false;
+            button1.Click += button1_Click;
+            // 
+            // panel3
+            // 
+            panel3.BackColor = Color.White;
+            panel3.Location = new Point(26, 209);
+            panel3.Name = "panel3";
+            panel3.Size = new Size(250, 1);
+            panel3.TabIndex = 8;
             // 
             // panel2
             // 
@@ -133,26 +155,6 @@
             label1.Size = new Size(296, 45);
             label1.TabIndex = 5;
             label1.Text = "Bike Rental System";
-            // 
-            // panel3
-            // 
-            panel3.BackColor = Color.White;
-            panel3.Location = new Point(26, 209);
-            panel3.Name = "panel3";
-            panel3.Size = new Size(250, 1);
-            panel3.TabIndex = 8;
-            // 
-            // label2
-            // 
-            label2.AutoSize = true;
-            label2.BackColor = Color.Transparent;
-            label2.Font = new Font("Yu Gothic UI Semibold", 12F, FontStyle.Bold | FontStyle.Italic, GraphicsUnit.Point);
-            label2.ForeColor = Color.White;
-            label2.Location = new Point(35, 115);
-            label2.Name = "label2";
-            label2.Size = new Size(228, 21);
-            label2.TabIndex = 12;
-            label2.Text = "( choose your renting option )";
             // 
             // Option
             // 

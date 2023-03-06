@@ -28,288 +28,305 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.components = new System.ComponentModel.Container();
-            this.gradientPanel1 = new bikeRental.gradientPanel();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.label1 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.panel1 = new System.Windows.Forms.Panel();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
-            this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.gradientPanel2 = new bikeRental.gradientPanel();
-            this.label11 = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(this.components);
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.gradientPanel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            this.panel1.SuspendLayout();
-            this.gradientPanel2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            this.SuspendLayout();
+            components = new System.ComponentModel.Container();
+            gradientPanel1 = new gradientPanel();
+            pictureBox1 = new PictureBox();
+            label1 = new Label();
+            label2 = new Label();
+            bunifuElipse1 = new Bunifu.Framework.UI.BunifuElipse(components);
+            panel1 = new Panel();
+            label9 = new Label();
+            label8 = new Label();
+            label7 = new Label();
+            label6 = new Label();
+            label4 = new Label();
+            label5 = new Label();
+            label3 = new Label();
+            label10 = new Label();
+            gradientPanel2 = new gradientPanel();
+            label11 = new Label();
+            iconButton1 = new FontAwesome.Sharp.IconButton();
+            bunifuElipse2 = new Bunifu.Framework.UI.BunifuElipse(components);
+            pictureBox2 = new PictureBox();
+            iconButton3 = new FontAwesome.Sharp.IconButton();
+            gradientPanel1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
+            panel1.SuspendLayout();
+            gradientPanel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
+            SuspendLayout();
             // 
             // gradientPanel1
             // 
-            this.gradientPanel1.Angle = 0F;
-            this.gradientPanel1.BackColor = System.Drawing.Color.Cyan;
-            this.gradientPanel1.BottomColor = System.Drawing.Color.Empty;
-            this.gradientPanel1.Controls.Add(this.pictureBox1);
-            this.gradientPanel1.Controls.Add(this.label1);
-            this.gradientPanel1.Dock = System.Windows.Forms.DockStyle.Top;
-            this.gradientPanel1.Location = new System.Drawing.Point(0, 0);
-            this.gradientPanel1.Name = "gradientPanel1";
-            this.gradientPanel1.Size = new System.Drawing.Size(883, 69);
-            this.gradientPanel1.TabIndex = 0;
-            this.gradientPanel1.TopColor = System.Drawing.Color.MidnightBlue;
+            gradientPanel1.Angle = 0F;
+            gradientPanel1.BackColor = Color.Cyan;
+            gradientPanel1.BottomColor = Color.Empty;
+            gradientPanel1.Controls.Add(iconButton3);
+            gradientPanel1.Controls.Add(pictureBox1);
+            gradientPanel1.Controls.Add(label1);
+            gradientPanel1.Dock = DockStyle.Top;
+            gradientPanel1.Location = new Point(0, 0);
+            gradientPanel1.Name = "gradientPanel1";
+            gradientPanel1.Size = new Size(883, 63);
+            gradientPanel1.TabIndex = 0;
+            gradientPanel1.TopColor = Color.MidnightBlue;
             // 
             // pictureBox1
             // 
-            this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
-            this.pictureBox1.Image = global::bikeRental.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(3, 0);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(65, 65);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.AutoSize;
-            this.pictureBox1.TabIndex = 1;
-            this.pictureBox1.TabStop = false;
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Image = Properties.Resources.Logo;
+            pictureBox1.Location = new Point(3, 0);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(65, 65);
+            pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
+            pictureBox1.TabIndex = 1;
+            pictureBox1.TabStop = false;
             // 
             // label1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 26.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.ForeColor = System.Drawing.Color.White;
-            this.label1.Location = new System.Drawing.Point(178, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(568, 47);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Bike Rental - Rules and Regulation";
+            label1.AutoSize = true;
+            label1.BackColor = Color.Transparent;
+            label1.Font = new Font("Yu Gothic UI", 26.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label1.ForeColor = Color.White;
+            label1.Location = new Point(178, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(568, 47);
+            label1.TabIndex = 0;
+            label1.Text = "Bike Rental - Rules and Regulation";
             // 
             // label2
             // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label2.ForeColor = System.Drawing.Color.MediumBlue;
-            this.label2.Location = new System.Drawing.Point(98, 20);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(327, 37);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "!!! RISK BY YOUR OWN !!!";
+            label2.AutoSize = true;
+            label2.Font = new Font("Yu Gothic UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label2.ForeColor = Color.MediumBlue;
+            label2.Location = new Point(98, 20);
+            label2.Name = "label2";
+            label2.Size = new Size(327, 37);
+            label2.TabIndex = 2;
+            label2.Text = "!!! RISK BY YOUR OWN !!!";
             // 
             // bunifuElipse1
             // 
-            this.bunifuElipse1.ElipseRadius = 30;
-            this.bunifuElipse1.TargetControl = this;
+            bunifuElipse1.ElipseRadius = 30;
+            bunifuElipse1.TargetControl = this;
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.Transparent;
-            this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel1.Controls.Add(this.label9);
-            this.panel1.Controls.Add(this.label8);
-            this.panel1.Controls.Add(this.label7);
-            this.panel1.Controls.Add(this.label6);
-            this.panel1.Controls.Add(this.label4);
-            this.panel1.Controls.Add(this.label5);
-            this.panel1.Controls.Add(this.label3);
-            this.panel1.Controls.Add(this.label10);
-            this.panel1.Controls.Add(this.label2);
-            this.panel1.Location = new System.Drawing.Point(178, 106);
-            this.panel1.Name = "panel1";
-            this.panel1.Padding = new System.Windows.Forms.Padding(20);
-            this.panel1.Size = new System.Drawing.Size(539, 389);
-            this.panel1.TabIndex = 3;
+            panel1.BackColor = Color.Transparent;
+            panel1.BackgroundImageLayout = ImageLayout.None;
+            panel1.Controls.Add(label9);
+            panel1.Controls.Add(label8);
+            panel1.Controls.Add(label7);
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label4);
+            panel1.Controls.Add(label5);
+            panel1.Controls.Add(label3);
+            panel1.Controls.Add(label10);
+            panel1.Controls.Add(label2);
+            panel1.Location = new Point(178, 106);
+            panel1.Name = "panel1";
+            panel1.Padding = new Padding(20);
+            panel1.Size = new Size(539, 389);
+            panel1.TabIndex = 3;
             // 
             // label9
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.Transparent;
-            this.label9.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label9.ForeColor = System.Drawing.Color.Red;
-            this.label9.Location = new System.Drawing.Point(10, 298);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(337, 25);
-            this.label9.TabIndex = 3;
-            this.label9.Text = "NOTE: DEPOSIT BASED ON (BIKE TYPE)";
+            label9.AutoSize = true;
+            label9.BackColor = Color.Transparent;
+            label9.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label9.ForeColor = Color.Red;
+            label9.Location = new Point(10, 298);
+            label9.Name = "label9";
+            label9.Size = new Size(337, 25);
+            label9.TabIndex = 3;
+            label9.Text = "NOTE: DEPOSIT BASED ON (BIKE TYPE)";
             // 
             // label8
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.Transparent;
-            this.label8.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label8.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label8.Location = new System.Drawing.Point(118, 261);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(212, 25);
-            this.label8.TabIndex = 3;
-            this.label8.Text = "- COPY OF CITIZENSHIP";
+            label8.AutoSize = true;
+            label8.BackColor = Color.Transparent;
+            label8.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label8.ForeColor = SystemColors.MenuHighlight;
+            label8.Location = new Point(118, 261);
+            label8.Name = "label8";
+            label8.Size = new Size(212, 25);
+            label8.TabIndex = 3;
+            label8.Text = "- COPY OF CITIZENSHIP";
             // 
             // label7
             // 
-            this.label7.AutoSize = true;
-            this.label7.BackColor = System.Drawing.Color.Transparent;
-            this.label7.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label7.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label7.Location = new System.Drawing.Point(118, 226);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(176, 25);
-            this.label7.TabIndex = 3;
-            this.label7.Text = "- COPY OF LICENSE";
+            label7.AutoSize = true;
+            label7.BackColor = Color.Transparent;
+            label7.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label7.ForeColor = SystemColors.MenuHighlight;
+            label7.Location = new Point(118, 226);
+            label7.Name = "label7";
+            label7.Size = new Size(176, 25);
+            label7.TabIndex = 3;
+            label7.Text = "- COPY OF LICENSE";
             // 
             // label6
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.Transparent;
-            this.label6.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label6.ForeColor = System.Drawing.SystemColors.MenuHighlight;
-            this.label6.Location = new System.Drawing.Point(118, 192);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(183, 25);
-            this.label6.TabIndex = 3;
-            this.label6.Text = "- ORIGINAL LICENSE";
+            label6.AutoSize = true;
+            label6.BackColor = Color.Transparent;
+            label6.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label6.ForeColor = SystemColors.MenuHighlight;
+            label6.Location = new Point(118, 192);
+            label6.Name = "label6";
+            label6.Size = new Size(183, 25);
+            label6.TabIndex = 3;
+            label6.Text = "- ORIGINAL LICENSE";
             // 
             // label4
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.Transparent;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label4.Location = new System.Drawing.Point(10, 159);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(528, 25);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "- DOCUMENT IS NECESSARY WHILE TAKING CHARGE OF BIKE";
+            label4.AutoSize = true;
+            label4.BackColor = Color.Transparent;
+            label4.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label4.ForeColor = Color.RoyalBlue;
+            label4.Location = new Point(10, 159);
+            label4.Name = "label4";
+            label4.Size = new Size(528, 25);
+            label4.TabIndex = 3;
+            label4.Text = "- DOCUMENT IS NECESSARY WHILE TAKING CHARGE OF BIKE";
             // 
             // label5
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.Transparent;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label5.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label5.Location = new System.Drawing.Point(10, 118);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(517, 25);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "- PREPARE HARDCOPY DOCUMENT OF THE ITEM AS BELOW";
+            label5.AutoSize = true;
+            label5.BackColor = Color.Transparent;
+            label5.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label5.ForeColor = Color.RoyalBlue;
+            label5.Location = new Point(10, 118);
+            label5.Name = "label5";
+            label5.Size = new Size(517, 25);
+            label5.TabIndex = 3;
+            label5.Text = "- PREPARE HARDCOPY DOCUMENT OF THE ITEM AS BELOW";
             // 
             // label3
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.label3.Location = new System.Drawing.Point(10, 82);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(460, 25);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "- INCASE ACCIDENT, ALL COSTING IS PAID BY DRIVER";
+            label3.AutoSize = true;
+            label3.BackColor = Color.Transparent;
+            label3.Font = new Font("Yu Gothic UI", 14.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label3.ForeColor = Color.RoyalBlue;
+            label3.Location = new Point(10, 82);
+            label3.Name = "label3";
+            label3.Size = new Size(460, 25);
+            label3.TabIndex = 3;
+            label3.Text = "- INCASE ACCIDENT, ALL COSTING IS PAID BY DRIVER";
             // 
             // label10
             // 
-            this.label10.AutoSize = true;
-            this.label10.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label10.ForeColor = System.Drawing.Color.LimeGreen;
-            this.label10.Location = new System.Drawing.Point(137, 332);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(222, 37);
-            this.label10.TabIndex = 2;
-            this.label10.Text = "!!! SAFE DRIVE !!!";
+            label10.AutoSize = true;
+            label10.Font = new Font("Yu Gothic UI Semibold", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            label10.ForeColor = Color.LimeGreen;
+            label10.Location = new Point(137, 332);
+            label10.Name = "label10";
+            label10.Size = new Size(222, 37);
+            label10.TabIndex = 2;
+            label10.Text = "!!! SAFE DRIVE !!!";
             // 
             // gradientPanel2
             // 
-            this.gradientPanel2.Angle = 0F;
-            this.gradientPanel2.BottomColor = System.Drawing.Color.Blue;
-            this.gradientPanel2.Controls.Add(this.label11);
-            this.gradientPanel2.Dock = System.Windows.Forms.DockStyle.Bottom;
-            this.gradientPanel2.Location = new System.Drawing.Point(0, 541);
-            this.gradientPanel2.Name = "gradientPanel2";
-            this.gradientPanel2.Size = new System.Drawing.Size(883, 39);
-            this.gradientPanel2.TabIndex = 4;
-            this.gradientPanel2.TopColor = System.Drawing.Color.Cyan;
+            gradientPanel2.Angle = 0F;
+            gradientPanel2.BottomColor = Color.Blue;
+            gradientPanel2.Controls.Add(label11);
+            gradientPanel2.Dock = DockStyle.Bottom;
+            gradientPanel2.Location = new Point(0, 511);
+            gradientPanel2.Name = "gradientPanel2";
+            gradientPanel2.Size = new Size(883, 39);
+            gradientPanel2.TabIndex = 4;
+            gradientPanel2.TopColor = Color.Cyan;
             // 
             // label11
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.Transparent;
-            this.label11.Font = new System.Drawing.Font("Yu Gothic UI Semilight", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label11.ForeColor = System.Drawing.Color.Silver;
-            this.label11.Location = new System.Drawing.Point(586, 10);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(262, 20);
-            this.label11.TabIndex = 0;
-            this.label11.Text = "All Rights Reserved. Bike Rental System";
+            label11.AutoSize = true;
+            label11.BackColor = Color.Transparent;
+            label11.Font = new Font("Yu Gothic UI Semilight", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
+            label11.ForeColor = Color.Silver;
+            label11.Location = new Point(586, 10);
+            label11.Name = "label11";
+            label11.Size = new Size(262, 20);
+            label11.TabIndex = 0;
+            label11.Text = "All Rights Reserved. Bike Rental System";
             // 
             // iconButton1
             // 
-            this.iconButton1.BackColor = System.Drawing.Color.DodgerBlue;
-            this.iconButton1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.iconButton1.ForeColor = System.Drawing.Color.White;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowRight;
-            this.iconButton1.IconColor = System.Drawing.Color.White;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.iconButton1.IconSize = 20;
-            this.iconButton1.ImageAlign = System.Drawing.ContentAlignment.MiddleLeft;
-            this.iconButton1.Location = new System.Drawing.Point(756, 288);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(105, 35);
-            this.iconButton1.TabIndex = 5;
-            this.iconButton1.Text = "Proceed";
-            this.iconButton1.TextImageRelation = System.Windows.Forms.TextImageRelation.TextBeforeImage;
-            this.iconButton1.UseVisualStyleBackColor = false;
+            iconButton1.BackColor = Color.DodgerBlue;
+            iconButton1.Cursor = Cursors.Hand;
+            iconButton1.FlatStyle = FlatStyle.Flat;
+            iconButton1.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
+            iconButton1.ForeColor = Color.White;
+            iconButton1.IconChar = FontAwesome.Sharp.IconChar.ArrowRight;
+            iconButton1.IconColor = Color.White;
+            iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton1.IconSize = 20;
+            iconButton1.ImageAlign = ContentAlignment.MiddleLeft;
+            iconButton1.Location = new Point(756, 288);
+            iconButton1.Name = "iconButton1";
+            iconButton1.Size = new Size(105, 35);
+            iconButton1.TabIndex = 5;
+            iconButton1.Text = "Proceed";
+            iconButton1.TextImageRelation = TextImageRelation.TextBeforeImage;
+            iconButton1.UseVisualStyleBackColor = false;
             // 
             // bunifuElipse2
             // 
-            this.bunifuElipse2.ElipseRadius = 15;
-            this.bunifuElipse2.TargetControl = this.panel1;
+            bunifuElipse2.ElipseRadius = 15;
+            bunifuElipse2.TargetControl = panel1;
             // 
             // pictureBox2
             // 
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.pictureBox2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.pictureBox2.Image = global::bikeRental.Properties.Resources.pic;
-            this.pictureBox2.Location = new System.Drawing.Point(0, 69);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Padding = new System.Windows.Forms.Padding(50);
-            this.pictureBox2.Size = new System.Drawing.Size(883, 511);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.CenterImage;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
+            pictureBox2.BackgroundImageLayout = ImageLayout.None;
+            pictureBox2.Dock = DockStyle.Fill;
+            pictureBox2.Image = Properties.Resources.pic;
+            pictureBox2.Location = new Point(0, 63);
+            pictureBox2.Name = "pictureBox2";
+            pictureBox2.Padding = new Padding(50);
+            pictureBox2.Size = new Size(883, 487);
+            pictureBox2.SizeMode = PictureBoxSizeMode.CenterImage;
+            pictureBox2.TabIndex = 1;
+            pictureBox2.TabStop = false;
+            // 
+            // iconButton3
+            // 
+            iconButton3.BackColor = Color.Transparent;
+            iconButton3.FlatAppearance.BorderSize = 0;
+            iconButton3.FlatStyle = FlatStyle.Flat;
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            iconButton3.IconColor = Color.Red;
+            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton3.IconSize = 25;
+            iconButton3.Location = new Point(860, 0);
+            iconButton3.Name = "iconButton3";
+            iconButton3.Size = new Size(20, 25);
+            iconButton3.TabIndex = 7;
+            iconButton3.UseVisualStyleBackColor = false;
+            iconButton3.Click += iconButton3_Click;
             // 
             // rulesAndRegulation
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(250)))), ((int)(((byte)(251)))), ((int)(((byte)(253)))));
-            this.ClientSize = new System.Drawing.Size(883, 580);
-            this.Controls.Add(this.iconButton1);
-            this.Controls.Add(this.gradientPanel2);
-            this.Controls.Add(this.panel1);
-            this.Controls.Add(this.pictureBox2);
-            this.Controls.Add(this.gradientPanel1);
-            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Name = "rulesAndRegulation";
-            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "rulesAndRegulation";
-            this.Load += new System.EventHandler(this.rulesAndRegulation_Load);
-            this.gradientPanel1.ResumeLayout(false);
-            this.gradientPanel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            this.panel1.ResumeLayout(false);
-            this.panel1.PerformLayout();
-            this.gradientPanel2.ResumeLayout(false);
-            this.gradientPanel2.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            this.ResumeLayout(false);
-
+            AutoScaleDimensions = new SizeF(7F, 15F);
+            AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(250, 251, 253);
+            ClientSize = new Size(883, 550);
+            Controls.Add(iconButton1);
+            Controls.Add(gradientPanel2);
+            Controls.Add(panel1);
+            Controls.Add(pictureBox2);
+            Controls.Add(gradientPanel1);
+            FormBorderStyle = FormBorderStyle.None;
+            Name = "rulesAndRegulation";
+            StartPosition = FormStartPosition.CenterScreen;
+            Text = "rulesAndRegulation";
+            Load += rulesAndRegulation_Load;
+            gradientPanel1.ResumeLayout(false);
+            gradientPanel1.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            gradientPanel2.ResumeLayout(false);
+            gradientPanel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
+            ResumeLayout(false);
         }
 
         #endregion
@@ -333,5 +350,6 @@
         private Label label11;
         private PictureBox pictureBox2;
         private Bunifu.Framework.UI.BunifuElipse bunifuElipse2;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }

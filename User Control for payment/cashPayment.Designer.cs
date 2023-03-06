@@ -55,20 +55,21 @@
             iconButton1.IconColor = Color.White;
             iconButton1.IconFont = FontAwesome.Sharp.IconFont.Auto;
             iconButton1.IconSize = 15;
-            iconButton1.Location = new Point(153, 245);
+            iconButton1.Location = new Point(159, 261);
             iconButton1.Name = "iconButton1";
             iconButton1.Size = new Size(84, 32);
             iconButton1.TabIndex = 2;
             iconButton1.Text = "Proceed";
             iconButton1.TextImageRelation = TextImageRelation.TextBeforeImage;
             iconButton1.UseVisualStyleBackColor = false;
+            iconButton1.Click += iconButton1_Click;
             // 
             // label3
             // 
             label3.AutoSize = true;
             label3.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.Black;
-            label3.Location = new Point(15, 17);
+            label3.Location = new Point(21, 33);
             label3.Name = "label3";
             label3.RightToLeft = RightToLeft.No;
             label3.Size = new Size(79, 25);
@@ -85,7 +86,7 @@
             textBox1.BackColor = Color.FromArgb(240, 241, 243);
             textBox1.BorderStyle = BorderStyle.None;
             textBox1.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox1.Location = new Point(86, 18);
+            textBox1.Location = new Point(92, 34);
             textBox1.Multiline = true;
             textBox1.Name = "textBox1";
             textBox1.Size = new Size(290, 23);
@@ -96,7 +97,7 @@
             label1.AutoSize = true;
             label1.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label1.ForeColor = Color.Black;
-            label1.Location = new Point(15, 54);
+            label1.Location = new Point(21, 70);
             label1.Name = "label1";
             label1.RightToLeft = RightToLeft.No;
             label1.Size = new Size(183, 25);
@@ -108,7 +109,7 @@
             textBox2.BackColor = Color.FromArgb(240, 241, 243);
             textBox2.BorderStyle = BorderStyle.None;
             textBox2.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox2.Location = new Point(204, 54);
+            textBox2.Location = new Point(210, 70);
             textBox2.Multiline = true;
             textBox2.Name = "textBox2";
             textBox2.Size = new Size(172, 23);
@@ -118,18 +119,18 @@
             // 
             panel1.BackColor = Color.Cyan;
             panel1.ForeColor = Color.Transparent;
-            panel1.Location = new Point(15, 96);
+            panel1.Location = new Point(21, 112);
             panel1.Name = "panel1";
-            panel1.Size = new Size(380, 2);
+            panel1.Size = new Size(370, 2);
             panel1.TabIndex = 9;
             // 
             // panel2
             // 
             panel2.BackColor = Color.Cyan;
             panel2.ForeColor = Color.Transparent;
-            panel2.Location = new Point(15, 139);
+            panel2.Location = new Point(21, 155);
             panel2.Name = "panel2";
-            panel2.Size = new Size(380, 2);
+            panel2.Size = new Size(370, 2);
             panel2.TabIndex = 9;
             // 
             // label2
@@ -137,7 +138,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label2.ForeColor = Color.Black;
-            label2.Location = new Point(15, 106);
+            label2.Location = new Point(21, 122);
             label2.Name = "label2";
             label2.RightToLeft = RightToLeft.No;
             label2.Size = new Size(138, 25);
@@ -149,7 +150,7 @@
             textBox3.BackColor = Color.FromArgb(240, 241, 243);
             textBox3.BorderStyle = BorderStyle.None;
             textBox3.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox3.Location = new Point(153, 110);
+            textBox3.Location = new Point(159, 126);
             textBox3.Multiline = true;
             textBox3.Name = "textBox3";
             textBox3.Size = new Size(223, 23);
@@ -160,7 +161,7 @@
             label4.AutoSize = true;
             label4.Font = new Font("Yu Gothic UI Semibold", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.Black;
-            label4.Location = new Point(15, 154);
+            label4.Location = new Point(21, 170);
             label4.Name = "label4";
             label4.RightToLeft = RightToLeft.No;
             label4.Size = new Size(171, 25);
@@ -172,7 +173,7 @@
             textBox4.BackColor = Color.FromArgb(240, 241, 243);
             textBox4.BorderStyle = BorderStyle.None;
             textBox4.Font = new Font("Yu Gothic UI", 11.25F, FontStyle.Regular, GraphicsUnit.Point);
-            textBox4.Location = new Point(188, 156);
+            textBox4.Location = new Point(194, 172);
             textBox4.Multiline = true;
             textBox4.Name = "textBox4";
             textBox4.Size = new Size(188, 23);
@@ -183,7 +184,7 @@
             label5.AutoSize = true;
             label5.Font = new Font("Yu Gothic UI Semilight", 9F, FontStyle.Italic, GraphicsUnit.Point);
             label5.ForeColor = Color.Teal;
-            label5.Location = new Point(101, 198);
+            label5.Location = new Point(107, 214);
             label5.Name = "label5";
             label5.RightToLeft = RightToLeft.No;
             label5.Size = new Size(182, 15);
@@ -208,7 +209,7 @@
             Controls.Add(label1);
             Controls.Add(label3);
             Name = "cashPayment";
-            Size = new Size(405, 280);
+            Size = new Size(405, 317);
             ResumeLayout(false);
             PerformLayout();
         }

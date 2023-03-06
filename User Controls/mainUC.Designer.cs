@@ -153,10 +153,10 @@ namespace bikeRental.User_Controls
             chart6.ChartAreas.Add(chartArea1);
             legend1.Name = "Legend1";
             chart6.Legends.Add(legend1);
-            chart6.Location = new Point(13, 144);
+            chart6.Location = new Point(13, 111);
             chart6.Name = "chart6";
             series1.ChartArea = "ChartArea1";
-            series1.ChartType = SeriesChartType.Doughnut;
+            series1.ChartType = SeriesChartType.Pie;
             series1.Font = new Font("Yu Gothic UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             series1.LabelForeColor = Color.White;
             series1.Legend = "Legend1";
@@ -175,9 +175,9 @@ namespace bikeRental.User_Controls
             label3.ForeColor = Color.FromArgb(0, 192, 192);
             label3.Location = new Point(13, 11);
             label3.Name = "label3";
-            label3.Size = new Size(165, 30);
+            label3.Size = new Size(146, 30);
             label3.TabIndex = 14;
-            label3.Text = "Other Functions";
+            label3.Text = "Other Activity";
             // 
             // label4
             // 

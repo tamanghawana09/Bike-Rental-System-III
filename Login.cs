@@ -56,11 +56,20 @@ namespace bikeRental
 
         private void textBox2_Leave(object sender, EventArgs e)
         {
-            if(textBox2.Text == " ")
+            if (textBox2.Text == " ")
             {
                 textBox2.Text = "Password";
                 textBox2.ForeColor = Color.White;
             }
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerHome cH = new customerHome();
+            cH.ShowDialog();
+            this.Show();
+            this.Close();
         }
     }
 }

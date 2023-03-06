@@ -73,7 +73,22 @@
     <Compile Update="rulesAndRegulation.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Update="User Control for payment\cashDayPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
     <Compile Update="User Control for payment\cashPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="User Control for payment\esewa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="User Control for payment\happyE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="User Control for payment\happyN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="User Control for payment\khalti.cs">
       <SubType>UserControl</SubType>
     </Compile>
     <Compile Update="User Controls\bikeUC.cs">

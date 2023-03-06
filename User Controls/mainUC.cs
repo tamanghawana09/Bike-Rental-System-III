@@ -21,8 +21,8 @@ namespace bikeRental.User_Controls
             InitializeComponent();
 
 
-            chart6.Series["Series1"].Points.AddXY("Petrol Bike" , "75");
-            chart6.Series["Series1"].Points.AddXY("Electric Bike" , "25");
+            chart6.Series["Series1"].Points.AddXY("Petrol Bike", "75");
+            chart6.Series["Series1"].Points.AddXY("Electric Bike", "25");
         }
 
         private void gradientPanel2_Paint(object sender, PaintEventArgs e)
@@ -84,7 +84,7 @@ namespace bikeRental.User_Controls
             petrolBike pB = new petrolBike();
             pB.ShowDialog();
             this.Show();
-            
+
         }
 
         private void bunifuTileButton2_Click(object sender, EventArgs e)
@@ -93,7 +93,7 @@ namespace bikeRental.User_Controls
             electricBike eB = new electricBike();
             eB.ShowDialog();
             this.Show();
-            
+
         }
     }
 }

@@ -134,5 +134,10 @@ namespace bikeRental
             eB.ShowDialog();
             this.Show();
         }
+
+        private void iconButton3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }

@@ -52,6 +52,7 @@
             bunifuTileButton3 = new Bunifu.Framework.UI.BunifuTileButton();
             bunifuTileButton2 = new Bunifu.Framework.UI.BunifuTileButton();
             panel2 = new Panel();
+            iconButton3 = new FontAwesome.Sharp.IconButton();
             label2 = new Label();
             bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             label3 = new Label();
@@ -358,12 +359,29 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(iconButton3);
             panel2.Controls.Add(label2);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(933, 57);
             panel2.TabIndex = 48;
+            // 
+            // iconButton3
+            // 
+            iconButton3.BackColor = Color.Transparent;
+            iconButton3.FlatAppearance.BorderSize = 0;
+            iconButton3.FlatStyle = FlatStyle.Flat;
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            iconButton3.IconColor = Color.Red;
+            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton3.IconSize = 25;
+            iconButton3.Location = new Point(910, 3);
+            iconButton3.Name = "iconButton3";
+            iconButton3.Size = new Size(20, 25);
+            iconButton3.TabIndex = 52;
+            iconButton3.UseVisualStyleBackColor = false;
+            iconButton3.Click += iconButton3_Click;
             // 
             // label2
             // 
@@ -459,5 +477,6 @@
         private Label label2;
         private Bunifu.Framework.UI.BunifuTileButton bunifuTileButton1;
         private Label label3;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }

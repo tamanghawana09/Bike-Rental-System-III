@@ -57,6 +57,7 @@
             bunifuTileButton7 = new Bunifu.Framework.UI.BunifuTileButton();
             bunifuTileButton6 = new Bunifu.Framework.UI.BunifuTileButton();
             panel2 = new Panel();
+            iconButton3 = new FontAwesome.Sharp.IconButton();
             label1 = new Label();
             bunifuTileButton1 = new Bunifu.Framework.UI.BunifuTileButton();
             label2 = new Label();
@@ -468,12 +469,29 @@
             // panel2
             // 
             panel2.BackColor = Color.White;
+            panel2.Controls.Add(iconButton3);
             panel2.Controls.Add(label1);
             panel2.Dock = DockStyle.Top;
             panel2.Location = new Point(0, 0);
             panel2.Name = "panel2";
             panel2.Size = new Size(933, 57);
             panel2.TabIndex = 48;
+            // 
+            // iconButton3
+            // 
+            iconButton3.BackColor = Color.Transparent;
+            iconButton3.FlatAppearance.BorderSize = 0;
+            iconButton3.FlatStyle = FlatStyle.Flat;
+            iconButton3.IconChar = FontAwesome.Sharp.IconChar.CircleMinus;
+            iconButton3.IconColor = Color.Red;
+            iconButton3.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            iconButton3.IconSize = 25;
+            iconButton3.Location = new Point(910, 3);
+            iconButton3.Name = "iconButton3";
+            iconButton3.Size = new Size(20, 25);
+            iconButton3.TabIndex = 52;
+            iconButton3.UseVisualStyleBackColor = false;
+            iconButton3.Click += iconButton3_Click;
             // 
             // label1
             // 
@@ -574,5 +592,6 @@
         private gradientPanel gradientPanel3;
         private gradientPanel gradientPanel2;
         private Label label11;
+        private FontAwesome.Sharp.IconButton iconButton3;
     }
 }

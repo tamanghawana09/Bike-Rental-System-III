@@ -24,6 +24,7 @@ namespace bikeRental.User_Controls
             petrolBike pB = new petrolBike();
             pB.ShowDialog();
             this.Show();
+            
 
             //petrolUC uc = new petrolUC();
             //uc.Dock = DockStyle.Fill;

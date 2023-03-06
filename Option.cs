@@ -31,5 +31,23 @@ namespace bikeRental
         {
             this.Close();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            perHourPayment pH = new perHourPayment();
+            pH.ShowDialog();
+            this.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            perDayPayment pD = new perDayPayment();
+            pD.ShowDialog();
+            this.Show();
+            this.Close();
+        }
     }
 }
