@@ -1376,6 +1376,15 @@
             "related": ".pdb;.Utilities.pdb;.Utilities.xml;.xml"
           }
         }
+      },
+      "AdminRentalUI/1.0.0": {
+        "type": "project",
+        "compile": {
+          "bin/placeholder/AdminRentalUI.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AdminRentalUI.dll": {}
+        }
       }
     }
   },
@@ -3428,10 +3437,16 @@
         "winforms.datavisualization.1.7.0.nupkg.sha512",
         "winforms.datavisualization.nuspec"
       ]
+    },
+    "AdminRentalUI/1.0.0": {
+      "type": "project",
+      "path": "../AdminRentalUI-2/AdminRentalUI/AdminRentalUI.csproj",
+      "msbuildProject": "../AdminRentalUI-2/AdminRentalUI/AdminRentalUI.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0-windows7.0": [
+      "AdminRentalUI >= 1.0.0",
       "Bunifu.Licensing >= 5.0.0",
       "Bunifu.UI.WinForms >= 6.0.2",
       "CircularProgressBar >= 2.8.0.16",
@@ -3471,7 +3486,11 @@
       "frameworks": {
         "net6.0-windows7.0": {
           "targetAlias": "net6.0-windows",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj": {
+              "projectPath": "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

@@ -4,6 +4,21 @@
     "C:\\Customer UI\\C-Sharp-UI\\bikeRental.csproj": {}
   },
   "projects": {
+    "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj",
+        "projectName": "AdminRentalUI",
+        "projectPath": "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
+      }
+    },
     "C:\\Customer UI\\C-Sharp-UI\\bikeRental.csproj": {
       "version": "1.0.0",
       "restore": {
@@ -31,7 +46,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj": {
+                "projectPath": "C:\\Customer UI\\AdminRentalUI-2\\AdminRentalUI\\AdminRentalUI.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
