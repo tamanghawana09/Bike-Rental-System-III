@@ -8,12 +8,17 @@
     ".NETCoreApp,Version=v6.0": {
       "bikeRental/1.0.0": {
         "dependencies": {
+          "AdminRentalUI": "1.0.0",
           "Bunifu.Licensing": "5.0.0",
           "Bunifu.UI.WinForms": "6.0.2",
           "CircularProgressBar": "2.8.0.16",
           "FontAwesome": "4.7.0",
           "FontAwesome.Sharp": "6.2.1",
-          "WinForms.DataVisualization": "1.7.0"
+          "WinForms.DataVisualization": "1.7.0",
+          "Fody.Reference": "4.0.2.0",
+          "Guna.UI2": "2.0.1.4",
+          "MetroFramework": "1.4.0.0",
+          "Siticone.Desktop.UI": "2.1.1.0"
         },
         "runtime": {
           "bikeRental.dll": {}
@@ -806,6 +811,67 @@
             "fileVersion": "1.7.0.0"
           }
         }
+      },
+      "AdminRentalUI/1.0.0": {
+        "runtime": {
+          "AdminRentalUI.exe": {}
+        }
+      },
+      "Fody.Reference/4.0.2.0": {
+        "runtime": {
+          "Fody.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "Guna.UI2/2.0.1.4": {
+        "runtime": {
+          "Guna.UI2.dll": {
+            "assemblyVersion": "2.0.1.4",
+            "fileVersion": "2.0.1.4"
+          }
+        }
+      },
+      "MetroFramework/1.4.0.0": {
+        "runtime": {
+          "MetroFramework.dll": {
+            "assemblyVersion": "1.4.0.0",
+            "fileVersion": "1.4.0.0"
+          }
+        }
+      },
+      "Siticone.Desktop.UI/2.1.1.0": {
+        "runtime": {
+          "Siticone.Desktop.UI.dll": {
+            "assemblyVersion": "2.1.1.0",
+            "fileVersion": "2.1.1.0"
+          }
+        }
+      },
+      "FodyCommon/4.0.2.0": {
+        "runtime": {
+          "FodyCommon.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "FodyHelpers/4.0.2.0": {
+        "runtime": {
+          "FodyHelpers.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.0.2.0"
+          }
+        }
+      },
+      "Mono.Cecil/0.10.0.0": {
+        "runtime": {
+          "Mono.Cecil.dll": {
+            "assemblyVersion": "0.10.0.0",
+            "fileVersion": "0.10.0.0"
+          }
+        }
       }
     }
   },
@@ -1304,6 +1370,46 @@
       "sha512": "sha512-ws9wkGa3df+Bij7mvXdm73WrijAi+3rA8hrMfANZqAkhwqlCfSWaFo+xNsnOzyDLCaPNrQ/fkq1/HAWuEpUiTA==",
       "path": "winforms.datavisualization/1.7.0",
       "hashPath": "winforms.datavisualization.1.7.0.nupkg.sha512"
+    },
+    "AdminRentalUI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Fody.Reference/4.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Guna.UI2/2.0.1.4": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MetroFramework/1.4.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Siticone.Desktop.UI/2.1.1.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FodyCommon/4.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FodyHelpers/4.0.2.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "Mono.Cecil/0.10.0.0": {
+      "type": "reference",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

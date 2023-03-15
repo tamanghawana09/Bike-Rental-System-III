@@ -22,6 +22,40 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\AdminRentalUI-2\AdminRentalUI\AdminRentalUI.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing">
+      <HintPath>..\..\AdminRentalUI-2\packages\Bunifu.Licensing.5.0.0\lib\net6.0-windows7.0\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms">
+      <HintPath>..\..\AdminRentalUI-2\packages\Bunifu.UI.WinForms.6.0.1\lib\net40\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3">
+      <HintPath>..\..\AdminRentalUI-2\packages\Bunifu.UI.WinForms.1.5.3.1.0.0\lib\net6.0-windows7.0\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="Fody">
+      <HintPath>..\..\C--UI\packages\Fody.4.0.2\netstandardtask\Fody.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2">
+      <HintPath>..\..\C--UI\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework">
+      <HintPath>..\..\C--UI\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json">
+      <HintPath>..\..\C--UI\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="RestSharp">
+      <HintPath>..\..\C--UI\packages\RestSharpSigned.105.2.3\lib\net4\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.Desktop.UI">
+      <HintPath>..\..\AdminRentalUI-2\packages\Siticone.Desktop.UI.2.1.1\lib\net40\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Update="Properties\Resources.Designer.cs">
       <DesignTime>True</DesignTime>
       <AutoGen>True</AutoGen>
