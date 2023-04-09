@@ -556,6 +556,3 @@ C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\FodyCommon.dll
 C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\FodyHelpers.dll
 C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\Mono.Cecil.dll
 C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\Mono.Cecil.pdb
-C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\AdminRentalUI.exe
-C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\AdminRentalUI.pdb
-C:\Customer UI\C-Sharp-UI\bin\Debug\net6.0-windows\AdminRentalUI.exe.config

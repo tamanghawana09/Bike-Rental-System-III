@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v6.0": {
       "bikeRental/1.0.0": {
         "dependencies": {
-          "AdminRentalUI": "1.0.0",
           "Bunifu.Licensing": "5.0.0",
           "Bunifu.UI.WinForms": "6.0.2",
           "CircularProgressBar": "2.8.0.16",
@@ -812,11 +811,6 @@
           }
         }
       },
-      "AdminRentalUI/1.0.0": {
-        "runtime": {
-          "AdminRentalUI.exe": {}
-        }
-      },
       "Fody.Reference/4.0.2.0": {
         "runtime": {
           "Fody.dll": {
@@ -1370,11 +1364,6 @@
       "sha512": "sha512-ws9wkGa3df+Bij7mvXdm73WrijAi+3rA8hrMfANZqAkhwqlCfSWaFo+xNsnOzyDLCaPNrQ/fkq1/HAWuEpUiTA==",
       "path": "winforms.datavisualization/1.7.0",
       "hashPath": "winforms.datavisualization.1.7.0.nupkg.sha512"
-    },
-    "AdminRentalUI/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
     },
     "Fody.Reference/4.0.2.0": {
       "type": "reference",
