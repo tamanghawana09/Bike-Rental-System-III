@@ -27,7 +27,11 @@
         "frameworks": {
           "net6.0-windows7.0": {
             "targetAlias": "net6.0-windows",
-            "projectReferences": {}
+            "projectReferences": {
+              "C:\\Customer UI\\Rental-System\\AdminRentalUI\\AdminRentalUI.csproj": {
+                "projectPath": "C:\\Customer UI\\Rental-System\\AdminRentalUI\\AdminRentalUI.csproj"
+              }
+            }
           }
         },
         "warningProperties": {
@@ -86,6 +90,21 @@
           },
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
         }
+      }
+    },
+    "C:\\Customer UI\\Rental-System\\AdminRentalUI\\AdminRentalUI.csproj": {
+      "restore": {
+        "projectUniqueName": "C:\\Customer UI\\Rental-System\\AdminRentalUI\\AdminRentalUI.csproj",
+        "projectName": "AdminRentalUI",
+        "projectPath": "C:\\Customer UI\\Rental-System\\AdminRentalUI\\AdminRentalUI.csproj",
+        "frameworks": {
+          "net48": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "net48": {}
       }
     }
   }
