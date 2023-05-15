@@ -1,0 +1,653 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props" Condition="Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>AdminRentalUI</RootNamespace>
+    <AssemblyName>AdminRentalUI</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>Screenshot_7 %286%29.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Bunifu.Licensing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=f89b4760ba7dcb6b, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.Licensing.5.0.0\lib\net40\Bunifu.Licensing.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms, Version=0.0.0.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.6.0.1\lib\net40\Bunifu.UI.WinForms.dll</HintPath>
+    </Reference>
+    <Reference Include="Bunifu.UI.WinForms.1.5.3, Version=1.5.3.0, Culture=neutral, PublicKeyToken=e8e24ccd28363fe9, processorArchitecture=MSIL">
+      <HintPath>..\packages\Bunifu.UI.WinForms.1.5.3.1.0.0\lib\net40\Bunifu.UI.WinForms.1.5.3.dll</HintPath>
+    </Reference>
+    <Reference Include="CircularProgressBar, Version=2.8.0.16, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\CircularProgressBar.2.8.0.16\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="Costura, Version=3.3.3.0, Culture=neutral, PublicKeyToken=9919ef960d84173d, processorArchitecture=MSIL">
+      <HintPath>..\packages\Costura.Fody.3.3.3\lib\net40\Costura.dll</HintPath>
+    </Reference>
+    <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
+      <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Design, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Design.dll</HintPath>
+    </Reference>
+    <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="PresentationCore" />
+    <Reference Include="PresentationFramework" />
+    <Reference Include="RestSharp, Version=100.0.0.0, Culture=neutral, PublicKeyToken=598062e77f915f75, processorArchitecture=MSIL">
+      <HintPath>..\packages\RestSharpSigned.105.2.3\lib\net46\RestSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Siticone.Desktop.UI, Version=2.1.1.0, Culture=neutral, PublicKeyToken=9683591576b7f0b4, processorArchitecture=MSIL">
+      <HintPath>..\packages\Siticone.Desktop.UI.2.1.1\lib\net40\Siticone.Desktop.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Net" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xaml" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WindowsBase" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>..\packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="adminLoginUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="adminLoginUI.Designer.cs">
+      <DependentUpon>adminLoginUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="bikeAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bikeAdd.Designer.cs">
+      <DependentUpon>bikeAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="BookingAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BookingAdd.Designer.cs">
+      <DependentUpon>BookingAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CustomerAdd.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CustomerAdd.Designer.cs">
+      <DependentUpon>CustomerAdd.cs</DependentUpon>
+    </Compile>
+    <Compile Include="customerView.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="customerView.Designer.cs">
+      <DependentUpon>customerView.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\customerHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\customerHome.Designer.cs">
+      <DependentUpon>customerHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\customerLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\customerLogin.Designer.cs">
+      <DependentUpon>customerLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\electricBike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\electricBike.Designer.cs">
+      <DependentUpon>electricBike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Option.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Option.Designer.cs">
+      <DependentUpon>Option.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\perDayPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\perDayPayment.Designer.cs">
+      <DependentUpon>perDayPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\perHourPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\perHourPayment.Designer.cs">
+      <DependentUpon>perHourPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\petrolBike.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\petrolBike.Designer.cs">
+      <DependentUpon>petrolBike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\rulesAndRegulationcs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\rulesAndRegulationcs.Designer.cs">
+      <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard.Designer.cs">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Dashboard2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dashboard2.Designer.cs">
+      <DependentUpon>Dashboard2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\eBike1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\eBike1.Designer.cs">
+      <DependentUpon>eBike1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\eBike2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\eBike2.Designer.cs">
+      <DependentUpon>eBike2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\eBike3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\eBike3.Designer.cs">
+      <DependentUpon>eBike3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\eBike4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\eBike4.Designer.cs">
+      <DependentUpon>eBike4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\eBike5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\eBike5.Designer.cs">
+      <DependentUpon>eBike5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formBookingDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formBookingDetails.Designer.cs">
+      <DependentUpon>formBookingDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormCustomers.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormCustomers.Designer.cs">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formDashboard.Designer.cs">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formSetting.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formSetting.Designer.cs">
+      <DependentUpon>formSetting.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formBikeList.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formBikeList.Designer.cs">
+      <DependentUpon>formBikeList.cs</DependentUpon>
+    </Compile>
+    <Compile Include="GradientButton.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="gradientPanel.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="MyComboBox.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike1.Designer.cs">
+      <DependentUpon>pBike1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike10.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike10.Designer.cs">
+      <DependentUpon>pBike10.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike2.Designer.cs">
+      <DependentUpon>pBike2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike3.Designer.cs">
+      <DependentUpon>pBike3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike4.Designer.cs">
+      <DependentUpon>pBike4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike5.Designer.cs">
+      <DependentUpon>pBike5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike6cs.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike6cs.Designer.cs">
+      <DependentUpon>pBike6cs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike7.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike7.Designer.cs">
+      <DependentUpon>pBike7.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike8.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike8.Designer.cs">
+      <DependentUpon>pBike8.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike9.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Petrol Bike UC\pBike9.Designer.cs">
+      <DependentUpon>pBike9.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="User Control for Payment\cashDayPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\cashDayPayment.Designer.cs">
+      <DependentUpon>cashDayPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control for Payment\cashHourPayment.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\cashHourPayment.Designer.cs">
+      <DependentUpon>cashHourPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control for Payment\esewa.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\esewa.Designer.cs">
+      <DependentUpon>esewa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control for Payment\happyE.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\happyE.Designer.cs">
+      <DependentUpon>happyE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control for Payment\happyN.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\happyN.Designer.cs">
+      <DependentUpon>happyN.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Control for Payment\khalti.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Control for Payment\khalti.Designer.cs">
+      <DependentUpon>khalti.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\bikeUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\bikeUC.Designer.cs">
+      <DependentUpon>bikeUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\helpUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\helpUC.Designer.cs">
+      <DependentUpon>helpUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\logoutUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\logoutUC.Designer.cs">
+      <DependentUpon>logoutUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\mainUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\mainUC.Designer.cs">
+      <DependentUpon>mainUC.cs</DependentUpon>
+    </Compile>
+    <Compile Include="User Controls\profileUC.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="User Controls\profileUC.Designer.cs">
+      <DependentUpon>profileUC.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="adminLoginUI.resx">
+      <DependentUpon>adminLoginUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="bikeAdd.resx">
+      <DependentUpon>bikeAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BookingAdd.resx">
+      <DependentUpon>BookingAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CustomerAdd.resx">
+      <DependentUpon>CustomerAdd.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="customerView.resx">
+      <DependentUpon>customerView.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\customerHome.resx">
+      <DependentUpon>customerHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\customerLogin.resx">
+      <DependentUpon>customerLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\electricBike.resx">
+      <DependentUpon>electricBike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Option.resx">
+      <DependentUpon>Option.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\perDayPayment.resx">
+      <DependentUpon>perDayPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\perHourPayment.resx">
+      <DependentUpon>perHourPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\petrolBike.resx">
+      <DependentUpon>petrolBike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
+      <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard.resx">
+      <DependentUpon>Dashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Dashboard2.resx">
+      <DependentUpon>Dashboard2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\eBike1.resx">
+      <DependentUpon>eBike1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\eBike2.resx">
+      <DependentUpon>eBike2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\eBike3.resx">
+      <DependentUpon>eBike3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\eBike4.resx">
+      <DependentUpon>eBike4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\eBike5.resx">
+      <DependentUpon>eBike5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formBookingDetails.resx">
+      <DependentUpon>formBookingDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormCustomers.resx">
+      <DependentUpon>FormCustomers.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formDashboard.resx">
+      <DependentUpon>formDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formSetting.resx">
+      <DependentUpon>formSetting.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formBikeList.resx">
+      <DependentUpon>formBikeList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike1.resx">
+      <DependentUpon>pBike1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike10.resx">
+      <DependentUpon>pBike10.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike2.resx">
+      <DependentUpon>pBike2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike3.resx">
+      <DependentUpon>pBike3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike4.resx">
+      <DependentUpon>pBike4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike5.resx">
+      <DependentUpon>pBike5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike6cs.resx">
+      <DependentUpon>pBike6cs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike7.resx">
+      <DependentUpon>pBike7.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike8.resx">
+      <DependentUpon>pBike8.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Petrol Bike UC\pBike9.resx">
+      <DependentUpon>pBike9.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="User Control for Payment\cashDayPayment.resx">
+      <DependentUpon>cashDayPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control for Payment\cashHourPayment.resx">
+      <DependentUpon>cashHourPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control for Payment\esewa.resx">
+      <DependentUpon>esewa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control for Payment\happyE.resx">
+      <DependentUpon>happyE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control for Payment\happyN.resx">
+      <DependentUpon>happyN.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Control for Payment\khalti.resx">
+      <DependentUpon>khalti.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\bikeUC.resx">
+      <DependentUpon>bikeUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\helpUC.resx">
+      <DependentUpon>helpUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\logoutUC.resx">
+      <DependentUpon>logoutUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\mainUC.resx">
+      <DependentUpon>mainUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="User Controls\profileUC.resx">
+      <DependentUpon>profileUC.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginBackground.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\user.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled-11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\diagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calendar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Conact.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\money-bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\chart-diagram.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\car %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motorcycle.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\motorcycle-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\add-2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\PNGPIX-COM-Kawasaki-Ninja-300-ABS-Motorcycle-Bike-PNG-Image-3439134370.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blurry-gradient-haikei.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1.png" />
+    <None Include="Resources\5.jpg" />
+    <None Include="Resources\mt.jpg" />
+    <None Include="Resources\Super Soco.jpg" />
+    <None Include="Resources\Logo.png" />
+    <None Include="Resources\pic.jpg" />
+    <None Include="Resources\HJ250.jpg" />
+    <None Include="Resources\CRF.jpg" />
+    <None Include="Resources\CX.jpg" />
+    <None Include="Resources\Cobra CX.jpg" />
+    <None Include="Resources\REH.jpg" />
+    <None Include="Resources\Tracker250.jpg" />
+    <None Include="Resources\KTM390.jpg" />
+    <None Include="Resources\REC.jpg" />
+    <None Include="Resources\NS.jpg" />
+    <None Include="Resources\Jawa 42.jpg" />
+    <None Include="Resources\Y.jpg" />
+    <None Include="Resources\niu.jpg" />
+    <None Include="Resources\Bella.jpg" />
+    <None Include="Resources\Yadea.jpg" />
+    <None Include="Resources\Cash.png" />
+    <None Include="Resources\esewa.png" />
+    <None Include="Resources\khalti1.png" />
+    <None Include="Resources\ebanner.jpg" />
+    <None Include="Resources\esewa QR.jpg" />
+    <None Include="Resources\kbanner.jpg" />
+    <None Include="Resources\khalti.png" />
+    <None Include="Resources\khalti QR.jpg" />
+    <None Include="Resources\smile.png" />
+    <Content Include="Screenshot_7 %286%29.ico" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\Fody.4.0.2\build\Fody.targets" Condition="Exists('..\packages\Fody.4.0.2\build\Fody.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Fody.4.0.2\build\Fody.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Fody.4.0.2\build\Fody.targets'))" />
+    <Error Condition="!Exists('..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Costura.Fody.3.3.3\build\Costura.Fody.props'))" />
+  </Target>
+</Project>
