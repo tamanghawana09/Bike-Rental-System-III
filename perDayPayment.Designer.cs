@@ -153,6 +153,7 @@
             label5.Size = new Size(257, 45);
             label5.TabIndex = 40;
             label5.Text = "Payment Option";
+            label5.Click += label5_Click;
             // 
             // panelContainer
             // 

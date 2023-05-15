@@ -5,8 +5,6 @@ VisualStudioVersion = 17.4.33213.308
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "bikeRental", "bikeRental.csproj", "{4F8FAC79-AAB5-492A-BDD1-562E2E0BB38E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdminRentalUI", "..\Rental-System\AdminRentalUI\AdminRentalUI.csproj", "{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,10 +15,6 @@ Global
 		{4F8FAC79-AAB5-492A-BDD1-562E2E0BB38E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4F8FAC79-AAB5-492A-BDD1-562E2E0BB38E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4F8FAC79-AAB5-492A-BDD1-562E2E0BB38E}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E2AD2158-F593-4A5B-B3A3-03E7841E9BD3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
