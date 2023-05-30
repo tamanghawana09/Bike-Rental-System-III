@@ -17,7 +17,7 @@ namespace AdminRentalUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new adminLoginUI());
+            Application.Run(new QRCodeGenerator());
         }
     }
 }
