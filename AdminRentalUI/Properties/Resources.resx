@@ -151,6 +151,9 @@
   <data name="calendar" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\calendar.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\smile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="chart-diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\chart-diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -168,6 +171,9 @@
   </data>
   <data name="PNGPIX-COM-Kawasaki-Ninja-300-ABS-Motorcycle-Bike-PNG-Image-3439134370" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\PNGPIX-COM-Kawasaki-Ninja-300-ABS-Motorcycle-Bike-PNG-Image-3439134370.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Cash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="car" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\car.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -208,8 +214,8 @@
   <data name="HJ250" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\HJ250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="NS" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\NS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="ebanner" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\ebanner.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -229,9 +235,6 @@
   <data name="motorcycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motorcycle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="REC" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
   <data name="lock" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\lock.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -241,14 +244,14 @@
   <data name="Bella" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bella.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cash" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cash.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="diagram" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\diagram.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="add-2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add-2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="NS" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\NS.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="REC" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\REC.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="loginBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -259,7 +262,7 @@
   <data name="blurry-gradient-haikei" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blurry-gradient-haikei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="smile" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\smile.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

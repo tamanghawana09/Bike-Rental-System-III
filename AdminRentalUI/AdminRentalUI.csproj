@@ -57,6 +57,9 @@
     <Reference Include="FontAwesome.Sharp, Version=6.3.0.0, Culture=neutral, PublicKeyToken=d16d1e4e568ec10f, processorArchitecture=MSIL">
       <HintPath>..\packages\FontAwesome.Sharp.6.3.0\lib\net48\FontAwesome.Sharp.dll</HintPath>
     </Reference>
+    <Reference Include="Guna.UI">
+      <HintPath>..\..\UI\Guna.UI-Framework-Lib-master\Guna.UI WinForms\.net 4.0\Guna.UI.dll</HintPath>
+    </Reference>
     <Reference Include="Guna.UI2, Version=2.0.1.4, Culture=neutral, processorArchitecture=MSIL">
       <HintPath>..\packages\Guna.UI2.WinForms.2.0.1.4\lib\net40\Guna.UI2.dll</HintPath>
     </Reference>
@@ -69,6 +72,7 @@
     <Reference Include="MetroFramework.Fonts, Version=1.4.0.0, Culture=neutral, PublicKeyToken=5f91a84759bf584a, processorArchitecture=MSIL">
       <HintPath>..\packages\MetroModernUI.1.4.0.0\lib\net\MetroFramework.Fonts.dll</HintPath>
     </Reference>
+    <Reference Include="Microsoft.VisualBasic" />
     <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
@@ -147,17 +151,17 @@
     <Compile Include="Customer\customerHome.Designer.cs">
       <DependentUpon>customerHome.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\customerLogin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Customer\customerLogin.Designer.cs">
-      <DependentUpon>customerLogin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Customer\electricBike.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer\electricBike.Designer.cs">
       <DependentUpon>electricBike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\newLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\newLogin.Designer.cs">
+      <DependentUpon>newLogin.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\Option.cs">
       <SubType>Form</SubType>
@@ -188,6 +192,18 @@
     </Compile>
     <Compile Include="Customer\rulesAndRegulationcs.Designer.cs">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\signin.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customer\signin.Designer.cs">
+      <DependentUpon>signin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\signup.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Customer\signup.Designer.cs">
+      <DependentUpon>signup.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -422,11 +438,11 @@
     <EmbeddedResource Include="Customer\customerHome.resx">
       <DependentUpon>customerHome.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\customerLogin.resx">
-      <DependentUpon>customerLogin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Customer\electricBike.resx">
       <DependentUpon>electricBike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\newLogin.resx">
+      <DependentUpon>newLogin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Option.resx">
       <DependentUpon>Option.cs</DependentUpon>
@@ -442,6 +458,12 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\signin.resx">
+      <DependentUpon>signin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\signup.resx">
+      <DependentUpon>signup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -656,6 +678,7 @@
     <None Include="Resources\khalti.png" />
     <None Include="Resources\khalti QR.jpg" />
     <None Include="Resources\smile.png" />
+    <None Include="Resources\bg.jpg" />
     <Content Include="Screenshot_7 %286%29.ico" />
   </ItemGroup>
   <ItemGroup />
