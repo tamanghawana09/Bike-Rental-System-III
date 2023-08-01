@@ -24,5 +24,147 @@ namespace AdminRentalUI.Customer
         {
             this.Close();
         }
+
+        private void panel8_Paint(object sender, PaintEventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label15_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void panel10_Paint(object sender, PaintEventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label14_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+            
+        }
+
+        private void label12_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void panel5_Paint(object sender, PaintEventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void motorcycleBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Bikes b = new Bikes();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile p = new Profile();
+            p.ShowDialog();
+            p.Show();
+        }
+
+        private void label13_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            home h = new home();
+            h.ShowDialog();
+            h.Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+            this.Hide();
+            Profile p = new Profile();
+            p.ShowDialog();
+            p.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile p = new Profile();
+            p.ShowDialog();
+            p.Show();
+        }
+
+        private void userButton_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile p = new Profile();
+            p.ShowDialog();
+            p.Show();
+        }
+
+        private void homeBtn_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            home h = new home();
+            h.ShowDialog();
+            h.Show();
+        }
     }
 }

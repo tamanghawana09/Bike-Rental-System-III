@@ -56,9 +56,9 @@
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
             this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(-11, 109);
+            this.pictureBox2.Location = new System.Drawing.Point(2, 109);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(722, 603);
+            this.pictureBox2.Size = new System.Drawing.Size(709, 603);
             this.pictureBox2.TabIndex = 1;
             this.pictureBox2.TabStop = false;
             // 
@@ -75,11 +75,12 @@
             // 
             // pictureBox3
             // 
-            this.pictureBox3.BackgroundImage = global::AdminRentalUI.Properties.Resources.Logo;
             this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox3.Image = global::AdminRentalUI.Properties.Resources.Logo;
             this.pictureBox3.Location = new System.Drawing.Point(2, 0);
             this.pictureBox3.Name = "pictureBox3";
             this.pictureBox3.Size = new System.Drawing.Size(90, 88);
+            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox3.TabIndex = 3;
             this.pictureBox3.TabStop = false;
             // 

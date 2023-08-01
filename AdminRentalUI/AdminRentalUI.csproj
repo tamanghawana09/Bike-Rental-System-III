@@ -193,12 +193,6 @@
     <Compile Include="Customer\rulesAndRegulationcs.Designer.cs">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\signin.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Customer\signin.Designer.cs">
-      <DependentUpon>signin.cs</DependentUpon>
-    </Compile>
     <Compile Include="Customer\signup.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -427,9 +421,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Customer\signin.resx">
-      <DependentUpon>signin.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\signup.resx">
       <DependentUpon>signup.cs</DependentUpon>

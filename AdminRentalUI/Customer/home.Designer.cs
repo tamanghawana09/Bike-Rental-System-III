@@ -28,23 +28,29 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea3 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend3 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series3 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea7 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend7 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series7 = new System.Windows.Forms.DataVisualization.Charting.Series();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(home));
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.panel3 = new System.Windows.Forms.Panel();
-            this.panel4 = new System.Windows.Forms.Panel();
-            this.panel5 = new System.Windows.Forms.Panel();
-            this.panel6 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.logoutBtn = new FontAwesome.Sharp.IconButton();
+            this.label6 = new System.Windows.Forms.Label();
+            this.panel6 = new System.Windows.Forms.Panel();
+            this.helpBtn = new FontAwesome.Sharp.IconButton();
+            this.label5 = new System.Windows.Forms.Label();
+            this.panel5 = new System.Windows.Forms.Panel();
+            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
+            this.label4 = new System.Windows.Forms.Label();
+            this.panel4 = new System.Windows.Forms.Panel();
+            this.homeBtn = new FontAwesome.Sharp.IconButton();
+            this.label3 = new System.Windows.Forms.Label();
+            this.panel3 = new System.Windows.Forms.Panel();
+            this.userButton = new FontAwesome.Sharp.IconButton();
+            this.label2 = new System.Windows.Forms.Label();
+            this.panel2 = new System.Windows.Forms.Panel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -58,8 +64,10 @@
             this.label12 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
             this.panel8 = new System.Windows.Forms.Panel();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
+            this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.label15 = new System.Windows.Forms.Label();
             this.panel11 = new System.Windows.Forms.Panel();
             this.label16 = new System.Windows.Forms.Label();
@@ -69,38 +77,30 @@
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.panel14 = new System.Windows.Forms.Panel();
             this.userName = new System.Windows.Forms.Label();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.logoutBtn = new FontAwesome.Sharp.IconButton();
-            this.helpBtn = new FontAwesome.Sharp.IconButton();
-            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
-            this.homeBtn = new FontAwesome.Sharp.IconButton();
-            this.userButton = new FontAwesome.Sharp.IconButton();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
             this.panel15 = new System.Windows.Forms.Panel();
+            this.pictureBox5 = new System.Windows.Forms.PictureBox();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel1.SuspendLayout();
-            this.panel3.SuspendLayout();
-            this.panel4.SuspendLayout();
-            this.panel5.SuspendLayout();
-            this.panel6.SuspendLayout();
             this.panel7.SuspendLayout();
+            this.panel6.SuspendLayout();
+            this.panel5.SuspendLayout();
+            this.panel4.SuspendLayout();
+            this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.panel9.SuspendLayout();
             this.panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel10.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel11.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel13.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // panel1
@@ -120,68 +120,31 @@
             this.panel1.Size = new System.Drawing.Size(255, 815);
             this.panel1.TabIndex = 0;
             // 
-            // label1
+            // panel7
             // 
-            this.label1.AutoSize = true;
-            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(244)))), ((int)(((byte)(203)))));
-            this.label1.Location = new System.Drawing.Point(66, 25);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(186, 28);
-            this.label1.TabIndex = 3;
-            this.label1.Text = "Bike Rental System";
+            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel7.Controls.Add(this.logoutBtn);
+            this.panel7.Controls.Add(this.label6);
+            this.panel7.Location = new System.Drawing.Point(0, 758);
+            this.panel7.Name = "panel7";
+            this.panel7.Size = new System.Drawing.Size(256, 57);
+            this.panel7.TabIndex = 10;
             // 
-            // panel2
+            // logoutBtn
             // 
-            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(244)))), ((int)(((byte)(203)))));
-            this.panel2.Location = new System.Drawing.Point(3, 75);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(249, 5);
-            this.panel2.TabIndex = 4;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(94, 15);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(71, 28);
-            this.label2.TabIndex = 3;
-            this.label2.Text = "Profile";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(91, 15);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(110, 28);
-            this.label3.TabIndex = 3;
-            this.label3.Text = "Dashboard";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.White;
-            this.label4.Location = new System.Drawing.Point(88, 15);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(60, 28);
-            this.label4.TabIndex = 3;
-            this.label4.Text = "Bikes";
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label5.ForeColor = System.Drawing.Color.White;
-            this.label5.Location = new System.Drawing.Point(91, 11);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(55, 28);
-            this.label5.TabIndex = 3;
-            this.label5.Text = "Help";
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
+            this.logoutBtn.IconColor = System.Drawing.Color.White;
+            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.logoutBtn.IconSize = 27;
+            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
+            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
+            this.logoutBtn.TabIndex = 9;
+            this.logoutBtn.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -194,15 +157,82 @@
             this.label6.TabIndex = 3;
             this.label6.Text = "Log Out";
             // 
-            // panel3
+            // panel6
             // 
-            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel3.Controls.Add(this.userButton);
-            this.panel3.Controls.Add(this.label2);
-            this.panel3.Location = new System.Drawing.Point(0, 198);
-            this.panel3.Name = "panel3";
-            this.panel3.Size = new System.Drawing.Size(256, 57);
-            this.panel3.TabIndex = 10;
+            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel6.Controls.Add(this.helpBtn);
+            this.panel6.Controls.Add(this.label5);
+            this.panel6.Location = new System.Drawing.Point(0, 387);
+            this.panel6.Name = "panel6";
+            this.panel6.Size = new System.Drawing.Size(256, 57);
+            this.panel6.TabIndex = 10;
+            // 
+            // helpBtn
+            // 
+            this.helpBtn.FlatAppearance.BorderSize = 0;
+            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
+            this.helpBtn.IconColor = System.Drawing.Color.White;
+            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.helpBtn.IconSize = 27;
+            this.helpBtn.Location = new System.Drawing.Point(44, 11);
+            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.helpBtn.Name = "helpBtn";
+            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.helpBtn.Size = new System.Drawing.Size(40, 32);
+            this.helpBtn.TabIndex = 6;
+            this.helpBtn.UseVisualStyleBackColor = true;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.White;
+            this.label5.Location = new System.Drawing.Point(91, 11);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(55, 28);
+            this.label5.TabIndex = 3;
+            this.label5.Text = "Help";
+            // 
+            // panel5
+            // 
+            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel5.Controls.Add(this.motorcycleBtn);
+            this.panel5.Controls.Add(this.label4);
+            this.panel5.Location = new System.Drawing.Point(0, 324);
+            this.panel5.Name = "panel5";
+            this.panel5.Size = new System.Drawing.Size(256, 57);
+            this.panel5.TabIndex = 10;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
+            // 
+            // motorcycleBtn
+            // 
+            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
+            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
+            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.motorcycleBtn.IconSize = 27;
+            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
+            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.motorcycleBtn.Name = "motorcycleBtn";
+            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
+            this.motorcycleBtn.TabIndex = 7;
+            this.motorcycleBtn.UseVisualStyleBackColor = true;
+            this.motorcycleBtn.Click += new System.EventHandler(this.motorcycleBtn_Click);
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label4.ForeColor = System.Drawing.Color.White;
+            this.label4.Location = new System.Drawing.Point(88, 15);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(60, 28);
+            this.label4.TabIndex = 3;
+            this.label4.Text = "Bikes";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel4
             // 
@@ -214,35 +244,105 @@
             this.panel4.Size = new System.Drawing.Size(256, 57);
             this.panel4.TabIndex = 10;
             // 
-            // panel5
+            // homeBtn
             // 
-            this.panel5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel5.Controls.Add(this.motorcycleBtn);
-            this.panel5.Controls.Add(this.label4);
-            this.panel5.Location = new System.Drawing.Point(0, 324);
-            this.panel5.Name = "panel5";
-            this.panel5.Size = new System.Drawing.Size(256, 57);
-            this.panel5.TabIndex = 10;
+            this.homeBtn.FlatAppearance.BorderSize = 0;
+            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
+            this.homeBtn.IconColor = System.Drawing.Color.White;
+            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.homeBtn.IconSize = 27;
+            this.homeBtn.Location = new System.Drawing.Point(44, 17);
+            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.homeBtn.Name = "homeBtn";
+            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.homeBtn.Size = new System.Drawing.Size(40, 32);
+            this.homeBtn.TabIndex = 8;
+            this.homeBtn.UseVisualStyleBackColor = true;
+            this.homeBtn.Click += new System.EventHandler(this.homeBtn_Click);
             // 
-            // panel6
+            // label3
             // 
-            this.panel6.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel6.Controls.Add(this.helpBtn);
-            this.panel6.Controls.Add(this.label5);
-            this.panel6.Location = new System.Drawing.Point(0, 387);
-            this.panel6.Name = "panel6";
-            this.panel6.Size = new System.Drawing.Size(256, 57);
-            this.panel6.TabIndex = 10;
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label3.ForeColor = System.Drawing.Color.White;
+            this.label3.Location = new System.Drawing.Point(91, 15);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(110, 28);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Dashboard";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
-            // panel7
+            // panel3
             // 
-            this.panel7.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.panel7.Controls.Add(this.logoutBtn);
-            this.panel7.Controls.Add(this.label6);
-            this.panel7.Location = new System.Drawing.Point(0, 758);
-            this.panel7.Name = "panel7";
-            this.panel7.Size = new System.Drawing.Size(256, 57);
-            this.panel7.TabIndex = 10;
+            this.panel3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            this.panel3.Controls.Add(this.userButton);
+            this.panel3.Controls.Add(this.label2);
+            this.panel3.Location = new System.Drawing.Point(0, 198);
+            this.panel3.Name = "panel3";
+            this.panel3.Size = new System.Drawing.Size(256, 57);
+            this.panel3.TabIndex = 10;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            // 
+            // userButton
+            // 
+            this.userButton.FlatAppearance.BorderSize = 0;
+            this.userButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.userButton.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.userButton.IconColor = System.Drawing.Color.White;
+            this.userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.userButton.IconSize = 27;
+            this.userButton.Location = new System.Drawing.Point(47, 15);
+            this.userButton.Margin = new System.Windows.Forms.Padding(4);
+            this.userButton.Name = "userButton";
+            this.userButton.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.userButton.Size = new System.Drawing.Size(40, 32);
+            this.userButton.TabIndex = 5;
+            this.userButton.UseVisualStyleBackColor = true;
+            this.userButton.Click += new System.EventHandler(this.userButton_Click);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label2.ForeColor = System.Drawing.Color.White;
+            this.label2.Location = new System.Drawing.Point(94, 15);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(71, 28);
+            this.label2.TabIndex = 3;
+            this.label2.Text = "Profile";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
+            // 
+            // panel2
+            // 
+            this.panel2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(244)))), ((int)(((byte)(203)))));
+            this.panel2.Location = new System.Drawing.Point(3, 75);
+            this.panel2.Name = "panel2";
+            this.panel2.Size = new System.Drawing.Size(249, 5);
+            this.panel2.TabIndex = 4;
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Yu Gothic UI", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(23)))), ((int)(((byte)(244)))), ((int)(((byte)(203)))));
+            this.label1.Location = new System.Drawing.Point(66, 25);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(186, 28);
+            this.label1.TabIndex = 3;
+            this.label1.Text = "Bike Rental System";
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::AdminRentalUI.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(69, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // label7
             // 
@@ -254,6 +354,7 @@
             this.label7.Size = new System.Drawing.Size(81, 31);
             this.label7.TabIndex = 1;
             this.label7.Text = "Profile";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // label8
             // 
@@ -265,6 +366,7 @@
             this.label8.Size = new System.Drawing.Size(68, 31);
             this.label8.TabIndex = 1;
             this.label8.Text = "Bikes";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label9
             // 
@@ -388,6 +490,7 @@
             this.label12.Size = new System.Drawing.Size(167, 28);
             this.label12.TabIndex = 16;
             this.label12.Text = "Then rent a bike.";
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // label13
             // 
@@ -399,15 +502,30 @@
             this.label13.Size = new System.Drawing.Size(129, 31);
             this.label13.TabIndex = 1;
             this.label13.Text = "Dashboard";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // panel8
             // 
+            this.panel8.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
             this.panel8.Controls.Add(this.pictureBox3);
             this.panel8.Controls.Add(this.label14);
             this.panel8.Location = new System.Drawing.Point(62, 27);
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(206, 252);
             this.panel8.TabIndex = 19;
+            this.panel8.Paint += new System.Windows.Forms.PaintEventHandler(this.panel8_Paint);
+            // 
+            // pictureBox3
+            // 
+            this.pictureBox3.BackgroundImage = global::AdminRentalUI.Properties.Resources.mt;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(206, 182);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label14
             // 
@@ -419,15 +537,30 @@
             this.label14.Size = new System.Drawing.Size(126, 31);
             this.label14.TabIndex = 1;
             this.label14.Text = "Petrol Bike";
+            this.label14.Click += new System.EventHandler(this.label14_Click);
             // 
             // panel10
             // 
+            this.panel10.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
             this.panel10.Controls.Add(this.pictureBox4);
             this.panel10.Controls.Add(this.label15);
             this.panel10.Location = new System.Drawing.Point(359, 27);
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(228, 252);
             this.panel10.TabIndex = 19;
+            this.panel10.Paint += new System.Windows.Forms.PaintEventHandler(this.panel10_Paint);
+            // 
+            // pictureBox4
+            // 
+            this.pictureBox4.BackgroundImage = global::AdminRentalUI.Properties.Resources.niu;
+            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox4.Name = "pictureBox4";
+            this.pictureBox4.Size = new System.Drawing.Size(228, 182);
+            this.pictureBox4.TabIndex = 0;
+            this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label15
             // 
@@ -439,6 +572,7 @@
             this.label15.Size = new System.Drawing.Size(139, 31);
             this.label15.TabIndex = 1;
             this.label15.Text = "Electric Bike";
+            this.label15.Click += new System.EventHandler(this.label15_Click);
             // 
             // panel11
             // 
@@ -458,7 +592,7 @@
             this.label16.Location = new System.Drawing.Point(7, 25);
             this.label16.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label16.Name = "label16";
-            this.label16.Size = new System.Drawing.Size(274, 46);
+            this.label16.Size = new System.Drawing.Size(270, 45);
             this.label16.TabIndex = 16;
             this.label16.Text = "Top rented bikes";
             // 
@@ -500,21 +634,21 @@
             // 
             this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
             this.chart1.BorderlineColor = System.Drawing.Color.Black;
-            chartArea3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea3.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea3.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea3.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea3);
-            legend3.Name = "Legend1";
-            this.chart1.Legends.Add(legend3);
+            chartArea7.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea7.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea7.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea7.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea7);
+            legend7.Name = "Legend1";
+            this.chart1.Legends.Add(legend7);
             this.chart1.Location = new System.Drawing.Point(928, 465);
             this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series3.ChartArea = "ChartArea1";
-            series3.Legend = "Legend1";
-            series3.Name = "Series1";
-            this.chart1.Series.Add(series3);
+            series7.ChartArea = "ChartArea1";
+            series7.Legend = "Legend1";
+            series7.Name = "Series1";
+            this.chart1.Series.Add(series7);
             this.chart1.Size = new System.Drawing.Size(641, 294);
             this.chart1.TabIndex = 23;
             this.chart1.Text = "chart1";
@@ -542,6 +676,25 @@
             this.userName.Text = "User-Name";
             this.userName.TextAlign = System.Drawing.ContentAlignment.MiddleRight;
             // 
+            // panel15
+            // 
+            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.panel15.Controls.Add(this.pictureBox5);
+            this.panel15.Location = new System.Drawing.Point(0, 0);
+            this.panel15.Name = "panel15";
+            this.panel15.Size = new System.Drawing.Size(63, 52);
+            this.panel15.TabIndex = 25;
+            // 
+            // pictureBox5
+            // 
+            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
+            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox5.Location = new System.Drawing.Point(12, 7);
+            this.pictureBox5.Name = "pictureBox5";
+            this.pictureBox5.Size = new System.Drawing.Size(39, 42);
+            this.pictureBox5.TabIndex = 0;
+            this.pictureBox5.TabStop = false;
+            // 
             // iconButton1
             // 
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
@@ -556,28 +709,6 @@
             this.iconButton1.UseVisualStyleBackColor = true;
             this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::AdminRentalUI.Properties.Resources.mt;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(206, 182);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.BackgroundImage = global::AdminRentalUI.Properties.Resources.niu;
-            this.pictureBox4.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox4.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox4.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(228, 182);
-            this.pictureBox4.TabIndex = 0;
-            this.pictureBox4.TabStop = false;
-            // 
             // pictureBox2
             // 
             this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
@@ -587,116 +718,6 @@
             this.pictureBox2.Size = new System.Drawing.Size(654, 444);
             this.pictureBox2.TabIndex = 2;
             this.pictureBox2.TabStop = false;
-            // 
-            // logoutBtn
-            // 
-            this.logoutBtn.FlatAppearance.BorderSize = 0;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
-            this.logoutBtn.IconColor = System.Drawing.Color.White;
-            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.logoutBtn.IconSize = 27;
-            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
-            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
-            this.logoutBtn.TabIndex = 9;
-            this.logoutBtn.UseVisualStyleBackColor = true;
-            // 
-            // helpBtn
-            // 
-            this.helpBtn.FlatAppearance.BorderSize = 0;
-            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
-            this.helpBtn.IconColor = System.Drawing.Color.White;
-            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.helpBtn.IconSize = 27;
-            this.helpBtn.Location = new System.Drawing.Point(44, 11);
-            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.helpBtn.Name = "helpBtn";
-            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.helpBtn.Size = new System.Drawing.Size(40, 32);
-            this.helpBtn.TabIndex = 6;
-            this.helpBtn.UseVisualStyleBackColor = true;
-            // 
-            // motorcycleBtn
-            // 
-            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
-            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
-            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
-            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.motorcycleBtn.IconSize = 27;
-            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
-            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.motorcycleBtn.Name = "motorcycleBtn";
-            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
-            this.motorcycleBtn.TabIndex = 7;
-            this.motorcycleBtn.UseVisualStyleBackColor = true;
-            // 
-            // homeBtn
-            // 
-            this.homeBtn.FlatAppearance.BorderSize = 0;
-            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
-            this.homeBtn.IconColor = System.Drawing.Color.White;
-            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.homeBtn.IconSize = 27;
-            this.homeBtn.Location = new System.Drawing.Point(44, 17);
-            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.homeBtn.Size = new System.Drawing.Size(40, 32);
-            this.homeBtn.TabIndex = 8;
-            this.homeBtn.UseVisualStyleBackColor = true;
-            // 
-            // userButton
-            // 
-            this.userButton.FlatAppearance.BorderSize = 0;
-            this.userButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.userButton.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.userButton.IconColor = System.Drawing.Color.White;
-            this.userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.userButton.IconSize = 27;
-            this.userButton.Location = new System.Drawing.Point(47, 15);
-            this.userButton.Margin = new System.Windows.Forms.Padding(4);
-            this.userButton.Name = "userButton";
-            this.userButton.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.userButton.Size = new System.Drawing.Size(40, 32);
-            this.userButton.TabIndex = 5;
-            this.userButton.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImage = global::AdminRentalUI.Properties.Resources.Logo;
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(66, 76);
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox5.BackgroundImage")));
-            this.pictureBox5.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox5.Location = new System.Drawing.Point(12, 7);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(39, 42);
-            this.pictureBox5.TabIndex = 0;
-            this.pictureBox5.TabStop = false;
-            // 
-            // panel15
-            // 
-            this.panel15.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.panel15.Controls.Add(this.pictureBox5);
-            this.panel15.Location = new System.Drawing.Point(0, 0);
-            this.panel15.Name = "panel15";
-            this.panel15.Size = new System.Drawing.Size(63, 52);
-            this.panel15.TabIndex = 25;
             // 
             // home
             // 
@@ -725,22 +746,25 @@
             this.Text = "home";
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
-            this.panel3.ResumeLayout(false);
-            this.panel3.PerformLayout();
-            this.panel4.ResumeLayout(false);
-            this.panel4.PerformLayout();
-            this.panel5.ResumeLayout(false);
-            this.panel5.PerformLayout();
-            this.panel6.ResumeLayout(false);
-            this.panel6.PerformLayout();
             this.panel7.ResumeLayout(false);
             this.panel7.PerformLayout();
+            this.panel6.ResumeLayout(false);
+            this.panel6.PerformLayout();
+            this.panel5.ResumeLayout(false);
+            this.panel5.PerformLayout();
+            this.panel4.ResumeLayout(false);
+            this.panel4.PerformLayout();
+            this.panel3.ResumeLayout(false);
+            this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.panel9.ResumeLayout(false);
             this.panel9.PerformLayout();
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel10.ResumeLayout(false);
             this.panel10.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
             this.panel11.ResumeLayout(false);
             this.panel12.ResumeLayout(false);
             this.panel12.PerformLayout();
@@ -749,12 +773,9 @@
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel15.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
