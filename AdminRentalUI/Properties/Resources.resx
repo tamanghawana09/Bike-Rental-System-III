@@ -189,9 +189,7 @@
   <data name="khalti QR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khalti QR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Jawa 42" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Jawa 42.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  
   <data name="add" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\add.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -222,15 +220,11 @@
   <data name="pic" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\pic.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Yadea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Yadea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+
   <data name="khalti1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khalti1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Tracker250" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Tracker250.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+ 
   <data name="motorcycle" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\motorcycle.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
