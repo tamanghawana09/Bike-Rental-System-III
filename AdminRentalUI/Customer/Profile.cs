@@ -41,10 +41,7 @@ namespace AdminRentalUI.Customer
 
         private void panel4_Paint(object sender, PaintEventArgs e)
         {
-            this.Hide();
-            customerHome ch = new customerHome();
-            ch.ShowDialog();
-            ch.Show();
+            
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -53,14 +50,6 @@ namespace AdminRentalUI.Customer
             customerHome ch = new customerHome();
             ch.ShowDialog();
             ch.Show();
-        }
-
-        private void panel5_Paint(object sender, PaintEventArgs e)
-        {
-            this.Hide();
-            bike b = new bike();
-            b.ShowDialog();
-            b.Show();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -98,6 +87,59 @@ namespace AdminRentalUI.Customer
             {
                 MessageBox.Show("An Error Occured", "Error", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerHome ch = new customerHome();
+            ch.ShowDialog();
+            ch.Show();
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog(); 
+            b.Show();
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Help help = new Help();
+            help.ShowDialog();
+            help.Show();
+        }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+            about.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Help help = new Help();
+            help.ShowDialog();
+            help.Show();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Logout logout = new Logout();
+            logout.ShowDialog();
+            logout.Show();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Logout logout = new Logout();
+            logout.ShowDialog();
+            logout.Show();
         }
     }
 }

@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class rules : Form
+    public partial class Logout : Form
     {
-        public rules()
+        public Logout()
         {
             InitializeComponent();
         }
@@ -22,12 +22,17 @@ namespace AdminRentalUI.Customer
             this.Close();
         }
 
-        private void iconButton3_Click(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Bill bill = new Bill();
-            bill.ShowDialog();
-            bill.Show();
+            this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            customerHome ch = new customerHome();
+            ch.ShowDialog();
+            ch.Show();
+            this.Close();
         }
     }
 }

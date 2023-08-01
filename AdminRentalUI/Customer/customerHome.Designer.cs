@@ -29,9 +29,9 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(customerHome));
-            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea5 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
-            System.Windows.Forms.DataVisualization.Charting.Legend legend5 = new System.Windows.Forms.DataVisualization.Charting.Legend();
-            System.Windows.Forms.DataVisualization.Charting.Series series5 = new System.Windows.Forms.DataVisualization.Charting.Series();
+            System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea2 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
+            System.Windows.Forms.DataVisualization.Charting.Legend legend2 = new System.Windows.Forms.DataVisualization.Charting.Legend();
+            System.Windows.Forms.DataVisualization.Charting.Series series2 = new System.Windows.Forms.DataVisualization.Charting.Series();
             this.label14 = new System.Windows.Forms.Label();
             this.panel10 = new System.Windows.Forms.Panel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
@@ -41,13 +41,9 @@
             this.userName = new System.Windows.Forms.Label();
             this.panel15 = new System.Windows.Forms.Panel();
             this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.iconButton1 = new FontAwesome.Sharp.IconButton();
             this.panel14 = new System.Windows.Forms.Panel();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.chart1 = new System.Windows.Forms.DataVisualization.Charting.Chart();
             this.label12 = new System.Windows.Forms.Label();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.logoutBtn = new FontAwesome.Sharp.IconButton();
             this.panel13 = new System.Windows.Forms.Panel();
             this.panel12 = new System.Windows.Forms.Panel();
             this.panel9 = new System.Windows.Forms.Panel();
@@ -55,52 +51,56 @@
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
             this.linkLabel1 = new System.Windows.Forms.LinkLabel();
-            this.helpBtn = new FontAwesome.Sharp.IconButton();
             this.panel11 = new System.Windows.Forms.Panel();
             this.panel8 = new System.Windows.Forms.Panel();
-            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
-            this.homeBtn = new FontAwesome.Sharp.IconButton();
+            this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label11 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.logoutBtn = new FontAwesome.Sharp.IconButton();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.helpBtn = new FontAwesome.Sharp.IconButton();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.homeBtn = new FontAwesome.Sharp.IconButton();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
             this.userButton = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.iconButton1 = new FontAwesome.Sharp.IconButton();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.panel10.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel15.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
             this.panel14.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.panel13.SuspendLayout();
             this.panel12.SuspendLayout();
             this.panel9.SuspendLayout();
             this.panel11.SuspendLayout();
             this.panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel7.SuspendLayout();
             this.panel6.SuspendLayout();
             this.panel5.SuspendLayout();
             this.panel4.SuspendLayout();
             this.panel3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // label14
@@ -205,20 +205,6 @@
             this.pictureBox5.TabIndex = 0;
             this.pictureBox5.TabStop = false;
             // 
-            // iconButton1
-            // 
-            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.X;
-            this.iconButton1.IconColor = System.Drawing.Color.Red;
-            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Brands;
-            this.iconButton1.IconSize = 30;
-            this.iconButton1.Location = new System.Drawing.Point(1555, 0);
-            this.iconButton1.Name = "iconButton1";
-            this.iconButton1.Size = new System.Drawing.Size(27, 30);
-            this.iconButton1.TabIndex = 41;
-            this.iconButton1.UseVisualStyleBackColor = true;
-            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
-            // 
             // panel14
             // 
             this.panel14.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(27)))), ((int)(((byte)(30)))), ((int)(((byte)(38)))));
@@ -229,37 +215,25 @@
             this.panel14.Size = new System.Drawing.Size(200, 55);
             this.panel14.TabIndex = 40;
             // 
-            // pictureBox3
-            // 
-            this.pictureBox3.BackgroundImage = global::AdminRentalUI.Properties.Resources.mt;
-            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
-            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(206, 182);
-            this.pictureBox3.TabIndex = 0;
-            this.pictureBox3.TabStop = false;
-            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
-            // 
             // chart1
             // 
             this.chart1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
             this.chart1.BorderlineColor = System.Drawing.Color.Black;
-            chartArea5.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea5.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea5.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
-            chartArea5.Name = "ChartArea1";
-            this.chart1.ChartAreas.Add(chartArea5);
-            legend5.Name = "Legend1";
-            this.chart1.Legends.Add(legend5);
+            chartArea2.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea2.BackSecondaryColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea2.BorderColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
+            chartArea2.Name = "ChartArea1";
+            this.chart1.ChartAreas.Add(chartArea2);
+            legend2.Name = "Legend1";
+            this.chart1.Legends.Add(legend2);
             this.chart1.Location = new System.Drawing.Point(928, 465);
             this.chart1.Margin = new System.Windows.Forms.Padding(4);
             this.chart1.Name = "chart1";
             this.chart1.Palette = System.Windows.Forms.DataVisualization.Charting.ChartColorPalette.Excel;
-            series5.ChartArea = "ChartArea1";
-            series5.Legend = "Legend1";
-            series5.Name = "Series1";
-            this.chart1.Series.Add(series5);
+            series2.ChartArea = "ChartArea1";
+            series2.Legend = "Legend1";
+            series2.Name = "Series1";
+            this.chart1.Series.Add(series2);
             this.chart1.Size = new System.Drawing.Size(641, 294);
             this.chart1.TabIndex = 39;
             this.chart1.Text = "chart1";
@@ -275,32 +249,6 @@
             this.label12.Size = new System.Drawing.Size(167, 28);
             this.label12.TabIndex = 33;
             this.label12.Text = "Then rent a bike.";
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
-            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox2.Location = new System.Drawing.Point(928, 0);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(654, 444);
-            this.pictureBox2.TabIndex = 32;
-            this.pictureBox2.TabStop = false;
-            // 
-            // logoutBtn
-            // 
-            this.logoutBtn.FlatAppearance.BorderSize = 0;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
-            this.logoutBtn.IconColor = System.Drawing.Color.White;
-            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.logoutBtn.IconSize = 27;
-            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
-            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
-            this.logoutBtn.TabIndex = 9;
-            this.logoutBtn.UseVisualStyleBackColor = true;
             // 
             // panel13
             // 
@@ -403,22 +351,6 @@
             this.linkLabel1.Text = "MT-15";
             this.linkLabel1.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel1_LinkClicked);
             // 
-            // helpBtn
-            // 
-            this.helpBtn.FlatAppearance.BorderSize = 0;
-            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
-            this.helpBtn.IconColor = System.Drawing.Color.White;
-            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.helpBtn.IconSize = 27;
-            this.helpBtn.Location = new System.Drawing.Point(44, 11);
-            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.helpBtn.Name = "helpBtn";
-            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.helpBtn.Size = new System.Drawing.Size(40, 32);
-            this.helpBtn.TabIndex = 6;
-            this.helpBtn.UseVisualStyleBackColor = true;
-            // 
             // panel11
             // 
             this.panel11.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(61)))), ((int)(((byte)(79)))), ((int)(((byte)(83)))));
@@ -440,37 +372,17 @@
             this.panel8.TabIndex = 19;
             this.panel8.Click += new System.EventHandler(this.panel8_Click);
             // 
-            // motorcycleBtn
+            // pictureBox3
             // 
-            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
-            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
-            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
-            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.motorcycleBtn.IconSize = 27;
-            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
-            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.motorcycleBtn.Name = "motorcycleBtn";
-            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
-            this.motorcycleBtn.TabIndex = 7;
-            this.motorcycleBtn.UseVisualStyleBackColor = true;
-            // 
-            // homeBtn
-            // 
-            this.homeBtn.FlatAppearance.BorderSize = 0;
-            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
-            this.homeBtn.IconColor = System.Drawing.Color.White;
-            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.homeBtn.IconSize = 27;
-            this.homeBtn.Location = new System.Drawing.Point(44, 17);
-            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.homeBtn.Size = new System.Drawing.Size(40, 32);
-            this.homeBtn.TabIndex = 8;
-            this.homeBtn.UseVisualStyleBackColor = true;
+            this.pictureBox3.BackgroundImage = global::AdminRentalUI.Properties.Resources.mt;
+            this.pictureBox3.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox3.Dock = System.Windows.Forms.DockStyle.Top;
+            this.pictureBox3.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox3.Name = "pictureBox3";
+            this.pictureBox3.Size = new System.Drawing.Size(206, 182);
+            this.pictureBox3.TabIndex = 0;
+            this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label11
             // 
@@ -495,18 +407,6 @@
             this.label10.Size = new System.Drawing.Size(160, 28);
             this.label10.TabIndex = 35;
             this.label10.Text = "Wanna go ride? ";
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
-            this.pictureBox1.Image = global::AdminRentalUI.Properties.Resources.Logo;
-            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(69, 76);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 2;
-            this.pictureBox1.TabStop = false;
             // 
             // label13
             // 
@@ -545,6 +445,23 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(256, 57);
             this.panel7.TabIndex = 10;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
+            this.logoutBtn.IconColor = System.Drawing.Color.White;
+            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.logoutBtn.IconSize = 27;
+            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
+            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
+            this.logoutBtn.TabIndex = 9;
+            this.logoutBtn.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -556,6 +473,7 @@
             this.label6.Size = new System.Drawing.Size(86, 28);
             this.label6.TabIndex = 3;
             this.label6.Text = "Log Out";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel6
             // 
@@ -566,6 +484,23 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(256, 57);
             this.panel6.TabIndex = 10;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
+            // 
+            // helpBtn
+            // 
+            this.helpBtn.FlatAppearance.BorderSize = 0;
+            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
+            this.helpBtn.IconColor = System.Drawing.Color.White;
+            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.helpBtn.IconSize = 27;
+            this.helpBtn.Location = new System.Drawing.Point(44, 11);
+            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.helpBtn.Name = "helpBtn";
+            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.helpBtn.Size = new System.Drawing.Size(40, 32);
+            this.helpBtn.TabIndex = 6;
+            this.helpBtn.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -577,6 +512,7 @@
             this.label5.Size = new System.Drawing.Size(55, 28);
             this.label5.TabIndex = 3;
             this.label5.Text = "Help";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // panel5
             // 
@@ -588,6 +524,22 @@
             this.panel5.Size = new System.Drawing.Size(256, 57);
             this.panel5.TabIndex = 10;
             this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            // 
+            // motorcycleBtn
+            // 
+            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
+            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
+            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.motorcycleBtn.IconSize = 27;
+            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
+            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.motorcycleBtn.Name = "motorcycleBtn";
+            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
+            this.motorcycleBtn.TabIndex = 7;
+            this.motorcycleBtn.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -609,6 +561,22 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(256, 57);
             this.panel4.TabIndex = 10;
+            // 
+            // homeBtn
+            // 
+            this.homeBtn.FlatAppearance.BorderSize = 0;
+            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
+            this.homeBtn.IconColor = System.Drawing.Color.White;
+            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.homeBtn.IconSize = 27;
+            this.homeBtn.Location = new System.Drawing.Point(44, 17);
+            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.homeBtn.Name = "homeBtn";
+            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.homeBtn.Size = new System.Drawing.Size(40, 32);
+            this.homeBtn.TabIndex = 8;
+            this.homeBtn.UseVisualStyleBackColor = true;
             // 
             // label3
             // 
@@ -678,16 +646,17 @@
             this.label1.TabIndex = 3;
             this.label1.Text = "Bike Rental System";
             // 
-            // label9
+            // pictureBox1
             // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(573, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 31);
-            this.label9.TabIndex = 29;
-            this.label9.Text = "About";
+            this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Zoom;
+            this.pictureBox1.Image = global::AdminRentalUI.Properties.Resources.Logo;
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(69, 76);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 2;
+            this.pictureBox1.TabStop = false;
             // 
             // label8
             // 
@@ -712,6 +681,42 @@
             this.label7.TabIndex = 31;
             this.label7.Text = "Profile";
             this.label7.Click += new System.EventHandler(this.label7_Click);
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label9.Location = new System.Drawing.Point(573, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 31);
+            this.label9.TabIndex = 29;
+            this.label9.Text = "About";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
+            // 
+            // iconButton1
+            // 
+            this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.X;
+            this.iconButton1.IconColor = System.Drawing.Color.Red;
+            this.iconButton1.IconFont = FontAwesome.Sharp.IconFont.Brands;
+            this.iconButton1.IconSize = 30;
+            this.iconButton1.Location = new System.Drawing.Point(1555, 0);
+            this.iconButton1.Name = "iconButton1";
+            this.iconButton1.Size = new System.Drawing.Size(27, 30);
+            this.iconButton1.TabIndex = 41;
+            this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
+            // 
+            // pictureBox2
+            // 
+            this.pictureBox2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox2.BackgroundImage")));
+            this.pictureBox2.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.pictureBox2.Location = new System.Drawing.Point(928, 0);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(654, 444);
+            this.pictureBox2.TabIndex = 32;
+            this.pictureBox2.TabStop = false;
             // 
             // customerHome
             // 
@@ -745,9 +750,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
             this.panel14.ResumeLayout(false);
             this.panel14.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.chart1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.panel13.ResumeLayout(false);
             this.panel13.PerformLayout();
             this.panel12.ResumeLayout(false);
@@ -757,7 +760,7 @@
             this.panel11.ResumeLayout(false);
             this.panel8.ResumeLayout(false);
             this.panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel7.ResumeLayout(false);
@@ -770,6 +773,8 @@
             this.panel4.PerformLayout();
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -823,8 +828,8 @@
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
+        private System.Windows.Forms.Label label9;
     }
 }

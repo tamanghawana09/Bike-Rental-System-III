@@ -10,24 +10,21 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class rules : Form
+    public partial class About : Form
     {
-        public rules()
+        public About()
         {
             InitializeComponent();
         }
 
-        private void iconButton1_Click(object sender, EventArgs e)
+        private void iconButton2_Click(object sender, EventArgs e)
         {
             this.Close();
         }
 
         private void iconButton3_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Bill bill = new Bill();
-            bill.ShowDialog();
-            bill.Show();
+            this.Close();
         }
     }
 }

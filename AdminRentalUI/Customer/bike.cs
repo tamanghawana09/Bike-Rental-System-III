@@ -224,5 +224,42 @@ namespace AdminRentalUI.Customer
         {
             this.Close();
         }
+
+        private void label9_Click(object sender, EventArgs e)
+        {
+            About about = new About();
+            about.ShowDialog();
+            about.Show();
+        }
+
+        private void panel6_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Help help = new Help();
+            help.ShowDialog();
+            help.Show();
+        }
+
+        private void label5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Help help = new Help();
+            help.ShowDialog();
+            help.Show();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Logout logout = new Logout();
+            logout.ShowDialog();
+            logout.Show();
+        }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Logout logout = new Logout();
+            logout.ShowDialog();
+            logout.Show();
+        }
     }
 }

@@ -96,11 +96,11 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.label14 = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.panel25 = new System.Windows.Forms.Panel();
             this.pictureBox15 = new System.Windows.Forms.PictureBox();
+            this.label9 = new System.Windows.Forms.Label();
             this.panel24.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             this.panel10.SuspendLayout();
@@ -676,6 +676,7 @@
             this.label5.Size = new System.Drawing.Size(55, 28);
             this.label5.TabIndex = 3;
             this.label5.Text = "Help";
+            this.label5.Click += new System.EventHandler(this.label5_Click);
             // 
             // label4
             // 
@@ -713,6 +714,7 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(256, 57);
             this.panel6.TabIndex = 10;
+            this.panel6.Click += new System.EventHandler(this.panel6_Click);
             // 
             // logoutBtn
             // 
@@ -740,6 +742,7 @@
             this.label6.Size = new System.Drawing.Size(86, 28);
             this.label6.TabIndex = 3;
             this.label6.Text = "Log Out";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel7
             // 
@@ -750,6 +753,7 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(256, 57);
             this.panel7.TabIndex = 10;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
             // 
             // panel5
             // 
@@ -939,17 +943,6 @@
             this.label13.Text = "Dashboard";
             this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
-            // label9
-            // 
-            this.label9.AutoSize = true;
-            this.label9.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
-            this.label9.Location = new System.Drawing.Point(573, 25);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(78, 31);
-            this.label9.TabIndex = 31;
-            this.label9.Text = "About";
-            // 
             // label8
             // 
             this.label8.AutoSize = true;
@@ -991,6 +984,18 @@
             this.pictureBox15.Size = new System.Drawing.Size(39, 42);
             this.pictureBox15.TabIndex = 0;
             this.pictureBox15.TabStop = false;
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Font = new System.Drawing.Font("Yu Gothic UI Semibold", 13.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label9.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(245)))), ((int)(((byte)(255)))), ((int)(((byte)(255)))));
+            this.label9.Location = new System.Drawing.Point(573, 25);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(78, 31);
+            this.label9.TabIndex = 31;
+            this.label9.Text = "About";
+            this.label9.Click += new System.EventHandler(this.label9_Click);
             // 
             // bike
             // 
@@ -1149,10 +1154,10 @@
         private System.Windows.Forms.PictureBox pictureBox3;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label13;
-        private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Panel panel25;
         private System.Windows.Forms.PictureBox pictureBox15;
+        private System.Windows.Forms.Label label9;
     }
 }

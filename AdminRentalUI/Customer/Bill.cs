@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class rules : Form
+    public partial class Bill : Form
     {
-        public rules()
+        public Bill()
         {
             InitializeComponent();
         }
@@ -20,14 +20,6 @@ namespace AdminRentalUI.Customer
         private void iconButton1_Click(object sender, EventArgs e)
         {
             this.Close();
-        }
-
-        private void iconButton3_Click(object sender, EventArgs e)
-        {
-            this.Hide();
-            Bill bill = new Bill();
-            bill.ShowDialog();
-            bill.Show();
         }
     }
 }
