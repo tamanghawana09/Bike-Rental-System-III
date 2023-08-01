@@ -10,19 +10,11 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class Login : Form
+    public partial class Registration : Form
     {
-        public Login()
+        public Registration()
         {
             InitializeComponent();
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-           this.Hide();
-           customerHome ch = new customerHome();
-           ch.ShowDialog();
-           ch.Show();
         }
 
         private void iconButton4_Click(object sender, EventArgs e)

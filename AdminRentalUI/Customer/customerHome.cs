@@ -10,22 +10,17 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class Login : Form
+    public partial class customerHome : Form
     {
-        public Login()
+        public customerHome()
         {
             InitializeComponent();
+            chart1.Series["Series1"].Points.AddXY("Petrol Bike", "50");
+            chart1.Series["Series1"].Points.AddXY("Active Bike", "20");
+            chart1.Series["Series1"].Points.AddXY("Electric Bike", "30");
         }
 
-        private void button1_Click(object sender, EventArgs e)
-        {
-           this.Hide();
-           customerHome ch = new customerHome();
-           ch.ShowDialog();
-           ch.Show();
-        }
-
-        private void iconButton4_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             this.Close();
         }

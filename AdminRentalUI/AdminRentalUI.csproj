@@ -145,17 +145,17 @@
     <Compile Include="customerView.Designer.cs">
       <DependentUpon>customerView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\Bikes.cs">
+    <Compile Include="Customer\bike.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\Bikes.Designer.cs">
-      <DependentUpon>Bikes.cs</DependentUpon>
+    <Compile Include="Customer\bike.Designer.cs">
+      <DependentUpon>bike.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\home.cs">
+    <Compile Include="Customer\customerHome.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\home.Designer.cs">
-      <DependentUpon>home.cs</DependentUpon>
+    <Compile Include="Customer\customerHome.Designer.cs">
+      <DependentUpon>customerHome.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\Login.cs">
       <SubType>Form</SubType>
@@ -187,17 +187,17 @@
     <Compile Include="Customer\Profile.Designer.cs">
       <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer\Registration.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Registration.Designer.cs">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer\rulesAndRegulationcs.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer\rulesAndRegulationcs.Designer.cs">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Customer\signup.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="Customer\signup.Designer.cs">
-      <DependentUpon>signup.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -398,11 +398,11 @@
     <EmbeddedResource Include="customerView.resx">
       <DependentUpon>customerView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\Bikes.resx">
-      <DependentUpon>Bikes.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\bike.resx">
+      <DependentUpon>bike.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\home.resx">
-      <DependentUpon>home.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\customerHome.resx">
+      <DependentUpon>customerHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
@@ -419,11 +419,11 @@
     <EmbeddedResource Include="Customer\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Registration.resx">
+      <DependentUpon>Registration.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Customer\signup.resx">
-      <DependentUpon>signup.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>

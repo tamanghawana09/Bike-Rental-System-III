@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class signup : UserControl
+    public partial class bike : Form
     {
-        public signup()
+        public bike()
         {
             InitializeComponent();
         }
