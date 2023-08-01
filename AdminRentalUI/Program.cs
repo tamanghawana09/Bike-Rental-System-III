@@ -1,4 +1,5 @@
 ﻿using AdminRentalUI.Customer;
+using QRCoder;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -17,7 +18,7 @@ namespace AdminRentalUI
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new customerLogin());
+            Application.Run(new Profile());
         }
     }
 }

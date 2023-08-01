@@ -127,15 +127,11 @@
   <data name="Conact" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Conact.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="REH" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\REH.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+ 
   <data name="CX" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\CX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Cobra CX" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cobra CX.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+  
   <data name="mt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mt.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -205,6 +201,9 @@
   <data name="KTM390" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\KTM390.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="user2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\user2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="esewa QR" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\esewa QR.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
@@ -256,13 +255,16 @@
   <data name="loginBackground" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\loginBackground.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="khalti" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\khalti.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="blurry-gradient-haikei" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blurry-gradient-haikei.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="bg" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\bg.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="yadea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\yadea.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

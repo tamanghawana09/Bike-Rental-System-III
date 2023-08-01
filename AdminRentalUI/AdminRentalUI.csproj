@@ -145,23 +145,23 @@
     <Compile Include="customerView.Designer.cs">
       <DependentUpon>customerView.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\customerHome.cs">
+    <Compile Include="Customer\Bikes.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\customerHome.Designer.cs">
-      <DependentUpon>customerHome.cs</DependentUpon>
+    <Compile Include="Customer\Bikes.Designer.cs">
+      <DependentUpon>Bikes.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\electricBike.cs">
+    <Compile Include="Customer\home.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\electricBike.Designer.cs">
-      <DependentUpon>electricBike.cs</DependentUpon>
+    <Compile Include="Customer\home.Designer.cs">
+      <DependentUpon>home.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\newLogin.cs">
+    <Compile Include="Customer\Login.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\newLogin.Designer.cs">
-      <DependentUpon>newLogin.cs</DependentUpon>
+    <Compile Include="Customer\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\Option.cs">
       <SubType>Form</SubType>
@@ -181,11 +181,11 @@
     <Compile Include="Customer\perHourPayment.Designer.cs">
       <DependentUpon>perHourPayment.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\petrolBike.cs">
+    <Compile Include="Customer\Profile.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\petrolBike.Designer.cs">
-      <DependentUpon>petrolBike.cs</DependentUpon>
+    <Compile Include="Customer\Profile.Designer.cs">
+      <DependentUpon>Profile.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\rulesAndRegulationcs.cs">
       <SubType>Form</SubType>
@@ -217,35 +217,41 @@
     <Compile Include="Dashboard2.Designer.cs">
       <DependentUpon>Dashboard2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Electric Bike\eBike1.cs">
+    <Compile Include="Electric Bike\bella.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Electric Bike\eBike1.Designer.cs">
-      <DependentUpon>eBike1.cs</DependentUpon>
+    <Compile Include="Electric Bike\bella.Designer.cs">
+      <DependentUpon>bella.cs</DependentUpon>
     </Compile>
-    <Compile Include="Electric Bike\eBike2.cs">
+    <Compile Include="Electric Bike\NIU.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Electric Bike\eBike2.Designer.cs">
-      <DependentUpon>eBike2.cs</DependentUpon>
+    <Compile Include="Electric Bike\NIU.Designer.cs">
+      <DependentUpon>NIU.cs</DependentUpon>
     </Compile>
-    <Compile Include="Electric Bike\eBike3.cs">
+    <Compile Include="Electric Bike\SS.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Electric Bike\eBike3.Designer.cs">
-      <DependentUpon>eBike3.cs</DependentUpon>
+    <Compile Include="Electric Bike\SS.Designer.cs">
+      <DependentUpon>SS.cs</DependentUpon>
     </Compile>
-    <Compile Include="Electric Bike\eBike4.cs">
+    <Compile Include="Electric Bike\SSCPX.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Electric Bike\eBike4.Designer.cs">
-      <DependentUpon>eBike4.cs</DependentUpon>
+    <Compile Include="Electric Bike\SSCPX.Designer.cs">
+      <DependentUpon>SSCPX.cs</DependentUpon>
     </Compile>
-    <Compile Include="Electric Bike\eBike5.cs">
+    <Compile Include="Electric Bike\Yadea.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Electric Bike\eBike5.Designer.cs">
-      <DependentUpon>eBike5.cs</DependentUpon>
+    <Compile Include="Electric Bike\Yadea.Designer.cs">
+      <DependentUpon>Yadea.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Electric Bike\Yatri.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Electric Bike\Yatri.Designer.cs">
+      <DependentUpon>Yatri.cs</DependentUpon>
     </Compile>
     <Compile Include="formBookingDetails.cs">
       <SubType>Form</SubType>
@@ -286,73 +292,49 @@
     <Compile Include="MyComboBox.cs">
       <SubType>UserControl</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike1.cs">
+    <Compile Include="Petrol Bike\HJ250.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike1.Designer.cs">
-      <DependentUpon>pBike1.cs</DependentUpon>
+    <Compile Include="Petrol Bike\HJ250.Designer.cs">
+      <DependentUpon>HJ250.cs</DependentUpon>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike10.cs">
+    <Compile Include="Petrol Bike\HondaCRF.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike10.Designer.cs">
-      <DependentUpon>pBike10.cs</DependentUpon>
+    <Compile Include="Petrol Bike\HondaCRF.Designer.cs">
+      <DependentUpon>HondaCRF.cs</DependentUpon>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike2.cs">
+    <Compile Include="Petrol Bike\KTMduke.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike2.Designer.cs">
-      <DependentUpon>pBike2.cs</DependentUpon>
+    <Compile Include="Petrol Bike\KTMduke.Designer.cs">
+      <DependentUpon>KTMduke.cs</DependentUpon>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike3.cs">
+    <Compile Include="Petrol Bike\MT15.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike3.Designer.cs">
-      <DependentUpon>pBike3.cs</DependentUpon>
+    <Compile Include="Petrol Bike\MT15.Designer.cs">
+      <DependentUpon>MT15.cs</DependentUpon>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike4.cs">
+    <Compile Include="Petrol Bike\Ns200.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike4.Designer.cs">
-      <DependentUpon>pBike4.cs</DependentUpon>
+    <Compile Include="Petrol Bike\Ns200.Designer.cs">
+      <DependentUpon>Ns200.cs</DependentUpon>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike5.cs">
+    <Compile Include="Petrol Bike\RoyalEnfield.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Petrol Bike UC\pBike5.Designer.cs">
-      <DependentUpon>pBike5.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike6cs.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike6cs.Designer.cs">
-      <DependentUpon>pBike6cs.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike7.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike7.Designer.cs">
-      <DependentUpon>pBike7.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike8.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike8.Designer.cs">
-      <DependentUpon>pBike8.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike9.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Petrol Bike UC\pBike9.Designer.cs">
-      <DependentUpon>pBike9.cs</DependentUpon>
+    <Compile Include="Petrol Bike\RoyalEnfield.Designer.cs">
+      <DependentUpon>RoyalEnfield.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="QRCode.cs">
+    <Compile Include="QRCodeGenerator.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="QRCode.Designer.cs">
-      <DependentUpon>QRCode.cs</DependentUpon>
+    <Compile Include="QRCodeGenerator.Designer.cs">
+      <DependentUpon>QRCodeGenerator.cs</DependentUpon>
     </Compile>
     <Compile Include="User Control for Payment\cashDayPayment.cs">
       <SubType>UserControl</SubType>
@@ -390,12 +372,6 @@
     <Compile Include="User Control for Payment\khalti.Designer.cs">
       <DependentUpon>khalti.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Controls\bikeUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Controls\bikeUC.Designer.cs">
-      <DependentUpon>bikeUC.cs</DependentUpon>
-    </Compile>
     <Compile Include="User Controls\helpUC.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -407,18 +383,6 @@
     </Compile>
     <Compile Include="User Controls\logoutUC.Designer.cs">
       <DependentUpon>logoutUC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Controls\mainUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Controls\mainUC.Designer.cs">
-      <DependentUpon>mainUC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Controls\profileUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Controls\profileUC.Designer.cs">
-      <DependentUpon>profileUC.cs</DependentUpon>
     </Compile>
     <EmbeddedResource Include="adminLoginUI.resx">
       <DependentUpon>adminLoginUI.cs</DependentUpon>
@@ -435,14 +399,14 @@
     <EmbeddedResource Include="customerView.resx">
       <DependentUpon>customerView.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\customerHome.resx">
-      <DependentUpon>customerHome.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\Bikes.resx">
+      <DependentUpon>Bikes.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\electricBike.resx">
-      <DependentUpon>electricBike.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\home.resx">
+      <DependentUpon>home.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\newLogin.resx">
-      <DependentUpon>newLogin.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Option.resx">
       <DependentUpon>Option.cs</DependentUpon>
@@ -453,8 +417,8 @@
     <EmbeddedResource Include="Customer\perHourPayment.resx">
       <DependentUpon>perHourPayment.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\petrolBike.resx">
-      <DependentUpon>petrolBike.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\Profile.resx">
+      <DependentUpon>Profile.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
       <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
@@ -471,20 +435,23 @@
     <EmbeddedResource Include="Dashboard2.resx">
       <DependentUpon>Dashboard2.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Electric Bike\eBike1.resx">
-      <DependentUpon>eBike1.cs</DependentUpon>
+    <EmbeddedResource Include="Electric Bike\bella.resx">
+      <DependentUpon>bella.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Electric Bike\eBike2.resx">
-      <DependentUpon>eBike2.cs</DependentUpon>
+    <EmbeddedResource Include="Electric Bike\NIU.resx">
+      <DependentUpon>NIU.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Electric Bike\eBike3.resx">
-      <DependentUpon>eBike3.cs</DependentUpon>
+    <EmbeddedResource Include="Electric Bike\SS.resx">
+      <DependentUpon>SS.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Electric Bike\eBike4.resx">
-      <DependentUpon>eBike4.cs</DependentUpon>
+    <EmbeddedResource Include="Electric Bike\SSCPX.resx">
+      <DependentUpon>SSCPX.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Electric Bike\eBike5.resx">
-      <DependentUpon>eBike5.cs</DependentUpon>
+    <EmbeddedResource Include="Electric Bike\Yadea.resx">
+      <DependentUpon>Yadea.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Electric Bike\Yatri.resx">
+      <DependentUpon>Yatri.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="formBookingDetails.resx">
       <DependentUpon>formBookingDetails.cs</DependentUpon>
@@ -501,48 +468,30 @@
     <EmbeddedResource Include="formBikeList.resx">
       <DependentUpon>formBikeList.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike1.resx">
-      <DependentUpon>pBike1.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\HJ250.resx">
+      <DependentUpon>HJ250.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike10.resx">
-      <DependentUpon>pBike10.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\HondaCRF.resx">
+      <DependentUpon>HondaCRF.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike2.resx">
-      <DependentUpon>pBike2.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\KTMduke.resx">
+      <DependentUpon>KTMduke.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike3.resx">
-      <DependentUpon>pBike3.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\MT15.resx">
+      <DependentUpon>MT15.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike4.resx">
-      <DependentUpon>pBike4.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\Ns200.resx">
+      <DependentUpon>Ns200.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike5.resx">
-      <DependentUpon>pBike5.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike6cs.resx">
-      <DependentUpon>pBike6cs.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike7.resx">
-      <DependentUpon>pBike7.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike8.resx">
-      <DependentUpon>pBike8.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Petrol Bike UC\pBike9.resx">
-      <DependentUpon>pBike9.cs</DependentUpon>
+    <EmbeddedResource Include="Petrol Bike\RoyalEnfield.resx">
+      <DependentUpon>RoyalEnfield.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="QRCode.resx">
-      <DependentUpon>QRCode.cs</DependentUpon>
+      <DependentUpon>QRCodeGenerator.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Control for Payment\cashDayPayment.resx">
       <DependentUpon>cashDayPayment.cs</DependentUpon>
@@ -562,20 +511,11 @@
     <EmbeddedResource Include="User Control for Payment\khalti.resx">
       <DependentUpon>khalti.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\bikeUC.resx">
-      <DependentUpon>bikeUC.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="User Controls\helpUC.resx">
       <DependentUpon>helpUC.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="User Controls\logoutUC.resx">
       <DependentUpon>logoutUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\mainUC.resx">
-      <DependentUpon>mainUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\profileUC.resx">
-      <DependentUpon>profileUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
@@ -652,23 +592,14 @@
     <None Include="Resources\1.png" />
     <None Include="Resources\5.jpg" />
     <None Include="Resources\mt.jpg" />
-    <None Include="Resources\Super Soco.jpg" />
     <None Include="Resources\Logo.png" />
     <None Include="Resources\pic.jpg" />
     <None Include="Resources\HJ250.jpg" />
     <None Include="Resources\CRF.jpg" />
     <None Include="Resources\CX.jpg" />
-    <None Include="Resources\Cobra CX.jpg" />
-    <None Include="Resources\REH.jpg" />
-    <None Include="Resources\Tracker250.jpg" />
     <None Include="Resources\KTM390.jpg" />
     <None Include="Resources\REC.jpg" />
     <None Include="Resources\NS.jpg" />
-    <None Include="Resources\Jawa 42.jpg" />
-    <None Include="Resources\Y.jpg" />
-    <None Include="Resources\niu.jpg" />
-    <None Include="Resources\Bella.jpg" />
-    <None Include="Resources\Yadea.jpg" />
     <None Include="Resources\Cash.png" />
     <None Include="Resources\esewa.png" />
     <None Include="Resources\khalti1.png" />
@@ -679,6 +610,8 @@
     <None Include="Resources\khalti QR.jpg" />
     <None Include="Resources\smile.png" />
     <None Include="Resources\bg.jpg" />
+    <None Include="Resources\user2.png" />
+    <None Include="Resources\yadea.png" />
     <Content Include="Screenshot_7 %286%29.ico" />
   </ItemGroup>
   <ItemGroup />
