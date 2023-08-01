@@ -176,6 +176,7 @@
             this.pictureBox4.Size = new System.Drawing.Size(186, 154);
             this.pictureBox4.TabIndex = 0;
             this.pictureBox4.TabStop = false;
+            this.pictureBox4.Click += new System.EventHandler(this.pictureBox4_Click);
             // 
             // label12
             // 
@@ -188,6 +189,7 @@
             this.label12.TabIndex = 1;
             this.label12.Text = "Royal Enfield";
             this.label12.TextAlign = System.Drawing.ContentAlignment.BottomCenter;
+            this.label12.Click += new System.EventHandler(this.label12_Click);
             // 
             // panel10
             // 
@@ -198,6 +200,7 @@
             this.panel10.Name = "panel10";
             this.panel10.Size = new System.Drawing.Size(186, 217);
             this.panel10.TabIndex = 20;
+            this.panel10.Click += new System.EventHandler(this.panel10_Click);
             // 
             // pictureBox2
             // 
@@ -209,6 +212,7 @@
             this.pictureBox2.Size = new System.Drawing.Size(186, 154);
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
+            this.pictureBox2.Click += new System.EventHandler(this.pictureBox2_Click);
             // 
             // label11
             // 
@@ -286,6 +290,7 @@
             this.iconButton1.Size = new System.Drawing.Size(27, 30);
             this.iconButton1.TabIndex = 40;
             this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // panel17
             // 
@@ -310,6 +315,7 @@
             this.panel18.Name = "panel18";
             this.panel18.Size = new System.Drawing.Size(186, 217);
             this.panel18.TabIndex = 20;
+            this.panel18.Click += new System.EventHandler(this.panel18_Click);
             // 
             // pictureBox9
             // 
@@ -321,6 +327,7 @@
             this.pictureBox9.Size = new System.Drawing.Size(186, 154);
             this.pictureBox9.TabIndex = 0;
             this.pictureBox9.TabStop = false;
+            this.pictureBox9.Click += new System.EventHandler(this.pictureBox9_Click);
             // 
             // label18
             // 
@@ -343,6 +350,7 @@
             this.panel19.Name = "panel19";
             this.panel19.Size = new System.Drawing.Size(186, 217);
             this.panel19.TabIndex = 20;
+            this.panel19.Click += new System.EventHandler(this.panel19_Click);
             // 
             // pictureBox10
             // 
@@ -354,6 +362,7 @@
             this.pictureBox10.Size = new System.Drawing.Size(186, 154);
             this.pictureBox10.TabIndex = 0;
             this.pictureBox10.TabStop = false;
+            this.pictureBox10.Click += new System.EventHandler(this.pictureBox10_Click);
             // 
             // label19
             // 
@@ -376,6 +385,7 @@
             this.panel20.Name = "panel20";
             this.panel20.Size = new System.Drawing.Size(186, 217);
             this.panel20.TabIndex = 20;
+            this.panel20.Click += new System.EventHandler(this.panel20_Click);
             // 
             // pictureBox11
             // 
@@ -388,6 +398,7 @@
             this.pictureBox11.Size = new System.Drawing.Size(186, 154);
             this.pictureBox11.TabIndex = 0;
             this.pictureBox11.TabStop = false;
+            this.pictureBox11.Click += new System.EventHandler(this.pictureBox11_Click);
             // 
             // label20
             // 
@@ -410,6 +421,7 @@
             this.panel21.Name = "panel21";
             this.panel21.Size = new System.Drawing.Size(186, 217);
             this.panel21.TabIndex = 20;
+            this.panel21.Click += new System.EventHandler(this.panel21_Click);
             // 
             // pictureBox12
             // 
@@ -421,6 +433,7 @@
             this.pictureBox12.Size = new System.Drawing.Size(186, 154);
             this.pictureBox12.TabIndex = 0;
             this.pictureBox12.TabStop = false;
+            this.pictureBox12.Click += new System.EventHandler(this.pictureBox12_Click);
             // 
             // label21
             // 
@@ -443,6 +456,7 @@
             this.panel22.Name = "panel22";
             this.panel22.Size = new System.Drawing.Size(186, 217);
             this.panel22.TabIndex = 20;
+            this.panel22.Click += new System.EventHandler(this.panel22_Click);
             // 
             // pictureBox13
             // 
@@ -454,6 +468,7 @@
             this.pictureBox13.Size = new System.Drawing.Size(186, 154);
             this.pictureBox13.TabIndex = 0;
             this.pictureBox13.TabStop = false;
+            this.pictureBox13.Click += new System.EventHandler(this.pictureBox13_Click);
             // 
             // label22
             // 
@@ -476,6 +491,7 @@
             this.panel23.Name = "panel23";
             this.panel23.Size = new System.Drawing.Size(186, 217);
             this.panel23.TabIndex = 20;
+            this.panel23.Click += new System.EventHandler(this.panel23_Click);
             // 
             // pictureBox14
             // 
@@ -487,6 +503,7 @@
             this.pictureBox14.Size = new System.Drawing.Size(186, 154);
             this.pictureBox14.TabIndex = 0;
             this.pictureBox14.TabStop = false;
+            this.pictureBox14.Click += new System.EventHandler(this.pictureBox14_Click);
             // 
             // label23
             // 
@@ -520,6 +537,7 @@
             this.panel11.Name = "panel11";
             this.panel11.Size = new System.Drawing.Size(186, 217);
             this.panel11.TabIndex = 20;
+            this.panel11.Click += new System.EventHandler(this.panel11_Click);
             // 
             // pictureBox6
             // 
@@ -531,6 +549,7 @@
             this.pictureBox6.Size = new System.Drawing.Size(186, 154);
             this.pictureBox6.TabIndex = 0;
             this.pictureBox6.TabStop = false;
+            this.pictureBox6.Click += new System.EventHandler(this.pictureBox6_Click);
             // 
             // panel12
             // 
@@ -541,6 +560,7 @@
             this.panel12.Name = "panel12";
             this.panel12.Size = new System.Drawing.Size(186, 217);
             this.panel12.TabIndex = 20;
+            this.panel12.Click += new System.EventHandler(this.panel12_Click);
             // 
             // label15
             // 
@@ -579,6 +599,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(256, 57);
             this.panel3.TabIndex = 10;
+            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
             // 
             // label2
             // 
@@ -627,6 +648,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(256, 57);
             this.panel4.TabIndex = 10;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // motorcycleBtn
             // 
@@ -796,6 +818,7 @@
             this.pictureBox7.Size = new System.Drawing.Size(186, 154);
             this.pictureBox7.TabIndex = 0;
             this.pictureBox7.TabStop = false;
+            this.pictureBox7.Click += new System.EventHandler(this.pictureBox7_Click);
             // 
             // label16
             // 
@@ -818,16 +841,19 @@
             this.panel13.Name = "panel13";
             this.panel13.Size = new System.Drawing.Size(186, 217);
             this.panel13.TabIndex = 20;
+            this.panel13.Click += new System.EventHandler(this.panel13_Click);
             // 
             // pictureBox8
             // 
-            this.pictureBox8.BackgroundImage = global::AdminRentalUI.Properties.Resources.CRF;
+            this.pictureBox8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox8.BackgroundImage")));
+            this.pictureBox8.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.pictureBox8.Dock = System.Windows.Forms.DockStyle.Top;
             this.pictureBox8.Location = new System.Drawing.Point(0, 0);
             this.pictureBox8.Name = "pictureBox8";
             this.pictureBox8.Size = new System.Drawing.Size(186, 154);
             this.pictureBox8.TabIndex = 0;
             this.pictureBox8.TabStop = false;
+            this.pictureBox8.Click += new System.EventHandler(this.pictureBox8_Click);
             // 
             // label17
             // 
@@ -850,6 +876,7 @@
             this.panel16.Name = "panel16";
             this.panel16.Size = new System.Drawing.Size(186, 217);
             this.panel16.TabIndex = 20;
+            this.panel16.Click += new System.EventHandler(this.panel16_Click);
             // 
             // panel9
             // 
@@ -874,6 +901,7 @@
             this.panel8.Name = "panel8";
             this.panel8.Size = new System.Drawing.Size(186, 217);
             this.panel8.TabIndex = 20;
+            this.panel8.Click += new System.EventHandler(this.panel8_Click);
             // 
             // pictureBox3
             // 
@@ -885,6 +913,7 @@
             this.pictureBox3.Size = new System.Drawing.Size(186, 154);
             this.pictureBox3.TabIndex = 0;
             this.pictureBox3.TabStop = false;
+            this.pictureBox3.Click += new System.EventHandler(this.pictureBox3_Click);
             // 
             // label14
             // 
@@ -908,6 +937,7 @@
             this.label13.Size = new System.Drawing.Size(129, 31);
             this.label13.TabIndex = 30;
             this.label13.Text = "Dashboard";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label9
             // 
@@ -941,6 +971,7 @@
             this.label7.Size = new System.Drawing.Size(81, 31);
             this.label7.TabIndex = 35;
             this.label7.Text = "Profile";
+            this.label7.Click += new System.EventHandler(this.label7_Click);
             // 
             // panel25
             // 

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdminRentalUI.Customer;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,13 @@ namespace AdminRentalUI.Electric_Bike
         public SSCPX()
         {
             InitializeComponent();
+        }
+
+        private void iconButton4_Click(object sender, EventArgs e)
+        {
+            Option op = new Option();
+            op.ShowDialog();
+            op.Show();
         }
     }
 }

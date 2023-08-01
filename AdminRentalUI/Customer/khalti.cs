@@ -10,16 +10,24 @@ using System.Windows.Forms;
 
 namespace AdminRentalUI.Customer
 {
-    public partial class rulesAndRegulationcs : Form
+    public partial class khalti : Form
     {
-        public rulesAndRegulationcs()
+        public khalti()
         {
             InitializeComponent();
         }
 
-        private void iconButton2_Click(object sender, EventArgs e)
+        private void iconButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            rules ru = new rules();
+            ru.ShowDialog();
+            ru.Show();
         }
     }
 }

@@ -20,9 +20,9 @@ namespace AdminRentalUI.Customer
         private void button1_Click(object sender, EventArgs e)
         {
            this.Hide();
-           customerHome ch = new customerHome();
-           ch.ShowDialog();
-           ch.Show();
+           customerHome cuh = new customerHome();
+           cuh.ShowDialog();
+           cuh.Show();
         }
 
         private void iconButton4_Click(object sender, EventArgs e)

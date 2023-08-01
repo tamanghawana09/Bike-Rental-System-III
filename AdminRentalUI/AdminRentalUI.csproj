@@ -157,6 +157,24 @@
     <Compile Include="Customer\customerHome.Designer.cs">
       <DependentUpon>customerHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer\Esewa.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Esewa.Designer.cs">
+      <DependentUpon>Esewa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\hourPay.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\hourPay.Designer.cs">
+      <DependentUpon>hourPay.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\khalti.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\khalti.Designer.cs">
+      <DependentUpon>khalti.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer\Login.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -169,17 +187,11 @@
     <Compile Include="Customer\Option.Designer.cs">
       <DependentUpon>Option.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\perDayPayment.cs">
+    <Compile Include="Customer\Payment.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\perDayPayment.Designer.cs">
-      <DependentUpon>perDayPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="Customer\perHourPayment.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Customer\perHourPayment.Designer.cs">
-      <DependentUpon>perHourPayment.cs</DependentUpon>
+    <Compile Include="Customer\Payment.Designer.cs">
+      <DependentUpon>Payment.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\Profile.cs">
       <SubType>Form</SubType>
@@ -193,11 +205,11 @@
     <Compile Include="Customer\Registration.Designer.cs">
       <DependentUpon>Registration.cs</DependentUpon>
     </Compile>
-    <Compile Include="Customer\rulesAndRegulationcs.cs">
+    <Compile Include="Customer\rules.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Customer\rulesAndRegulationcs.Designer.cs">
-      <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    <Compile Include="Customer\rules.Designer.cs">
+      <DependentUpon>rules.cs</DependentUpon>
     </Compile>
     <Compile Include="Dashboard.cs">
       <SubType>Form</SubType>
@@ -335,54 +347,6 @@
     <Compile Include="QRCodeGenerator.Designer.cs">
       <DependentUpon>QRCodeGenerator.cs</DependentUpon>
     </Compile>
-    <Compile Include="User Control for Payment\cashDayPayment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\cashDayPayment.Designer.cs">
-      <DependentUpon>cashDayPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control for Payment\cashHourPayment.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\cashHourPayment.Designer.cs">
-      <DependentUpon>cashHourPayment.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control for Payment\esewa.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\esewa.Designer.cs">
-      <DependentUpon>esewa.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control for Payment\happyE.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\happyE.Designer.cs">
-      <DependentUpon>happyE.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control for Payment\happyN.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\happyN.Designer.cs">
-      <DependentUpon>happyN.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Control for Payment\khalti.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Control for Payment\khalti.Designer.cs">
-      <DependentUpon>khalti.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Controls\helpUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Controls\helpUC.Designer.cs">
-      <DependentUpon>helpUC.cs</DependentUpon>
-    </Compile>
-    <Compile Include="User Controls\logoutUC.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="User Controls\logoutUC.Designer.cs">
-      <DependentUpon>logoutUC.cs</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="adminLoginUI.resx">
       <DependentUpon>adminLoginUI.cs</DependentUpon>
     </EmbeddedResource>
@@ -404,17 +368,23 @@
     <EmbeddedResource Include="Customer\customerHome.resx">
       <DependentUpon>customerHome.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Esewa.resx">
+      <DependentUpon>Esewa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\hourPay.resx">
+      <DependentUpon>hourPay.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\khalti.resx">
+      <DependentUpon>khalti.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Option.resx">
       <DependentUpon>Option.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\perDayPayment.resx">
-      <DependentUpon>perDayPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Customer\perHourPayment.resx">
-      <DependentUpon>perHourPayment.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\Payment.resx">
+      <DependentUpon>Payment.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Profile.resx">
       <DependentUpon>Profile.cs</DependentUpon>
@@ -422,8 +392,8 @@
     <EmbeddedResource Include="Customer\Registration.resx">
       <DependentUpon>Registration.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Customer\rulesAndRegulationcs.resx">
-      <DependentUpon>rulesAndRegulationcs.cs</DependentUpon>
+    <EmbeddedResource Include="Customer\rules.resx">
+      <DependentUpon>rules.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Dashboard.resx">
       <DependentUpon>Dashboard.cs</DependentUpon>
@@ -489,30 +459,6 @@
     </EmbeddedResource>
     <EmbeddedResource Include="QRCode.resx">
       <DependentUpon>QRCodeGenerator.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\cashDayPayment.resx">
-      <DependentUpon>cashDayPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\cashHourPayment.resx">
-      <DependentUpon>cashHourPayment.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\esewa.resx">
-      <DependentUpon>esewa.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\happyE.resx">
-      <DependentUpon>happyE.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\happyN.resx">
-      <DependentUpon>happyN.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Control for Payment\khalti.resx">
-      <DependentUpon>khalti.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\helpUC.resx">
-      <DependentUpon>helpUC.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="User Controls\logoutUC.resx">
-      <DependentUpon>logoutUC.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">

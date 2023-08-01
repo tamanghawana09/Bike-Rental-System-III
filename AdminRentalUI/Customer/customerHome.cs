@@ -1,4 +1,5 @@
-﻿using System;
+﻿using AdminRentalUI.Petrol_Bike;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -23,6 +24,103 @@ namespace AdminRentalUI.Customer
         private void iconButton1_Click(object sender, EventArgs e)
         {
             this.Close();
+        }
+
+        private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            MT15 mt = new MT15();
+            mt.ShowDialog();
+            mt.Show();
+        }
+
+        private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            HondaCRF hf = new HondaCRF();
+            hf.ShowDialog();
+            hf.Show(); 
+        }
+
+        private void linkLabel3_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            RoyalEnfield royalEnfield = new RoyalEnfield();
+            royalEnfield.ShowDialog();
+            royalEnfield.Show();
+        }
+
+        private void linkLabel4_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
+        {
+            KTMduke kTMduke = new KTMduke();    
+            kTMduke.ShowDialog();
+            kTMduke.Show();
+        }
+
+        private void panel3_Paint(object sender, PaintEventArgs e)
+        {
+           
+        }
+
+        private void pictureBox3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void label7_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile pro = new Profile();
+            pro.ShowDialog();
+            pro.Show();
+        }
+
+        private void label8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile pro = new Profile();
+            pro.ShowDialog();
+            pro.Show();
+        }
+
+        private void panel5_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void panel8_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
+        }
+
+        private void panel10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog();
+            b.Show();
         }
     }
 }

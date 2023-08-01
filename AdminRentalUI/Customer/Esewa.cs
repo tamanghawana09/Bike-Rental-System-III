@@ -1,5 +1,4 @@
-﻿using AdminRentalUI.Customer;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -9,20 +8,26 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminRentalUI.User_Control_for_Payment
+namespace AdminRentalUI.Customer
 {
-    public partial class esewa : UserControl
+    public partial class Esewa : Form
     {
-        public esewa()
+        public Esewa()
         {
             InitializeComponent();
         }
 
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            rulesAndRegulationcs rr = new rulesAndRegulationcs();
-            rr.ShowDialog();
-            this.Show();
+            this.Hide();
+            rules ru = new rules();
+            ru.ShowDialog();
+            ru.Show();
         }
     }
 }

@@ -8,13 +8,18 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace AdminRentalUI.User_Controls
+namespace AdminRentalUI.Customer
 {
-    public partial class helpUC : UserControl
+    public partial class rules : Form
     {
-        public helpUC()
+        public rules()
         {
             InitializeComponent();
+        }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
         }
     }
 }

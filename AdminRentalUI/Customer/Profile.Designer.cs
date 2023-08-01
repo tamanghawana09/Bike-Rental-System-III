@@ -190,6 +190,7 @@
             this.panel5.Name = "panel5";
             this.panel5.Size = new System.Drawing.Size(256, 57);
             this.panel5.TabIndex = 10;
+            this.panel5.Paint += new System.Windows.Forms.PaintEventHandler(this.panel5_Paint);
             // 
             // motorcycleBtn
             // 
@@ -217,6 +218,7 @@
             this.label4.Size = new System.Drawing.Size(60, 28);
             this.label4.TabIndex = 3;
             this.label4.Text = "Bikes";
+            this.label4.Click += new System.EventHandler(this.label4_Click);
             // 
             // panel4
             // 
@@ -227,6 +229,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(256, 57);
             this.panel4.TabIndex = 10;
+            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
             // 
             // homeBtn
             // 
@@ -254,6 +257,7 @@
             this.label3.Size = new System.Drawing.Size(110, 28);
             this.label3.TabIndex = 3;
             this.label3.Text = "Dashboard";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel3
             // 
@@ -356,6 +360,7 @@
             this.label13.Size = new System.Drawing.Size(129, 31);
             this.label13.TabIndex = 30;
             this.label13.Text = "Dashboard";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label9
             // 
@@ -378,6 +383,7 @@
             this.label8.Size = new System.Drawing.Size(68, 31);
             this.label8.TabIndex = 32;
             this.label8.Text = "Bikes";
+            this.label8.Click += new System.EventHandler(this.label8_Click);
             // 
             // label7
             // 
@@ -466,6 +472,7 @@
             // 
             // iconButton1
             // 
+            this.iconButton1.FlatAppearance.BorderSize = 0;
             this.iconButton1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.iconButton1.IconChar = FontAwesome.Sharp.IconChar.X;
             this.iconButton1.IconColor = System.Drawing.Color.Red;
@@ -602,6 +609,7 @@
             this.button1.TabIndex = 39;
             this.button1.Text = "Upload";
             this.button1.UseVisualStyleBackColor = false;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // iconButton2
             // 
@@ -642,6 +650,7 @@
             this.iconButton3.Text = "Go to Home";
             this.iconButton3.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.iconButton3.UseVisualStyleBackColor = false;
+            this.iconButton3.Click += new System.EventHandler(this.iconButton3_Click);
             // 
             // Profile
             // 
