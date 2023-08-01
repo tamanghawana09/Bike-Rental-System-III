@@ -145,11 +145,23 @@
     <Compile Include="customerView.Designer.cs">
       <DependentUpon>customerView.cs</DependentUpon>
     </Compile>
+    <Compile Include="Customer\About.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\About.Designer.cs">
+      <DependentUpon>About.cs</DependentUpon>
+    </Compile>
     <Compile Include="Customer\bike.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Customer\bike.Designer.cs">
       <DependentUpon>bike.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Bill.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Bill.Designer.cs">
+      <DependentUpon>Bill.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\customerHome.cs">
       <SubType>Form</SubType>
@@ -162,6 +174,12 @@
     </Compile>
     <Compile Include="Customer\Esewa.Designer.cs">
       <DependentUpon>Esewa.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Help.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Help.Designer.cs">
+      <DependentUpon>Help.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\hourPay.cs">
       <SubType>Form</SubType>
@@ -180,6 +198,12 @@
     </Compile>
     <Compile Include="Customer\Login.Designer.cs">
       <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Customer\Logout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Customer\Logout.Designer.cs">
+      <DependentUpon>Logout.cs</DependentUpon>
     </Compile>
     <Compile Include="Customer\Main.cs">
       <SubType>Form</SubType>
@@ -368,14 +392,23 @@
     <EmbeddedResource Include="customerView.resx">
       <DependentUpon>customerView.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Customer\About.resx">
+      <DependentUpon>About.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Customer\bike.resx">
       <DependentUpon>bike.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Bill.resx">
+      <DependentUpon>Bill.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\customerHome.resx">
       <DependentUpon>customerHome.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Esewa.resx">
       <DependentUpon>Esewa.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Help.resx">
+      <DependentUpon>Help.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\hourPay.resx">
       <DependentUpon>hourPay.cs</DependentUpon>
@@ -385,6 +418,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Login.resx">
       <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Customer\Logout.resx">
+      <DependentUpon>Logout.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Customer\Main.resx">
       <DependentUpon>Main.cs</DependentUpon>

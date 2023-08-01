@@ -159,5 +159,20 @@ namespace AdminRentalUI.Customer
             logout.ShowDialog();
             logout.Show();
         }
+
+        private void label4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            bike b = new bike();
+            b.ShowDialog(); b.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile profile = new Profile();
+            profile.ShowDialog();
+            profile.Show();
+        }
     }
 }

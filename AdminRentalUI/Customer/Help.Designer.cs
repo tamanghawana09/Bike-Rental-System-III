@@ -31,22 +31,22 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Help));
             this.panel1 = new System.Windows.Forms.Panel();
             this.panel7 = new System.Windows.Forms.Panel();
+            this.logoutBtn = new FontAwesome.Sharp.IconButton();
             this.label6 = new System.Windows.Forms.Label();
             this.panel6 = new System.Windows.Forms.Panel();
+            this.helpBtn = new FontAwesome.Sharp.IconButton();
             this.label5 = new System.Windows.Forms.Label();
             this.panel5 = new System.Windows.Forms.Panel();
+            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
             this.label4 = new System.Windows.Forms.Label();
             this.panel4 = new System.Windows.Forms.Panel();
+            this.homeBtn = new FontAwesome.Sharp.IconButton();
             this.label3 = new System.Windows.Forms.Label();
             this.panel3 = new System.Windows.Forms.Panel();
+            this.userButton = new FontAwesome.Sharp.IconButton();
             this.label2 = new System.Windows.Forms.Label();
             this.panel2 = new System.Windows.Forms.Panel();
             this.label1 = new System.Windows.Forms.Label();
-            this.logoutBtn = new FontAwesome.Sharp.IconButton();
-            this.helpBtn = new FontAwesome.Sharp.IconButton();
-            this.motorcycleBtn = new FontAwesome.Sharp.IconButton();
-            this.homeBtn = new FontAwesome.Sharp.IconButton();
-            this.userButton = new FontAwesome.Sharp.IconButton();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -90,6 +90,23 @@
             this.panel7.Name = "panel7";
             this.panel7.Size = new System.Drawing.Size(256, 57);
             this.panel7.TabIndex = 10;
+            this.panel7.Click += new System.EventHandler(this.panel7_Click);
+            // 
+            // logoutBtn
+            // 
+            this.logoutBtn.FlatAppearance.BorderSize = 0;
+            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
+            this.logoutBtn.IconColor = System.Drawing.Color.White;
+            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.logoutBtn.IconSize = 27;
+            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
+            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.logoutBtn.Name = "logoutBtn";
+            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
+            this.logoutBtn.TabIndex = 9;
+            this.logoutBtn.UseVisualStyleBackColor = true;
             // 
             // label6
             // 
@@ -101,6 +118,7 @@
             this.label6.Size = new System.Drawing.Size(86, 28);
             this.label6.TabIndex = 3;
             this.label6.Text = "Log Out";
+            this.label6.Click += new System.EventHandler(this.label6_Click);
             // 
             // panel6
             // 
@@ -111,6 +129,22 @@
             this.panel6.Name = "panel6";
             this.panel6.Size = new System.Drawing.Size(256, 57);
             this.panel6.TabIndex = 10;
+            // 
+            // helpBtn
+            // 
+            this.helpBtn.FlatAppearance.BorderSize = 0;
+            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
+            this.helpBtn.IconColor = System.Drawing.Color.White;
+            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.helpBtn.IconSize = 27;
+            this.helpBtn.Location = new System.Drawing.Point(44, 11);
+            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.helpBtn.Name = "helpBtn";
+            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.helpBtn.Size = new System.Drawing.Size(40, 32);
+            this.helpBtn.TabIndex = 6;
+            this.helpBtn.UseVisualStyleBackColor = true;
             // 
             // label5
             // 
@@ -133,6 +167,22 @@
             this.panel5.Size = new System.Drawing.Size(256, 57);
             this.panel5.TabIndex = 10;
             this.panel5.Click += new System.EventHandler(this.panel5_Click);
+            // 
+            // motorcycleBtn
+            // 
+            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
+            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
+            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
+            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.motorcycleBtn.IconSize = 27;
+            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
+            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.motorcycleBtn.Name = "motorcycleBtn";
+            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
+            this.motorcycleBtn.TabIndex = 7;
+            this.motorcycleBtn.UseVisualStyleBackColor = true;
             // 
             // label4
             // 
@@ -157,6 +207,22 @@
             this.panel4.TabIndex = 10;
             this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
+            // homeBtn
+            // 
+            this.homeBtn.FlatAppearance.BorderSize = 0;
+            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
+            this.homeBtn.IconColor = System.Drawing.Color.White;
+            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.homeBtn.IconSize = 27;
+            this.homeBtn.Location = new System.Drawing.Point(44, 17);
+            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
+            this.homeBtn.Name = "homeBtn";
+            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.homeBtn.Size = new System.Drawing.Size(40, 32);
+            this.homeBtn.TabIndex = 8;
+            this.homeBtn.UseVisualStyleBackColor = true;
+            // 
             // label3
             // 
             this.label3.AutoSize = true;
@@ -179,6 +245,22 @@
             this.panel3.Size = new System.Drawing.Size(256, 57);
             this.panel3.TabIndex = 10;
             this.panel3.Click += new System.EventHandler(this.panel3_Click);
+            // 
+            // userButton
+            // 
+            this.userButton.FlatAppearance.BorderSize = 0;
+            this.userButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.userButton.IconChar = FontAwesome.Sharp.IconChar.User;
+            this.userButton.IconColor = System.Drawing.Color.White;
+            this.userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
+            this.userButton.IconSize = 27;
+            this.userButton.Location = new System.Drawing.Point(47, 15);
+            this.userButton.Margin = new System.Windows.Forms.Padding(4);
+            this.userButton.Name = "userButton";
+            this.userButton.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
+            this.userButton.Size = new System.Drawing.Size(40, 32);
+            this.userButton.TabIndex = 5;
+            this.userButton.UseVisualStyleBackColor = true;
             // 
             // label2
             // 
@@ -210,86 +292,6 @@
             this.label1.Size = new System.Drawing.Size(186, 28);
             this.label1.TabIndex = 3;
             this.label1.Text = "Bike Rental System";
-            // 
-            // logoutBtn
-            // 
-            this.logoutBtn.FlatAppearance.BorderSize = 0;
-            this.logoutBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.logoutBtn.IconChar = FontAwesome.Sharp.IconChar.ArrowRightFromBracket;
-            this.logoutBtn.IconColor = System.Drawing.Color.White;
-            this.logoutBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.logoutBtn.IconSize = 27;
-            this.logoutBtn.Location = new System.Drawing.Point(47, 15);
-            this.logoutBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.logoutBtn.Name = "logoutBtn";
-            this.logoutBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.logoutBtn.Size = new System.Drawing.Size(40, 32);
-            this.logoutBtn.TabIndex = 9;
-            this.logoutBtn.UseVisualStyleBackColor = true;
-            // 
-            // helpBtn
-            // 
-            this.helpBtn.FlatAppearance.BorderSize = 0;
-            this.helpBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.helpBtn.IconChar = FontAwesome.Sharp.IconChar.Question;
-            this.helpBtn.IconColor = System.Drawing.Color.White;
-            this.helpBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.helpBtn.IconSize = 27;
-            this.helpBtn.Location = new System.Drawing.Point(44, 11);
-            this.helpBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.helpBtn.Name = "helpBtn";
-            this.helpBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.helpBtn.Size = new System.Drawing.Size(40, 32);
-            this.helpBtn.TabIndex = 6;
-            this.helpBtn.UseVisualStyleBackColor = true;
-            // 
-            // motorcycleBtn
-            // 
-            this.motorcycleBtn.FlatAppearance.BorderSize = 0;
-            this.motorcycleBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.motorcycleBtn.IconChar = FontAwesome.Sharp.IconChar.Motorcycle;
-            this.motorcycleBtn.IconColor = System.Drawing.Color.White;
-            this.motorcycleBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.motorcycleBtn.IconSize = 27;
-            this.motorcycleBtn.Location = new System.Drawing.Point(41, 11);
-            this.motorcycleBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.motorcycleBtn.Name = "motorcycleBtn";
-            this.motorcycleBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.motorcycleBtn.Size = new System.Drawing.Size(40, 32);
-            this.motorcycleBtn.TabIndex = 7;
-            this.motorcycleBtn.UseVisualStyleBackColor = true;
-            // 
-            // homeBtn
-            // 
-            this.homeBtn.FlatAppearance.BorderSize = 0;
-            this.homeBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.homeBtn.IconChar = FontAwesome.Sharp.IconChar.HomeLg;
-            this.homeBtn.IconColor = System.Drawing.Color.White;
-            this.homeBtn.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.homeBtn.IconSize = 27;
-            this.homeBtn.Location = new System.Drawing.Point(44, 17);
-            this.homeBtn.Margin = new System.Windows.Forms.Padding(4);
-            this.homeBtn.Name = "homeBtn";
-            this.homeBtn.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.homeBtn.Size = new System.Drawing.Size(40, 32);
-            this.homeBtn.TabIndex = 8;
-            this.homeBtn.UseVisualStyleBackColor = true;
-            // 
-            // userButton
-            // 
-            this.userButton.FlatAppearance.BorderSize = 0;
-            this.userButton.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.userButton.IconChar = FontAwesome.Sharp.IconChar.User;
-            this.userButton.IconColor = System.Drawing.Color.White;
-            this.userButton.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            this.userButton.IconSize = 27;
-            this.userButton.Location = new System.Drawing.Point(47, 15);
-            this.userButton.Margin = new System.Windows.Forms.Padding(4);
-            this.userButton.Name = "userButton";
-            this.userButton.Padding = new System.Windows.Forms.Padding(27, 25, 27, 25);
-            this.userButton.Size = new System.Drawing.Size(40, 32);
-            this.userButton.TabIndex = 5;
-            this.userButton.UseVisualStyleBackColor = true;
             // 
             // pictureBox1
             // 
@@ -390,8 +392,8 @@
             // 
             // Help
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.AutoScaleDimensions = new System.Drawing.SizeF(120F, 120F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Dpi;
             this.BackColor = System.Drawing.Color.Black;
             this.ClientSize = new System.Drawing.Size(1582, 815);
             this.Controls.Add(this.iconButton1);

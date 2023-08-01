@@ -100,5 +100,19 @@ namespace AdminRentalUI.Customer
             about.ShowDialog();
             about.Show();
         }
+
+        private void label6_Click(object sender, EventArgs e)
+        {
+            Logout log = new Logout();
+            log.ShowDialog();
+            log.Show();
+        }
+
+        private void panel7_Click(object sender, EventArgs e)
+        {
+            Logout log = new Logout();
+            log.ShowDialog();
+            log.Show();
+        }
     }
 }
