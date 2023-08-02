@@ -126,16 +126,6 @@ namespace AdminRentalUI.Customer
             ch.Show();
         }
 
-        private void panel3_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
-        private void panel4_Paint(object sender, PaintEventArgs e)
-        {
-            
-        }
-
         private void panel8_Click(object sender, EventArgs e)
         {
             MT15 mt = new MT15();
@@ -260,6 +250,38 @@ namespace AdminRentalUI.Customer
             Logout logout = new Logout();
             logout.ShowDialog();
             logout.Show();
+        }
+
+        private void panel3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile pro = new Profile();
+            pro.ShowDialog();
+            pro.Show();
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            Profile pro = new Profile();
+            pro.ShowDialog();
+            pro.Show();
+        }
+
+        private void panel4_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerHome ch = new customerHome();
+            ch.ShowDialog();
+            ch.Show();
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            customerHome ch = new customerHome();
+            ch.ShowDialog();
+            ch.Show();
         }
     }
 }

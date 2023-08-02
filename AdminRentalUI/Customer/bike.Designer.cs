@@ -599,7 +599,7 @@
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(256, 57);
             this.panel3.TabIndex = 10;
-            this.panel3.Paint += new System.Windows.Forms.PaintEventHandler(this.panel3_Paint);
+            this.panel3.Click += new System.EventHandler(this.panel3_Click);
             // 
             // label2
             // 
@@ -611,6 +611,7 @@
             this.label2.Size = new System.Drawing.Size(71, 28);
             this.label2.TabIndex = 3;
             this.label2.Text = "Profile";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // homeBtn
             // 
@@ -638,6 +639,7 @@
             this.label3.Size = new System.Drawing.Size(110, 28);
             this.label3.TabIndex = 3;
             this.label3.Text = "Dashboard";
+            this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
             // panel4
             // 
@@ -648,7 +650,7 @@
             this.panel4.Name = "panel4";
             this.panel4.Size = new System.Drawing.Size(256, 57);
             this.panel4.TabIndex = 10;
-            this.panel4.Paint += new System.Windows.Forms.PaintEventHandler(this.panel4_Paint);
+            this.panel4.Click += new System.EventHandler(this.panel4_Click);
             // 
             // motorcycleBtn
             // 
