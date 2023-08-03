@@ -73,6 +73,7 @@
             this.iconButton1.Size = new System.Drawing.Size(27, 30);
             this.iconButton1.TabIndex = 36;
             this.iconButton1.UseVisualStyleBackColor = true;
+            this.iconButton1.Click += new System.EventHandler(this.iconButton1_Click);
             // 
             // iconButton4
             // 

@@ -24,5 +24,10 @@ namespace AdminRentalUI.Electric_Bike
             op.ShowDialog();
             op.Show();
         }
+
+        private void iconButton1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
     }
 }
